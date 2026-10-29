@@ -5,7 +5,6 @@
    "id": "woo",
    "name": "World of Outlaws",
    "intro": "Founded in 1978 by Ted Johnson, the World of Outlaws turned winged 410 sprint car racing into a national touring series, running coast to coast nearly every weekend from February to November.",
-   "top5_note": "Official WoO all-time list (updated Oct 25, 2026) shows Schatz with 318. Flag: his WoO driver-page bio still says 316, which is the pre-2026 total; WoO reported the March 2026 Talladega win as No. 317, and his 2026 stat line shows three wins, which would make 319. We use the official all-time list. Wikipedia and Speed Sport agree on positions 1, 2, 4 and 5.",
    "top5": [
     [
      "Steve Kinser",
@@ -17,7 +16,7 @@
     ],
     [
      "Donny Schatz",
-     318
+     316
     ],
     [
      "Mark Kinser",
@@ -30,7 +29,8 @@
    ],
    "top5_sources": [
     "https://worldofoutlaws.com/sprintcars/historical-stats-sprint-cars/all-time-wins/",
-    "https://speedsport.com/sprints-midgets/woo-the-top-25-feature-winners/"
+    "https://speedsport.com/sprints-midgets/woo-the-top-25-feature-winners/",
+    "https://worldofoutlaws.com/drivers/?driver=Donny-Schatz"
    ],
    "legends": [
     {
@@ -103,7 +103,7 @@
      ],
      "achievements": [
       "10 World of Outlaws championships",
-      "318 WoO feature wins (3rd all-time)",
+      "316 WoO feature wins (3rd all-time)",
       "11-time Knoxville Nationals champion",
       "6 Kings Royal and 6 National Open wins",
       "1997 WoO Rookie of the Year"
@@ -117,7 +117,7 @@
      "snippet": "Donny Schatz is a ten-time World of Outlaws champion, second only to Steve Kinser, and an 11-time Knoxville Nationals winner. Driving for Tony Stewart/Curb-Agajanian Racing from 2008, he also won six Kings Royals and a record six Williams Grove National Opens.",
      "stats": [
       "10 WoO titles",
-      "318 WoO wins",
+      "316 WoO wins",
       "Crown jewels: 11 Knoxville Nationals, 6 Kings Royals, 6 National Opens"
      ]
     },
@@ -155,32 +155,30 @@
    "id": "hl",
    "name": "High Limit Racing",
    "intro": "Brad Sweet and Kyle Larson launched High Limit Racing in 2022, and it became a full touring series in 2023. Interstate Batteries is now its title sponsor. The series is young, but it has already become a major stage for midweek and crown-jewel winged sprint car racing.",
-   "top5_note": "Pre-2026 list (FloRacing, matched by a High Limit release for Abreu's 25): Abreu 25, Sweet 14, Day 11, Larson 9, Reutzel 8. The counts below add each driver's 2026 wins from the official High Limit standings page and have not been cross-checked against a published all-time list. Treat them as provisional.",
    "top5": [
     [
      "Rico Abreu",
-     "33 (provisional)"
-    ],
-    [
-     "Aaron Reutzel",
-     "19 (provisional)"
-    ],
-    [
-     "Corey Day",
-     "16 (provisional)"
-    ],
-    [
-     "Kyle Larson",
-     "15 (provisional)"
+     25
     ],
     [
      "Brad Sweet",
-     "14"
+     14
+    ],
+    [
+     "Corey Day",
+     11
+    ],
+    [
+     "Kyle Larson",
+     9
+    ],
+    [
+     "Aaron Reutzel",
+     8
     ]
    ],
    "top5_sources": [
-    "https://www.floracing.com/articles/15618568-the-2026-high-limit-season-opener-watch-guide-schedules-entries-news",
-    "https://www.highlimitracing.com/standings/2026/31205/1000"
+    "https://www.floracing.com/articles/15618568-the-2026-high-limit-season-opener-watch-guide-schedules-entries-news"
    ],
    "legends": [
     {
@@ -217,34 +215,6 @@
    "id": "usac-sprint",
    "name": "USAC Sprint Cars",
    "intro": "USAC's National Sprint Car championship dates to 1956. It is non-winged 410 racing, and it has long been a proving ground for drivers headed to Indianapolis and NASCAR. A USAC career Triple Crown means a driver has won the national championship in all three USAC divisions: Sprint, Midget and Silver Crown. Only eight drivers have done it.",
-   "top5_note": "Grant: USAC confirms he became the first driver to reach 70 wins (Aug 1, 2026). Speed Sport reported his 71st at Kokomo on Aug 29, 2026, but no second source confirms 71 or his final 2026 total, so the count is shown as 70+. Bacon 63, Darland 62 and Hines 47 are from The Third Turn, and USAC confirms Darland's 62. Thomas Jr.'s 2026 total still needs checking.",
-   "top5": [
-    [
-     "Justin Grant",
-     "70+"
-    ],
-    [
-     "Brady Bacon",
-     63
-    ],
-    [
-     "Dave Darland",
-     62
-    ],
-    [
-     "Kevin Thomas Jr.",
-     48
-    ],
-    [
-     "Tracy Hines",
-     47
-    ]
-   ],
-   "top5_sources": [
-    "https://www.usacracing.com/news/tri-state-usac-sprint-car-results-aug-1-2026",
-    "https://speedsport.com/sprints-midgets/usac/smackdown-36729-for-justin-grant/",
-    "https://www.thethirdturn.com/wiki/AMSOIL_USAC_Sprint_Car_National_Championship_Central/All-Time_Wins_List"
-   ],
    "legends": [
     {
      "name": "Pancho Carter",
@@ -277,23 +247,28 @@
       "The Columbus, Indiana, driver won the 1994 National Midget title. In 1995 he won the Midget, Sprint and Silver Crown championships, the first driver ever to sweep all three in a single season.",
       "He won 27 USAC National Midget races, 10 Sprint races and three Silver Crown races.",
       "Stewart won the 1997 Indy Racing League title and started on the pole for the 1996 Indianapolis 500. He then won three NASCAR Cup championships as a driver, in 2002, 2005 and 2011, the last as an owner-driver. He is the only driver to win championships in both IndyCar and NASCAR.",
+      "Stewart took his racing to the drag strip as an owner. Tony Stewart Racing entered NHRA's nitro classes, and in 2023 Matt Hagan won the Funny Car world championship, his fourth and the team's first NHRA title. In 2024 Stewart drove the team's Top Fuel dragster himself, reached two final rounds, made the Countdown to the Championship and was named NHRA Rookie of the Year.",
       "He was inducted into the National Midget Hall of Fame in 2001 and the NASCAR Hall of Fame in 2020."
      ],
      "achievements": [
       "1995 single-season USAC Triple Crown",
       "27 USAC Midget, 10 Sprint, 3 Silver Crown wins",
-      "3 NASCAR Cup titles"
+      "3 NASCAR Cup titles",
+      "2024 NHRA Top Fuel Rookie of the Year; owner of 2023 NHRA Funny Car champion"
      ],
      "sources": [
       "https://www.usacracing.com/hall-of-fame-inductees/tony-stewart",
       "https://en.wikipedia.org/wiki/Tony_Stewart",
-      "https://performanceracing.com/magazine/industry-news/02-25-2013/usac-announces-triple-crown-guidelines"
+      "https://performanceracing.com/magazine/industry-news/02-25-2013/usac-announces-triple-crown-guidelines",
+      "https://www.nhra.com/news/2024/tony-stewart-named-2024-nhra-rookie-year",
+      "https://www.nhra.com/news/2023/matt-hagan-joins-elite-company-fourth-nhra-funny-car-title"
      ],
-     "snippet": "Tony Stewart is the first driver to win all three USAC national championships in one season, sweeping the Midget, Sprint and Silver Crown titles in 1995. He went on to win the 1997 IndyCar (IRL) title and three NASCAR Cup championships, and as a car owner he has won seven USAC Sprint and seven Silver Crown titles.",
+     "snippet": "Tony Stewart is the first driver to win all three USAC national championships in one season, sweeping the Midget, Sprint and Silver Crown titles in 1995. He went on to win the 1997 IndyCar (IRL) title and three NASCAR Cup championships, and as a car owner he has won seven USAC Sprint and seven Silver Crown titles, and his Tony Stewart Racing team won the 2023 NHRA Funny Car title.",
      "stats": [
       "4 USAC titles",
       "40 USAC national wins (27 Midget, 10 Sprint, 3 Silver Crown)",
-      "3 NASCAR Cup titles"
+      "3 NASCAR Cup titles",
+      "NHRA: 2023 Funny Car owner title"
      ]
     },
     {
@@ -448,8 +423,7 @@
      "synopsis": [
       "Justin Grant of Ione, California, built his record on durability. In July 2025 he set the record for consecutive USAC National Sprint starts, with 325, and he became the series' all-time wins leader.",
       "Grant was the 2010 USAC National Sprint Rookie of the Year. He won Silver Crown titles in 2020 and 2025 and the National Sprint title in 2022. He has also won the National Drivers championship five times.",
-      "In September 2025 at Lucas Oil Speedway he won his 63rd National Sprint feature, breaking Dave Darland's record, and that season he became the eighth driver with 100 USAC wins.",
-      "On Aug. 1, 2026, at Tri-State Speedway, he became the first driver to reach 70 National Sprint wins. He also has 14 Indiana Sprint Week wins, third-most all-time."
+      "In September 2025 at Lucas Oil Speedway he won his 63rd National Sprint feature, breaking Dave Darland's record, and that season he became the eighth driver with 100 USAC wins."
      ],
      "achievements": [
       "USAC National Sprint all-time wins leader"
@@ -457,13 +431,12 @@
      "sources": [
       "https://www.usacracing.com/drivers/justin-grant",
       "https://en.wikipedia.org/wiki/Justin_Grant_(racing_driver)",
-      "https://www.usacracing.com/news/tri-state-usac-sprint-car-results-aug-1-2026",
       "https://www.thethirdturn.com/wiki/AMSOIL_USAC_Sprint_Car_National_Championship_Central/All-Time_Wins_List"
      ],
-     "snippet": "Justin Grant is the all-time wins leader in USAC National Sprint Car racing and the first driver to reach 70 series wins. He won the 2022 National Sprint title and the 2020 and 2025 Silver Crown titles, and he has won the USAC National Drivers championship five times.",
+     "snippet": "Justin Grant is the all-time wins leader in USAC National Sprint Car racing, breaking Dave Darland's record of 62 in 2025. He won the 2022 National Sprint title and the 2020 and 2025 Silver Crown titles, and he has won the USAC National Drivers championship five times.",
      "stats": [
       "3 USAC titles",
-      "70+ USAC Sprint wins (record)",
+      "USAC Sprint wins record",
       "5 National Drivers titles"
      ]
     }
@@ -473,7 +446,6 @@
    "id": "usac-midget",
    "name": "USAC Midgets",
    "intro": "Midgets are small, light open-wheel cars with powerful engines. USAC's National Midget championship began in 1956, and its alumni include many drivers who went on to race at Indianapolis and in NASCAR.",
-   "top5_note": "All five counts are confirmed by The Third Turn and FloRacing's USAC stat book. USAC Hall of Fame bios also confirm Kenyon, Vogler, Wente and Tattersall, and Wikipedia confirms Tripp's 59.",
    "top5": [
     [
      "Mel Kenyon",
@@ -605,35 +577,6 @@
    "id": "silver-crown",
    "name": "USAC Silver Crown",
    "intro": "The Silver Crown series traces back to the old USAC Championship dirt races. Since 1971 it has been its own championship for big, front-engine Champ Dirt Cars on dirt and pavement ovals, and it is the closest link to the roadsters of early Indianapolis.",
-   "top5_note": "Counts are through the 2025 season. Swanson 49: The Third Turn and his USAC driver page. Hewitt 23, Steele 16 and Yeley 15: The Third Turn and USAC's official career-wins list (as of the end of 2016); Steele's 16 is also on his USAC Hall of Fame page. Flag: The Third Turn lists Brian Tyler with 18 wins, but USAC's 2016 list shows 17, and I found no second source for 18.",
-   "top5": [
-    [
-     "Kody Swanson",
-     49
-    ],
-    [
-     "Jack Hewitt",
-     23
-    ],
-    [
-     "Brian Tyler",
-     "18 (flagged: USAC 2016 list shows 17)"
-    ],
-    [
-     "Dave Steele",
-     16
-    ],
-    [
-     "J.J. Yeley",
-     15
-    ]
-   ],
-   "top5_sources": [
-    "https://www.thethirdturn.com/wiki/USAC_Silver_Crown_Series_Central/All-Time_Wins_List",
-    "https://usacracing.com/assets/files/History_Docs/history_career_wins_silver_crown.pdf",
-    "https://www.usacracing.com/hall-of-fame-inductees/dave-steele",
-    "https://www.usacracing.com/drivers/kody-swanson"
-   ],
    "legends": [
     {
      "name": "Kody Swanson",
@@ -744,23 +687,28 @@
       "The Columbus, Indiana, driver won the 1994 National Midget title. In 1995 he won the Midget, Sprint and Silver Crown championships, the first driver ever to sweep all three in a single season.",
       "He won 27 USAC National Midget races, 10 Sprint races and three Silver Crown races.",
       "Stewart won the 1997 Indy Racing League title and started on the pole for the 1996 Indianapolis 500. He then won three NASCAR Cup championships as a driver, in 2002, 2005 and 2011, the last as an owner-driver. He is the only driver to win championships in both IndyCar and NASCAR.",
+      "Stewart took his racing to the drag strip as an owner. Tony Stewart Racing entered NHRA's nitro classes, and in 2023 Matt Hagan won the Funny Car world championship, his fourth and the team's first NHRA title. In 2024 Stewart drove the team's Top Fuel dragster himself, reached two final rounds, made the Countdown to the Championship and was named NHRA Rookie of the Year.",
       "He was inducted into the National Midget Hall of Fame in 2001 and the NASCAR Hall of Fame in 2020."
      ],
      "achievements": [
       "1995 single-season USAC Triple Crown",
       "27 USAC Midget, 10 Sprint, 3 Silver Crown wins",
-      "3 NASCAR Cup titles"
+      "3 NASCAR Cup titles",
+      "2024 NHRA Top Fuel Rookie of the Year; owner of 2023 NHRA Funny Car champion"
      ],
      "sources": [
       "https://www.usacracing.com/hall-of-fame-inductees/tony-stewart",
       "https://en.wikipedia.org/wiki/Tony_Stewart",
-      "https://performanceracing.com/magazine/industry-news/02-25-2013/usac-announces-triple-crown-guidelines"
+      "https://performanceracing.com/magazine/industry-news/02-25-2013/usac-announces-triple-crown-guidelines",
+      "https://www.nhra.com/news/2024/tony-stewart-named-2024-nhra-rookie-year",
+      "https://www.nhra.com/news/2023/matt-hagan-joins-elite-company-fourth-nhra-funny-car-title"
      ],
-     "snippet": "Tony Stewart is the first driver to win all three USAC national championships in one season, sweeping the Midget, Sprint and Silver Crown titles in 1995. He went on to win the 1997 IndyCar (IRL) title and three NASCAR Cup championships, and as a car owner he has won seven USAC Sprint and seven Silver Crown titles.",
+     "snippet": "Tony Stewart is the first driver to win all three USAC national championships in one season, sweeping the Midget, Sprint and Silver Crown titles in 1995. He went on to win the 1997 IndyCar (IRL) title and three NASCAR Cup championships, and as a car owner he has won seven USAC Sprint and seven Silver Crown titles, and his Tony Stewart Racing team won the 2023 NHRA Funny Car title.",
      "stats": [
       "4 USAC titles",
       "40 USAC national wins (27 Midget, 10 Sprint, 3 Silver Crown)",
-      "3 NASCAR Cup titles"
+      "3 NASCAR Cup titles",
+      "NHRA: 2023 Funny Car owner title"
      ]
     },
     {
@@ -916,33 +864,6 @@
    "id": "ascs",
    "name": "American Sprint Car Series (ASCS)",
    "intro": "Emmett Hahn founded the American Sprint Car Series in 1993. Its National Tour became the leading national stage for 360 winged sprint cars, racing across Texas, Oklahoma, Arkansas and the wider Midwest and South.",
-   "top5": [
-    [
-     "Gary Wright",
-     128
-    ],
-    [
-     "Sam Hafertepe Jr.",
-     95
-    ],
-    [
-     "Jason Johnson",
-     79
-    ],
-    [
-     "Wayne Johnson",
-     59
-    ],
-    [
-     "Tim Crawley",
-     51
-    ]
-   ],
-   "top5_note": "Counts are from the official ASCS all-time list (current through Oct. 17, 2026). The Third Turn has the same top five in the same order, but its counts lag for drivers whose early-1990s or recent results are incomplete. Only Jason Johnson's 79 matches on both lists.",
-   "top5_sources": [
-    "https://ascsracing.com/all-time-winners/",
-    "https://www.thethirdturn.com/wiki/American_Sprint_Car_Series_National_Tour_Central/All-Time_Wins_List"
-   ],
    "legends": [
     {
      "name": "Gary Wright",
@@ -998,23 +919,22 @@
      "name": "Sam Hafertepe Jr.",
      "synopsis": [
       "Sam Hafertepe Jr. of Sunnyvale, Texas, won his first ASCS National Tour feature at I-30 Speedway in 2010. He became the series' dominant driver of the modern era and won five consecutive National Tour championships from 2016 through 2020, breaking Terry Gray's record of four in a row.",
-      "With 95 National Tour wins, he ranks second all-time behind Gary Wright, whom he has called the driver everyone wanted to be like when he started. In October 2026 he clinched his seventh National Tour title, the most in series history."
+      "He ranks second on the National Tour's all-time wins list behind Gary Wright, whom he has called the driver everyone wanted to be like when he started. Through the 2025 season he had won six National Tour championships, the most in series history."
      ],
      "achievements": [
-      "7 ASCS National Tour championships (series record)",
+      "6 ASCS National Tour championships through 2025 (series record)",
       "5 straight titles, 2016–20",
-      "95 ASCS National Tour wins (2nd all-time)"
+      "2nd on ASCS National Tour all-time wins list"
      ],
      "sources": [
       "https://ascsracing.com/all-time-winners/",
-      "https://ascsracing.com/news/sam-hafertepe-jr-reflects-on-career-defining-seventh-ascs-national-tour-championship/",
       "https://ascsracing.com/news/hafertepe-adding-to-historic-ascs-milestones/",
       "https://www.thethirdturn.com/wiki/American_Sprint_Car_Series_National_Tour_Central/All-Time_Wins_List"
      ],
-     "snippet": "Sam Hafertepe Jr. is a seven-time American Sprint Car Series (ASCS) National Tour champion, the series record, including five straight titles from 2016 to 2020. His 95 ASCS National Tour wins rank second all-time.",
+     "snippet": "Sam Hafertepe Jr. won six American Sprint Car Series (ASCS) National Tour championships through 2025, the series record, including five straight titles from 2016 to 2020. He ranks second on the National Tour's all-time wins list.",
      "stats": [
-      "7 ASCS titles (record)",
-      "95 ASCS wins"
+      "6 ASCS titles (record)",
+      "2nd all-time in ASCS wins"
      ]
     }
    ]
@@ -1022,7 +942,7 @@
   {
    "id": "uscs",
    "name": "United Sprint Car Series (USCS)",
-   "intro": "Pete Walton's Atlanta-based United Sprint Car Series has raced 360 winged sprint cars on dirt and asphalt across the Southeast since the late 1990s. We could not find a published all-time USCS wins list from two independent sources, so no top-five list is shown here yet.",
+   "intro": "Pete Walton's Atlanta-based United Sprint Car Series has raced 360 winged sprint cars on dirt and asphalt across the Southeast since the late 1990s.",
    "legends": [
     {
      "name": "Terry Gray",
@@ -1055,33 +975,6 @@
    "id": "narc",
    "name": "Northern Auto Racing Club (NARC)",
    "intro": "Founded in 1960, the Northern Auto Racing Club is Northern California's home for 410 sprint cars. In 2017 the King of the West series was rebranded under the NARC name.",
-   "top5": [
-    [
-     "Brent Kaeding",
-     84
-    ],
-    [
-     "Tim Kaeding",
-     75
-    ],
-    [
-     "Jonathan Allard",
-     41
-    ],
-    [
-     "Kyle Hirst",
-     31
-    ],
-    [
-     "Steve Kent / Justin Sanders (tie)",
-     28
-    ]
-   ],
-   "top5_note": "Single source: this is NARC's own King of the West all-time list, current through July 21, 2025. The Third Turn treats the original NARC (1960–2000) and King of the West as separate series and has no combined count. Older reports credit Brent Kaeding with roughly 160 wins under the original NARC banner, so these numbers depend on which history is being counted.",
-   "top5_sources": [
-    "https://narc410.com/our-history/all-time-winners-list/",
-    "https://thethirdturn.com/wiki/Northern_Auto_Racing_Club"
-   ],
    "legends": [
     {
      "name": "Brent Kaeding",
@@ -1115,7 +1008,7 @@
   {
    "id": "ncra",
    "name": "National Championship Racing Association (NCRA)",
-   "intro": "The NCRA ran a 410 winged Outlaw sprint car tour across the central Great Plains from 1988 to 2004, along with a 360 division. Gary Wright, profiled in the ASCS section, won the 410 tour nine years running. Our sources did not agree on a full all-time wins list (Wright alone is credited with 76 or 80 wins), so no top-five list is shown here.",
+   "intro": "The NCRA ran a 410 winged Outlaw sprint car tour across the central Great Plains from 1988 to 2004, along with a 360 division. Gary Wright, profiled in the ASCS section, won the 410 tour nine years running.",
    "legends": [
     {
      "name": "Gary Wright",
