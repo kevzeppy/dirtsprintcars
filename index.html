@@ -197,6 +197,7 @@ footer .wrap{padding-top:40px;padding-bottom:40px;display:flex;flex-direction:co
 <li><a href="#midget" class="lbl">Midgets</a></li>
 <li><a href="#schedule" class="lbl">USA</a></li>
 <li><a href="#links" class="lbl">Racing Links</a></li>
+<li><a href="this-day-in-history.html" class="lbl">This Day</a></li>
 <li><a href="#about" class="lbl">About</a></li>
 <li><a href="#contribute" class="lbl">Contribute</a></li>
 <li><a href="#shop" class="lbl">Shop</a></li>
@@ -448,7 +449,7 @@ Jamie Webster via Unsplash; photographyurway via Pexels. Sponsor logos, car numb
   ];
   var state={disc:'All',country:'All'};
   var list=document.getElementById('events'), empty=document.getElementById('empty');
-  function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+  function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&','<':'<','>':'>','"':'"'}[c]})}
   function render(){
     var rows=events.filter(function(e){return (state.disc==='All'||e.disc===state.disc)&&(state.country==='All'||e.country===state.country)});
     list.innerHTML=rows.map(function(e){
