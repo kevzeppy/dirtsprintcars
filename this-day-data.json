@@ -9658,5 +9658,25 @@
     "verification_sources": [
       "The Third Turn (event page + season log, same publisher)"
     ]
+  },
+  {
+    "date": "2026-08-05",
+    "historical_year": 2013,
+    "headline": "Tony Stewart breaks leg in sprint car crash at Southern Iowa Speedway",
+    "series": "ASCS (360 winged sprint)",
+    "track": "Southern Iowa Speedway (Oskaloosa, IA)",
+    "result": "Stewart, leading the 30-lap Front Row Challenge with five laps left, flips after hitting a spun lapped car; broken right tibia and fibula sidelined him from NASCAR for the rest of 2013. Brian Brown won the race.",
+    "source_url": "https://www.nascar.com/news-media/2013/08/06/tony-stewart-breaks-leg-in-sprint-car-crash/",
+    "source2": "https://www.usatoday.com/story/sports/nascar/2013/08/06/tony-stewart-leaves-southern-iowa-speedway-in-ambulance/2622305/",
+    "category": "safety",
+    "verified_notes": "Date/track/injury confirmed by NASCAR.com, USA Today, Autoweek (AP), and Wikipedia",
+    "birthdays": [],
+    "verification": "multi-source",
+    "verification_sources": [
+      "NASCAR.com",
+      "USA Today",
+      "Autoweek/AP",
+      "Wikipedia"
+    ]
   }
 ]
