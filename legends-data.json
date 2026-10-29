@@ -1,0 +1,943 @@
+{
+  "updated": "2026-10-29",
+  "series": [
+    {
+      "id": "woo",
+      "name": "World of Outlaws",
+      "intro": "Founded in 1978 by Ted Johnson, the World of Outlaws turned winged 410 sprint car racing into a national touring series, running coast to coast nearly every weekend from February to November.",
+      "top5_note": "Official WoO all-time list (updated Oct 25, 2026) shows Schatz with 318. Flag: his WoO driver-page bio still says 316, which is the pre-2026 total; WoO reported the March 2026 Talladega win as No. 317, and his 2026 stat line shows three wins, which would make 319. We use the official all-time list. Wikipedia and Speed Sport agree on positions 1, 2, 4 and 5.",
+      "top5": [
+        [
+          "Steve Kinser",
+          690
+        ],
+        [
+          "Sammy Swindell",
+          394
+        ],
+        [
+          "Donny Schatz",
+          318
+        ],
+        [
+          "Mark Kinser",
+          203
+        ],
+        [
+          "Doug Wolfgang",
+          140
+        ]
+      ],
+      "top5_sources": [
+        "https://worldofoutlaws.com/sprintcars/historical-stats-sprint-cars/all-time-wins/",
+        "https://speedsport.com/sprints-midgets/woo-the-top-25-feature-winners/"
+      ],
+      "legends": [
+        {
+          "name": "Steve Kinser",
+          "nickname": "The King",
+          "synopsis": [
+            "Steve Kinser built the World of Outlaws into a national institution as much as any promoter did. Arriving for the series' first season in 1978, the Bloomington, Indiana, driver and his cousin Karl Kinser's team set the standard every touring sprint car program has chased since, and the National Sprint Car Hall of Fame later named him sprint car racing's greatest driver of the century.",
+            "He won the inaugural 1978 Outlaws title and 20 series championships in all. His 690 World of Outlaws A-feature wins are nearly 300 more than anyone else, a margin unmatched in American motorsports.",
+            "Kinser owned the sport's crown jewels. He won the Knoxville Nationals a record 12 times and the Kings Royal at Eldora seven times, and among the majors he won the Gold Cup Race of Champions at Chico more than ten times.",
+            "His 1987 season remains the benchmark. He won 46 Outlaws features that year, including 24 of the final 26.",
+            "Kinser was versatile beyond the dirt. He won the 1994 IROC race at Talladega, started the 1995 Daytona 500 and drove in the 1997 Indianapolis 500.",
+            "He briefly left the Outlaws for the National Sprint Tour in 2006, returned in 2007, and retired from sprint car racing in 2016. He was inducted into the National Sprint Car Hall of Fame in 2005 and the Motorsports Hall of Fame of America in 2017. His son Kraig, himself a 2005 Knoxville Nationals winner, carried the family name forward."
+          ],
+          "achievements": [
+            "20 World of Outlaws championships",
+            "690 World of Outlaws feature wins (all-time record)",
+            "Won the inaugural 1978 WoO title"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Steve_Kinser",
+            "https://worldofoutlaws.com/sprintcars/historical-stats-sprint-cars/all-time-wins/",
+            "https://www.mshf.com/hall-of-fame/inductees/kinser-steve-open-wheel-2017.html",
+            "https://www.sprintcarhof.com/helper_pages/FileGet.aspx?id=24",
+            "https://www.knoxvilleraceway.com/knoxville-nationals/history"
+          ],
+          "snippet": "Steve Kinser is the winningest driver in World of Outlaws history, with 20 WoO championships and 690 feature wins. \"The King\" won the inaugural 1978 Outlaws title, a record 12 Knoxville Nationals and seven Kings Royals.",
+          "stats": [
+            "20 WoO titles",
+            "690 WoO wins",
+            "Crown jewels: 12 Knoxville Nationals, 7 Kings Royals"
+          ]
+        },
+        {
+          "name": "Sammy Swindell",
+          "nickname": "Slammin' Sammy",
+          "synopsis": [
+            "Sammy Swindell was the engineer of the modern sprint car as much as its driver. A technically minded Tennessean from a racing family, he was one of the Memphis-area group that helped make the early World of Outlaws, and alongside Steve Kinser and Doug Wolfgang he is remembered as one of the \"Big Three\" of winged sprint car racing.",
+            "He won Outlaws championships in 1981 and 1982. In 1997 he won a third title in his own car, becoming the first owner-driver to win the WoO crown. He was also runner-up four times, and his 394 World of Outlaws A-main wins rank second all-time.",
+            "Swindell won the 1983 Knoxville Nationals and the Kings Royal in 1992, 1999 and 2012. In 1981 he took the wing off to win the Pacific Coast Nationals at Ascot.",
+            "In midgets he won the Chili Bowl five times: 1989, 1992, 1996, 1998 and 2009.",
+            "Swindell also tested himself elsewhere. He made CART starts in 1985 and 1986, failed to qualify for the 1987 Indianapolis 500, and ran the inaugural 1995 NASCAR Truck Series season, finishing 12th in points.",
+            "He was inducted into the National Sprint Car Hall of Fame in 2006."
+          ],
+          "achievements": [
+            "3 World of Outlaws championships",
+            "394 WoO feature wins (2nd all-time)",
+            "4-time WoO championship runner-up"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Sammy_Swindell",
+            "https://worldofoutlaws.com/sprintcars/historical-stats-sprint-cars/all-time-wins/",
+            "https://www.mshf.com/Sammy-Swindell-10-1607814.html",
+            "https://www.sprintcarhof.com/helper_pages/FileGet.aspx?id=4"
+          ],
+          "snippet": "Sammy Swindell is a three-time World of Outlaws champion (1981, 1982, 1997) whose 394 WoO feature wins rank second all-time. He also won the 1983 Knoxville Nationals, three Kings Royals and five Chili Bowl Midget Nationals, and in 1997 he became the first owner-driver to win the Outlaws title.",
+          "stats": [
+            "3 WoO titles",
+            "394 WoO wins",
+            "Crown jewels: 1 Knoxville Nationals, 3 Kings Royals",
+            "5 Chili Bowls"
+          ]
+        },
+        {
+          "name": "Donny Schatz",
+          "synopsis": [
+            "Donny Schatz built the most sustained championship program of the World of Outlaws' modern era. The Fargo, North Dakota, driver was the series' 1997 Rookie of the Year, won his first Outlaws feature in 1998, and joined Tony Stewart's team in 2008. That partnership with Tony Stewart/Curb-Agajanian Racing ran 18 seasons and produced most of his titles.",
+            "Schatz won ten World of Outlaws championships: 2006 through 2009, 2012, and 2014 through 2018. Only Steve Kinser has won more. He has more than 300 Outlaws feature wins, which rank third all-time.",
+            "He won the Knoxville Nationals 11 times, in 2006–09, 2011–15, 2017 and 2022, one short of Kinser's record. He also won six Kings Royals and a record six National Opens at Williams Grove.",
+            "Fans know him for his consistency across a full season and his command of sprint car racing's crown-jewel events."
+          ],
+          "achievements": [
+            "10 World of Outlaws championships",
+            "318 WoO feature wins (3rd all-time)",
+            "11-time Knoxville Nationals champion",
+            "6 Kings Royal and 6 National Open wins",
+            "1997 WoO Rookie of the Year"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Donny_Schatz",
+            "https://worldofoutlaws.com/drivers/?driver=Donny-Schatz",
+            "https://www.tonystewartracing.com/2022/08/schatz-scores-11th-knoxville-nationals-championship-worth-175000/",
+            "https://www.knoxvilleraceway.com/knoxville-nationals/history"
+          ],
+          "snippet": "Donny Schatz is a ten-time World of Outlaws champion, second only to Steve Kinser, and an 11-time Knoxville Nationals winner. Driving for Tony Stewart/Curb-Agajanian Racing from 2008, he also won six Kings Royals and a record six Williams Grove National Opens.",
+          "stats": [
+            "10 WoO titles",
+            "318 WoO wins",
+            "Crown jewels: 11 Knoxville Nationals, 6 Kings Royals, 6 National Opens"
+          ]
+        },
+        {
+          "name": "Doug Wolfgang",
+          "synopsis": [
+            "Doug Wolfgang carried the Midwest's homegrown sprint car scene onto the national stage. The Sioux Falls, South Dakota, driver came up in super modifieds and, with car owner Bob Trostle, broke through at Knoxville in the mid-1970s before becoming one of the \"Big Three\" of the early World of Outlaws era.",
+            "Wolfgang won the Knoxville Nationals five times, in 1977, 1978, 1984, 1985 and 1989. He won them for four different owners: Trostle, Bill Smith, Bob Weikert and Danny Peace.",
+            "With the Outlaws he finished second in the standings four times and won 140 features, fifth-most in series history. He also won 37 All Star Circuit of Champions races and two Kings Royals.",
+            "On April 3, 1992, a fiery crash at Lakeside Speedway in Kansas City left him with burns over about 30 percent of his body and a broken vertebra. He came back to win an IMCA 360 sprint championship and the 1996 ASCS 360 Nationals, then retired in 1997 after another serious crash.",
+            "Wolfgang is a member of the National Sprint Car Hall of Fame and later built sprint car chassis from his shop near Sioux Falls."
+          ],
+          "achievements": [
+            "140 World of Outlaws wins (5th all-time)",
+            "5-time Knoxville Nationals champion",
+            "2-time Kings Royal winner",
+            "37 All Star Circuit of Champions wins"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Doug_Wolfgang",
+            "https://worldofoutlaws.com/sprintcars/historical-stats-sprint-cars/all-time-wins/",
+            "https://sdshof.com/inductee/doug-wolfgang/",
+            "https://www.knoxvilleraceway.com/knoxville-nationals/history"
+          ],
+          "snippet": "Doug Wolfgang of Sioux Falls, South Dakota, is a five-time Knoxville Nationals champion with 140 World of Outlaws feature wins, fifth-most all-time. He was one of the \"Big Three\" of the early Outlaws era, and he also won two Kings Royals and 37 All Star Circuit of Champions races.",
+          "stats": [
+            "140 WoO wins",
+            "37 All Star wins",
+            "Crown jewels: 5 Knoxville Nationals, 2 Kings Royals"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hl",
+      "name": "High Limit Racing",
+      "intro": "Brad Sweet and Kyle Larson launched High Limit Racing in 2022, and it became a full touring series in 2023. Interstate Batteries is now its title sponsor. The series is young, but it has already become a major stage for midweek and crown-jewel winged sprint car racing.",
+      "top5_note": "Pre-2026 list (FloRacing, matched by a High Limit release for Abreu's 25): Abreu 25, Sweet 14, Day 11, Larson 9, Reutzel 8. The counts below add each driver's 2026 wins from the official High Limit standings page and have not been cross-checked against a published all-time list. Treat them as provisional.",
+      "top5": [
+        [
+          "Rico Abreu",
+          "33 (provisional)"
+        ],
+        [
+          "Aaron Reutzel",
+          "19 (provisional)"
+        ],
+        [
+          "Corey Day",
+          "16 (provisional)"
+        ],
+        [
+          "Kyle Larson",
+          "15 (provisional)"
+        ],
+        [
+          "Brad Sweet",
+          "14"
+        ]
+      ],
+      "top5_sources": [
+        "https://www.floracing.com/articles/15618568-the-2026-high-limit-season-opener-watch-guide-schedules-entries-news",
+        "https://www.highlimitracing.com/standings/2026/31205/1000"
+      ],
+      "legends": [
+        {
+          "name": "Rico Abreu",
+          "synopsis": [
+            "Rico Abreu has been part of High Limit Racing from its start and helped build it into a national tour. Abreu is a Northern Californian who has achondroplasia and is four feet four inches tall. He has run every High Limit points race since 2023 and holds the series' career records for wins, starts, podiums and top-10 finishes.",
+            "He made his name in midgets. He won the 2014 USAC National Midget championship, then won the Chili Bowl Midget Nationals in back-to-back years, 2015 and 2016.",
+            "Stock cars came next, with backing from his friend Kyle Larson. He won the 2015 NASCAR K&N Pro Series East race at Columbus Motor Speedway, his first stock car win, before returning to open-wheel racing.",
+            "Back on dirt, he became a regular winner at marquee events, including the Outlaws and High Limit shows at Eldora's 4-Crown. He won his first national sprint car championship, the 2025 High Limit title, by winning the season finale at Texas Motor Speedway."
+          ],
+          "achievements": [
+            "2025 High Limit Racing champion",
+            "All-time High Limit wins leader",
+            "2014 USAC National Midget champion"
+          ],
+          "sources": [
+            "https://www.highlimitracing.com/history",
+            "https://www.highlimitracing.com/press/2026/article/186266",
+            "https://en.wikipedia.org/wiki/Rico_Abreu",
+            "https://www.nbcsports.com/nascar/news/rico-abreu-scores-first-career-nascar-kn-pro-series-east-victory",
+            "https://www.nascar.com/news-media/2016/01/17/rico-abreu-wins-second-consecutive-chili-bowl/",
+            "https://tjslideways.com/statistics/4-crown-nationals-winners/"
+          ],
+          "snippet": "Rico Abreu is the 2025 High Limit Racing champion and the series' all-time leader in wins, starts, podiums and top-10 finishes. He also won the 2014 USAC National Midget championship and back-to-back Chili Bowl Midget Nationals in 2015 and 2016.",
+          "stats": [
+            "2025 High Limit title",
+            "2014 USAC Midget title",
+            "2 Chili Bowls"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "usac-sprint",
+      "name": "USAC Sprint Cars",
+      "intro": "USAC's National Sprint Car championship dates to 1956. It is non-winged 410 racing, and it has long been a proving ground for drivers headed to Indianapolis and NASCAR. A USAC career Triple Crown means a driver has won the national championship in all three USAC divisions: Sprint, Midget and Silver Crown. Only eight drivers have done it.",
+      "top5_note": "Grant: USAC confirms he became the first driver to reach 70 wins (Aug 1, 2026). Speed Sport reported his 71st at Kokomo on Aug 29, 2026, but no second source confirms 71 or his final 2026 total, so the count is shown as 70+. Bacon 63, Darland 62 and Hines 47 are from The Third Turn, and USAC confirms Darland's 62. Thomas Jr.'s 2026 total still needs checking.",
+      "top5": [
+        [
+          "Justin Grant",
+          "70+"
+        ],
+        [
+          "Brady Bacon",
+          63
+        ],
+        [
+          "Dave Darland",
+          62
+        ],
+        [
+          "Kevin Thomas Jr.",
+          48
+        ],
+        [
+          "Tracy Hines",
+          47
+        ]
+      ],
+      "top5_sources": [
+        "https://www.usacracing.com/news/tri-state-usac-sprint-car-results-aug-1-2026",
+        "https://speedsport.com/sprints-midgets/usac/smackdown-36729-for-justin-grant/",
+        "https://www.thethirdturn.com/wiki/AMSOIL_USAC_Sprint_Car_National_Championship_Central/All-Time_Wins_List"
+      ],
+      "legends": [
+        {
+          "name": "Pancho Carter",
+          "synopsis": [
+            "Pancho Carter set the template for USAC versatility. The son of USAC Hall of Famer Duane Carter, he became the organization's first career Triple Crown champion and showed a generation of short-track drivers that one racer could master midgets, sprints and Silver Crown cars.",
+            "He won the 1972 USAC National Midget title and Sprint Car titles in 1974 and 1976. In 1978 he won the Silver Crown title, then called the USAC National Dirt Championship. He scored 70 USAC national feature wins across those series.",
+            "Carter was the 1974 Indianapolis 500 Rookie of the Year and made 17 Indy 500 starts. He won the pole in 1985 and finished third in 1982. He also won the 1981 Michigan 500.",
+            "He is a member of both the National Sprint Car and National Midget Halls of Fame and the USAC Hall of Fame."
+          ],
+          "achievements": [
+            "First USAC Triple Crown champion",
+            "1974 & 1976 USAC Sprint champion"
+          ],
+          "sources": [
+            "https://www.usacracing.com/hall-of-fame-inductees/pancho-carter",
+            "https://en.wikipedia.org/wiki/Pancho_Carter",
+            "https://performanceracing.com/magazine/industry-news/02-25-2013/usac-announces-triple-crown-guidelines"
+          ],
+          "snippet": "Pancho Carter was USAC's first career Triple Crown champion. He won the 1972 National Midget title, the 1974 and 1976 Sprint Car titles and the 1978 Silver Crown title. He also made 17 Indianapolis 500 starts, won the 1985 Indy pole and won the 1981 Michigan 500.",
+          "stats": [
+            "4 USAC titles (Midget, 2 Sprint, Silver Crown)",
+            "70 USAC national wins",
+            "Triple Crown"
+          ]
+        },
+        {
+          "name": "Tony Stewart",
+          "synopsis": [
+            "Tony Stewart has given back to the short-track world that made him, perhaps more than any other driver. As a car owner he has won seven USAC Sprint and seven Silver Crown owner championships, and his team fielded Donny Schatz's World of Outlaws title cars for 18 seasons.",
+            "The Columbus, Indiana, driver won the 1994 National Midget title. In 1995 he won the Midget, Sprint and Silver Crown championships, the first driver ever to sweep all three in a single season.",
+            "He won 27 USAC National Midget races, 10 Sprint races and three Silver Crown races.",
+            "Stewart won the 1997 Indy Racing League title and started on the pole for the 1996 Indianapolis 500. He then won three NASCAR Cup championships as a driver, in 2002, 2005 and 2011, the last as an owner-driver. He is the only driver to win championships in both IndyCar and NASCAR.",
+            "He was inducted into the National Midget Hall of Fame in 2001 and the NASCAR Hall of Fame in 2020."
+          ],
+          "achievements": [
+            "1995 single-season USAC Triple Crown",
+            "27 USAC Midget, 10 Sprint, 3 Silver Crown wins",
+            "3 NASCAR Cup titles"
+          ],
+          "sources": [
+            "https://www.usacracing.com/hall-of-fame-inductees/tony-stewart",
+            "https://en.wikipedia.org/wiki/Tony_Stewart",
+            "https://performanceracing.com/magazine/industry-news/02-25-2013/usac-announces-triple-crown-guidelines"
+          ],
+          "snippet": "Tony Stewart is the first driver to win all three USAC national championships in one season, sweeping the Midget, Sprint and Silver Crown titles in 1995. He went on to win the 1997 IndyCar (IRL) title and three NASCAR Cup championships, and as a car owner he has won seven USAC Sprint and seven Silver Crown titles.",
+          "stats": [
+            "4 USAC titles",
+            "40 USAC national wins (27 Midget, 10 Sprint, 3 Silver Crown)",
+            "3 NASCAR Cup titles"
+          ]
+        },
+        {
+          "name": "Dave Darland",
+          "nickname": "The People's Champ",
+          "synopsis": [
+            "Dave Darland was USAC's everyman champion. Fans called him the \"People's Champ.\" Over nearly four decades he made more USAC national starts than anyone, 1,334, and he showed that a local Indiana sprint car racer could become one of the sport's all-time greats.",
+            "Born in 1966 in Lincoln, Indiana, he won four national titles: Silver Crown in 1997, Sprint in 1999, and Midget in 2001 and 2002. That made him the third career Triple Crown champion.",
+            "His 62 USAC National Sprint Car wins were the record when he retired in 2023. His 20 Indiana Sprint Week wins are still the most of any driver. He won 115 USAC features nationally and regionally, including 30 National Midget and 14 Silver Crown wins.",
+            "He won at least one USAC national feature in a record 24 straight seasons, 1993 through 2016. Along the way he won Turkey Night, the midget classic, twice.",
+            "Darland is a member of the USAC Hall of Fame."
+          ],
+          "achievements": [
+            "USAC Triple Crown champion",
+            "62 USAC National Sprint wins",
+            "20 Indiana Sprint Week wins (record)",
+            "USAC Hall of Fame"
+          ],
+          "sources": [
+            "https://www.usacracing.com/hall-of-fame-inductees/dave-darland",
+            "https://en.wikipedia.org/wiki/Dave_Darland",
+            "https://www.usacracing.com/news/usac-legend-dave-darland-announces-retirement"
+          ],
+          "snippet": "Dave Darland, the \"People's Champ,\" is a USAC Triple Crown champion with titles in Silver Crown (1997), Sprint (1999) and Midget (2001–02). He retired in 2023 with 62 USAC National Sprint Car wins, then the record, and a record 20 Indiana Sprint Week wins.",
+          "stats": [
+            "4 USAC titles",
+            "62 USAC Sprint wins",
+            "20 Indiana Sprint Week wins",
+            "Triple Crown"
+          ]
+        },
+        {
+          "name": "J.J. Yeley",
+          "synopsis": [
+            "J.J. Yeley's 2003 season remains the high-water mark for a USAC driver. Racing Tony Stewart's sprint and Silver Crown cars and the Steve Lewis midget Stewart had driven in 1995, he won all three national championships and 24 USAC races. That broke the single-season record of 19 set by A.J. Foyt.",
+            "Yeley won Indiana Sprint Week and USAC Sprint Rookie of the Year in 1997. He finished ninth in the 1998 Indianapolis 500 despite a first-lap spin.",
+            "After an IndyCar run in 2000, he returned to USAC. He won the Sprint title in 2001, the Silver Crown title in 2002, and then the 2003 sweep, joining Stewart as the only drivers to win the Triple Crown in a single season.",
+            "He moved to NASCAR with Joe Gibbs Racing in 2004 and has raced in the national touring series ever since."
+          ],
+          "achievements": [
+            "2003 single-season USAC Triple Crown"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/J._J._Yeley",
+            "https://performanceracing.com/magazine/industry-news/02-25-2013/usac-announces-triple-crown-guidelines",
+            "https://www.usacracing.com/news/2024-usac-sprint-review"
+          ],
+          "snippet": "J.J. Yeley swept all three USAC national championships in 2003, joining Tony Stewart as the only single-season Triple Crown winners. His 24 USAC wins that year broke A.J. Foyt's single-season record, and he also won the 2001 Sprint and 2002 Silver Crown titles.",
+          "stats": [
+            "5 USAC titles",
+            "24 USAC wins in 2003",
+            "Single-season Triple Crown"
+          ]
+        },
+        {
+          "name": "Jerry Coons Jr.",
+          "synopsis": [
+            "Jerry Coons Jr. brought Arizona into USAC's elite. The Tucson driver made his National Midget debut in 1987 and has 430 series starts, among the most ever, and he became one of USAC's most respected veterans.",
+            "His first National Midget win came at the 1996 Belleville Midget Nationals. He later became the first three-time winner of that race, in 2005, 2007 and 2012.",
+            "Coons won the National Midget championship in 2006 and 2007. In 2008 he won both the Sprint and Silver Crown titles to complete the career Triple Crown. USAC named him National Midget Driver of the Decade for 2000–09.",
+            "At Eldora's 4-Crown Nationals he won in all three USAC divisions: Silver Crown in 2007 and 2014, Sprint in 2009 and Midget in 2010."
+          ],
+          "achievements": [
+            "USAC Triple Crown champion (2008)"
+          ],
+          "sources": [
+            "https://www.usacracing.com/drivers/jerry-coons-jr",
+            "https://en.wikipedia.org/wiki/Jerry_Coons_Jr.",
+            "https://tjslideways.com/2012/08/05/coons-wins-belleville-for-the-third-time/",
+            "https://tjslideways.com/statistics/4-crown-nationals-winners/"
+          ],
+          "snippet": "Jerry Coons Jr. of Tucson, Arizona, is a USAC Triple Crown champion. He won the National Midget titles in 2006 and 2007, then both the Sprint and Silver Crown titles in 2008. He was USAC's Midget Driver of the Decade for 2000–09 and the first three-time winner of the Belleville Midget Nationals.",
+          "stats": [
+            "4 USAC titles",
+            "Triple Crown"
+          ]
+        },
+        {
+          "name": "Tracy Hines",
+          "synopsis": [
+            "Tracy Hines spent most of a quarter-century as a full-time competitor in all three USAC national divisions. He was the son of a New Castle, Indiana, midget racing family, and his father Jim and brother Ted were champions too. He later helped build other drivers' programs as a team executive.",
+            "He broke through in 1996, winning his first National Midget race at Winchester in his first start back from a fiery crash.",
+            "Hines won the Silver Crown title in 2000 and the Sprint title in 2002. In 2015, after announcing his retirement midseason, he won the Midget title and completed the Triple Crown.",
+            "He scored 91 USAC national wins, including 47 in sprint cars, 35 in midgets and nine in Silver Crown. He won at least one national feature in 19 straight seasons, 1996 through 2014.",
+            "Away from USAC he raced in NASCAR's Truck and Busch series."
+          ],
+          "achievements": [
+            "USAC Triple Crown champion",
+            "2002 USAC Sprint champion"
+          ],
+          "sources": [
+            "https://www.usacracing.com/hall-of-fame-inductees/tracy-hines",
+            "https://en.wikipedia.org/wiki/Tracy_Hines",
+            "https://www.thethirdturn.com/wiki/AMSOIL_USAC_Sprint_Car_National_Championship_Central/All-Time_Wins_List"
+          ],
+          "snippet": "Tracy Hines is a USAC Triple Crown champion with Silver Crown (2000), Sprint (2002) and Midget (2015) titles. He won 91 USAC national races, including 47 in sprint cars, and he won at least one national feature in 19 straight seasons.",
+          "stats": [
+            "3 USAC titles",
+            "91 USAC national wins (47 Sprint)",
+            "Triple Crown"
+          ]
+        },
+        {
+          "name": "Chris Windom",
+          "synopsis": [
+            "Chris Windom of Canton, Illinois, showed how far a family-run program could go in USAC. He won the Little 500 in 2011 and again in 2015.",
+            "He won the Silver Crown title in 2016 and the National Sprint title in 2017. In 2020 he won the National Midget title and became the seventh career Triple Crown champion.",
+            "Windom won Indiana Sprint Week in 2011 and 2018, the Eastern Storm in 2017 and 2018.",
+            "He has also raced stock cars, including the 2021 NASCAR Cup race on the Bristol dirt, and in recent seasons he has moved toward winged sprint car racing."
+          ],
+          "achievements": [
+            "USAC Triple Crown champion"
+          ],
+          "sources": [
+            "https://www.usacracing.com/news/2024-usac-sprint-review",
+            "https://en.wikipedia.org/wiki/Chris_Windom",
+            "https://sidesmotorsports.com/bio-chris-windom/",
+            "https://andersonspeedway.com/windom-and-goacher-racing-continue-partnership-in-2019/"
+          ],
+          "snippet": "Chris Windom became USAC's seventh Triple Crown champion with the 2016 Silver Crown, 2017 National Sprint and 2020 National Midget titles. The Canton, Illinois, driver is also a two-time Little 500 and two-time Indiana Sprint Week winner.",
+          "stats": [
+            "3 USAC titles",
+            "Triple Crown"
+          ]
+        },
+        {
+          "name": "Logan Seavey",
+          "synopsis": [
+            "Logan Seavey of Sutter, California, and Abacus Racing built one of USAC's most complete modern programs. Abacus became only the second team to win owner titles in all three national divisions.",
+            "Seavey won the 2018 National Midget championship as a rookie.",
+            "In 2023 he won both the Silver Crown and National Midget titles. He added the 2024 Sprint title, along with Indiana Sprint Week and the National Drivers championship, to become the eighth career Triple Crown champion.",
+            "In 2023 he swept all three USAC features at Eldora's 4-Crown Nationals. In 2025 he won in all three divisions again, 11 times in all."
+          ],
+          "achievements": [
+            "USAC Triple Crown champion (2024)"
+          ],
+          "sources": [
+            "https://www.usacracing.com/drivers/logan-seavey",
+            "https://en.wikipedia.org/wiki/Logan_Seavey",
+            "https://www.usacracing.com/news/2024-usac-sprint-review",
+            "https://tjslideways.com/statistics/4-crown-nationals-winners/"
+          ],
+          "snippet": "Logan Seavey became USAC's eighth Triple Crown champion when he added the 2024 National Sprint title to his 2023 Silver Crown and his 2018 and 2023 National Midget titles. He did it with Abacus Racing, which won owner titles in all three divisions.",
+          "stats": [
+            "4 USAC titles",
+            "Triple Crown",
+            "2 Chili Bowls"
+          ]
+        },
+        {
+          "name": "Justin Grant",
+          "synopsis": [
+            "Justin Grant of Ione, California, built his record on durability. In July 2025 he set the record for consecutive USAC National Sprint starts, with 325, and he became the series' all-time wins leader.",
+            "Grant was the 2010 USAC National Sprint Rookie of the Year. He won Silver Crown titles in 2020 and 2025 and the National Sprint title in 2022. He has also won the National Drivers championship five times.",
+            "In September 2025 at Lucas Oil Speedway he won his 63rd National Sprint feature, breaking Dave Darland's record, and that season he became the eighth driver with 100 USAC wins.",
+            "On Aug. 1, 2026, at Tri-State Speedway, he became the first driver to reach 70 National Sprint wins. He also has 14 Indiana Sprint Week wins, third-most all-time."
+          ],
+          "achievements": [
+            "USAC National Sprint all-time wins leader"
+          ],
+          "sources": [
+            "https://www.usacracing.com/drivers/justin-grant",
+            "https://en.wikipedia.org/wiki/Justin_Grant_(racing_driver)",
+            "https://www.usacracing.com/news/tri-state-usac-sprint-car-results-aug-1-2026",
+            "https://www.thethirdturn.com/wiki/AMSOIL_USAC_Sprint_Car_National_Championship_Central/All-Time_Wins_List"
+          ],
+          "snippet": "Justin Grant is the all-time wins leader in USAC National Sprint Car racing and the first driver to reach 70 series wins. He won the 2022 National Sprint title and the 2020 and 2025 Silver Crown titles, and he has won the USAC National Drivers championship five times.",
+          "stats": [
+            "3 USAC titles",
+            "70+ USAC Sprint wins (record)",
+            "5 National Drivers titles"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "usac-midget",
+      "name": "USAC Midgets",
+      "intro": "Midgets are small, light open-wheel cars with powerful engines. USAC's National Midget championship began in 1956, and its alumni include many drivers who went on to race at Indianapolis and in NASCAR.",
+      "top5_note": "All five counts are confirmed by The Third Turn and FloRacing's USAC stat book. USAC Hall of Fame bios also confirm Kenyon, Vogler, Wente and Tattersall, and Wikipedia confirms Tripp's 59.",
+      "top5": [
+        [
+          "Mel Kenyon",
+          111
+        ],
+        [
+          "Rich Vogler",
+          95
+        ],
+        [
+          "Bob Wente",
+          78
+        ],
+        [
+          "Bob Tattersall",
+          63
+        ],
+        [
+          "Sleepy Tripp",
+          59
+        ]
+      ],
+      "top5_sources": [
+        "https://www.thethirdturn.com/wiki/USAC_National_Midget_Series_Central/All-Time_Wins_List",
+        "https://www.floracing.com/articles/6485753-usac-stat-book-nos-energy-drink-national-midgets",
+        "https://www.usacracing.com/hall-of-fame-inductees/bob-tattersall",
+        "https://en.wikipedia.org/wiki/Sleepy_Tripp"
+      ],
+      "legends": [
+        {
+          "name": "Mel Kenyon",
+          "nickname": "King of the Midgets",
+          "synopsis": [
+            "Mel Kenyon and his brother Don built a family midget operation that set the standard in USAC National Midget racing. Don was his car owner and crew chief, and they also built their own chassis. From 2004 to 2009 their Kenyon Midget Series ran under USAC sanction.",
+            "Mel won 111 USAC National Midget races, the series record. He won seven national championships over 21 years: 1964, 1967, 1968, 1974, 1977, 1981 and 1985. He also won at least one race in 21 straight seasons, 1962 through 1982.",
+            "Most of that came after a fiery 1965 champ car crash at Langhorne that burned off the fingers of his left hand. The brothers designed a special glove that fit over a stud on the steering wheel so he could steer with his palm.",
+            "Kenyon made eight Indianapolis 500 starts and finished in the top five in half of them, with a best of third in 1968.",
+            "He retired in 2009 after more than 50 years of midget racing and 925 USAC National Midget starts."
+          ],
+          "achievements": [
+            "111 USAC National Midget wins (record)",
+            "7 USAC National Midget titles"
+          ],
+          "sources": [
+            "https://www.usacracing.com/hall-of-fame-inductees/mel-kenyon",
+            "https://en.wikipedia.org/wiki/Mel_Kenyon"
+          ],
+          "snippet": "Mel Kenyon, the \"King of the Midgets,\" holds the USAC National Midget record with 111 feature wins and seven championships between 1964 and 1985. He won those races after losing the fingers of his left hand in a 1965 crash, and he made eight Indianapolis 500 starts.",
+          "stats": [
+            "7 USAC Midget titles",
+            "111 USAC Midget wins (record)"
+          ]
+        },
+        {
+          "name": "Rich Vogler",
+          "synopsis": [
+            "\"Rapid Rich\" Vogler of Glen Ellyn, Illinois, the son of midget winner Don Vogler, was the most prolific winner of USAC's short-track era. In 1980 he became the first driver to win the USAC Sprint and Midget championships in the same year.",
+            "He won five National Midget titles, in 1978, 1980, 1983, 1986 and 1988, and Sprint titles in 1980 and 1989. His 134 USAC national wins break down to 95 Midget, 35 Sprint and four Silver Crown. Only A.J. Foyt has more.",
+            "Vogler won the Hut Hundred eight times and the 4-Crown midget race four times. He also won the inaugural Chili Bowl in 1987, and his 16 wins in 100-lap midget races are the most of anyone.",
+            "He made five Indianapolis 500 starts, with a best of eighth in 1989.",
+            "Vogler was killed on July 21, 1990, while leading a sprint car race at Salem Speedway, five days before his 40th birthday. Under USAC rules the race reverted to the last completed lap, so he was declared the winner of the last race he started."
+          ],
+          "achievements": [
+            "95 USAC National Midget wins",
+            "1980 & 1989 USAC Sprint champion"
+          ],
+          "sources": [
+            "https://www.usacracing.com/hall-of-fame-inductees/rich-vogler",
+            "https://en.wikipedia.org/wiki/Rich_Vogler",
+            "https://www.floracing.com/articles/6603173-100-lap-usac-midget-race-history"
+          ],
+          "snippet": "Rich Vogler won five USAC National Midget championships and the 1980 and 1989 USAC Sprint Car titles. His 95 National Midget wins rank second all-time, and he won the inaugural 1987 Chili Bowl and the Hut Hundred eight times.",
+          "stats": [
+            "7 USAC titles (5 Midget, 2 Sprint)",
+            "134 USAC national wins",
+            "8 Hut Hundreds",
+            "1 Chili Bowl"
+          ]
+        },
+        {
+          "name": "Bob Wente",
+          "synopsis": [
+            "Bob Wente was a pillar of USAC midget racing's formative years, and he raised a family that kept racing midgets. All three of his sons competed in USAC Midget racing.",
+            "He began racing midgets in 1954. He was runner-up in the national standings three years in a row before winning the 1963 USAC National Midget championship.",
+            "Wente won 78 National Midget races, third all-time behind Mel Kenyon and Rich Vogler. He won the 1963 Hut Hundred and the Night Before the 500 in 1969 and 1976.",
+            "In his only Indianapolis 500, in 1964, he started 32nd and finished ninth.",
+            "He was in the inaugural class of the National Midget Auto Racing Hall of Fame in 1984. He died in 2000."
+          ],
+          "achievements": [
+            "1963 USAC National Midget champion",
+            "78 National Midget wins",
+            "Inaugural National Midget Hall of Fame class (1984)"
+          ],
+          "sources": [
+            "https://www.usacracing.com/hall-of-fame-inductees/bob-wente",
+            "https://en.wikipedia.org/wiki/Bob_Wente",
+            "https://www.thethirdturn.com/wiki/USAC_National_Midget_Series_Central/All-Time_Wins_List"
+          ],
+          "snippet": "Bob Wente was the 1963 USAC National Midget champion, and his 78 National Midget wins rank third all-time. He won the Hut Hundred and two Night Before the 500 races, finished ninth in the 1964 Indianapolis 500 and was in the inaugural Midget Hall of Fame class.",
+          "stats": [
+            "1963 USAC Midget title",
+            "78 USAC Midget wins"
+          ]
+        },
+        {
+          "name": "Dave Darland",
+          "synopsis": [
+            "Dave Darland was best known for sprint cars, but he also won the USAC National Midget championship in 2001 and 2002 and earned 30 National Midget wins. His midget titles were part of what made him a USAC career Triple Crown champion.",
+            "For his full career, including his sprint and Silver Crown titles, see his USAC Sprint entry."
+          ],
+          "achievements": [
+            "2001 & 2002 USAC National Midget champion",
+            "30 National Midget wins"
+          ],
+          "sources": [
+            "https://www.usacracing.com/hall-of-fame-inductees/dave-darland",
+            "https://www.thethirdturn.com/wiki/USAC_National_Midget_Series_Central/All-Time_Wins_List",
+            "https://en.wikipedia.org/wiki/Dave_Darland"
+          ],
+          "snippet": "Dave Darland won the USAC National Midget championship in 2001 and 2002 and earned 30 National Midget wins. Those titles helped make him a USAC Triple Crown champion alongside his Sprint and Silver Crown crowns.",
+          "stats": [
+            "2 USAC Midget titles",
+            "30 USAC Midget wins"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silver-crown",
+      "name": "USAC Silver Crown",
+      "intro": "The Silver Crown series traces back to the old USAC Championship dirt races. Since 1971 it has been its own championship for big, front-engine Champ Dirt Cars on dirt and pavement ovals, and it is the closest link to the roadsters of early Indianapolis.",
+      "top5_note": "Counts are through the 2025 season. Swanson 49: The Third Turn and his USAC driver page. Hewitt 23, Steele 16 and Yeley 15: The Third Turn and USAC's official career-wins list (as of the end of 2016); Steele's 16 is also on his USAC Hall of Fame page. Flag: The Third Turn lists Brian Tyler with 18 wins, but USAC's 2016 list shows 17, and I found no second source for 18.",
+      "top5": [
+        [
+          "Kody Swanson",
+          49
+        ],
+        [
+          "Jack Hewitt",
+          23
+        ],
+        [
+          "Brian Tyler",
+          "18 (flagged: USAC 2016 list shows 17)"
+        ],
+        [
+          "Dave Steele",
+          16
+        ],
+        [
+          "J.J. Yeley",
+          15
+        ]
+      ],
+      "top5_sources": [
+        "https://www.thethirdturn.com/wiki/USAC_Silver_Crown_Series_Central/All-Time_Wins_List",
+        "https://usacracing.com/assets/files/History_Docs/history_career_wins_silver_crown.pdf",
+        "https://www.usacracing.com/hall-of-fame-inductees/dave-steele",
+        "https://www.usacracing.com/drivers/kody-swanson"
+      ],
+      "legends": [
+        {
+          "name": "Kody Swanson",
+          "synopsis": [
+            "Kody Swanson of Kingsburg, California, has defined USAC Silver Crown racing for more than a decade. He set records in the series that may never be approached.",
+            "He won the 2005 Western Sprint title and the 2009 Silver Crown Rookie of the Year award. He won his first Silver Crown title in 2014, and his eight titles (2014, 2015, 2017, 2018, 2019, 2021, 2022 and 2024) are the most any driver has won in a single USAC national series.",
+            "His 49 Silver Crown wins and 59 poles are both series records by a wide margin. He won his eighth title in 2024 despite racing through an injury.",
+            "He also won the 2017 Jason Leffler Award."
+          ],
+          "achievements": [
+            "8 USAC Silver Crown titles (record)",
+            "49 Silver Crown wins (record)",
+            "59 poles"
+          ],
+          "sources": [
+            "https://www.usacracing.com/drivers/kody-swanson",
+            "https://en.wikipedia.org/wiki/Kody_Swanson",
+            "https://www.thethirdturn.com/wiki/USAC_Silver_Crown_Series_Central/All-Time_Wins_List"
+          ],
+          "snippet": "Kody Swanson holds the USAC Silver Crown records for championships, with eight, and wins, with 49. Those eight titles are the most any driver has won in a single USAC national series, and he also holds the series record of 59 poles.",
+          "stats": [
+            "8 Silver Crown titles (record)",
+            "49 Silver Crown wins (record)"
+          ]
+        },
+        {
+          "name": "Jack Hewitt",
+          "synopsis": [
+            "Jack Hewitt of Troy, Ohio, was the people's hero of Midwestern dirt racing. He was a racer's racer who would run anything, anywhere, and he was the son of racer Don Hewitt.",
+            "He won Silver Crown titles in 1986 and 1987 and the 1985 All Star Circuit of Champions title. His 23 Silver Crown wins rank second all-time. He also won 46 USAC Sprint and seven Midget races.",
+            "In 1998 he reached the Indianapolis 500 and finished 12th. That same year he swept all four features at Eldora's 4-Crown Nationals, in Silver Crown, Sprint, Midget and modified, for four different teams. In all he has won 19 4-Crown features, the most of anyone.",
+            "He is a member of the USAC Hall of Fame."
+          ],
+          "achievements": [
+            "2-time USAC Silver Crown champion",
+            "23 Silver Crown wins (2nd all-time)",
+            "All Star Circuit of Champions champion"
+          ],
+          "sources": [
+            "https://www.usacracing.com/hall-of-fame-inductees/jack-hewitt",
+            "https://en.wikipedia.org/wiki/Jack_Hewitt",
+            "https://tjslideways.com/statistics/4-crown-nationals-winners/"
+          ],
+          "snippet": "Jack Hewitt of Troy, Ohio, was the 1986 and 1987 USAC Silver Crown champion, and his 23 Silver Crown wins rank second all-time. In 1998 he swept all four features at Eldora's 4-Crown Nationals and raced in the Indianapolis 500.",
+          "stats": [
+            "2 Silver Crown titles",
+            "23 Silver Crown wins",
+            "19 4-Crown wins"
+          ]
+        },
+        {
+          "name": "Dave Steele",
+          "synopsis": [
+            "Dave Steele of Tampa, Florida, may have been the greatest pavement racer in USAC history. All 60 of his USAC national wins, from 1996 to 2007, came on asphalt.",
+            "He moved to the Midwest for the 1996 season. In his first USAC National Sprint start, at Lakeside Speedway, he swept the night: fastest qualifier, heat win and feature win.",
+            "Steele won 16 Silver Crown, 26 Sprint and 18 Midget races, even though he usually ran half the schedule or less. He ran the full Silver Crown schedule in 2004 and 2005 and won the title both years.",
+            "In 2002 he won two National Midget features in one night at Indianapolis Raceway Park, coming from 22nd in the second. He is a member of the USAC Hall of Fame."
+          ],
+          "achievements": [
+            "2-time USAC Silver Crown champion",
+            "16 Silver Crown wins"
+          ],
+          "sources": [
+            "https://www.usacracing.com/hall-of-fame-inductees/dave-steele",
+            "https://www.thethirdturn.com/wiki/USAC_Silver_Crown_Series_Central/All-Time_Wins_List"
+          ],
+          "snippet": "Dave Steele of Tampa, Florida, won back-to-back USAC Silver Crown championships in 2004 and 2005 and was perhaps USAC's greatest pavement racer. All 60 of his USAC national wins came on asphalt: 16 in Silver Crown, 26 in sprint cars and 18 in midgets.",
+          "stats": [
+            "2 Silver Crown titles",
+            "60 USAC national wins (16 Silver Crown)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ascs",
+      "name": "American Sprint Car Series (ASCS)",
+      "intro": "Emmett Hahn founded the American Sprint Car Series in 1993. Its National Tour became the leading national stage for 360 winged sprint cars, racing across Texas, Oklahoma, Arkansas and the wider Midwest and South.",
+      "top5": [
+        [
+          "Gary Wright",
+          128
+        ],
+        [
+          "Sam Hafertepe Jr.",
+          95
+        ],
+        [
+          "Jason Johnson",
+          79
+        ],
+        [
+          "Wayne Johnson",
+          59
+        ],
+        [
+          "Tim Crawley",
+          51
+        ]
+      ],
+      "top5_note": "Counts are from the official ASCS all-time list (current through Oct. 17, 2026). The Third Turn has the same top five in the same order, but its counts lag for drivers whose early-1990s or recent results are incomplete. Only Jason Johnson's 79 matches on both lists.",
+      "top5_sources": [
+        "https://ascsracing.com/all-time-winners/",
+        "https://www.thethirdturn.com/wiki/American_Sprint_Car_Series_National_Tour_Central/All-Time_Wins_List"
+      ],
+      "legends": [
+        {
+          "name": "Gary Wright",
+          "nickname": "The Texan",
+          "synopsis": [
+            "Gary Wright is the winningest driver in American Sprint Car Series history, with 128 National Tour feature wins between 1994 and 2011. He won four consecutive ASCS National Tour championships, from 2004 through 2007.",
+            "Before his ASCS peak, Wright dominated the NCRA 410 tour. He won nine consecutive NCRA championships from 1993 through 2001 and more than 75 series features. He also won with the All Star Circuit of Champions and the World of Outlaws, and his total career feature wins top 400. He was inducted into the National Sprint Car Hall of Fame in 2011."
+          ],
+          "achievements": [
+            "128 ASCS National Tour wins (all-time record)",
+            "4 ASCS National Tour titles (2004–07)",
+            "9 consecutive NCRA championships (1993–2001)",
+            "2011 National Sprint Car Hall of Fame"
+          ],
+          "sources": [
+            "https://ascsracing.com/drivers/?driver=Gary-Wright",
+            "https://www.sprintcarhof.com/helper_pages/FileGet.aspx?id=349",
+            "https://www.thethirdturn.com/wiki/O%27Reilly_Auto_Parts_NCRA_Outlaw_Sprint_Car_Series"
+          ],
+          "snippet": "Gary Wright is the winningest driver in American Sprint Car Series (ASCS) history, with 128 National Tour wins and four straight titles from 2004 to 2007. He also won nine consecutive NCRA championships and was inducted into the National Sprint Car Hall of Fame in 2011.",
+          "stats": [
+            "4 ASCS titles",
+            "9 NCRA titles",
+            "128 ASCS wins (record)"
+          ]
+        },
+        {
+          "name": "Terry Gray",
+          "synopsis": [
+            "Terry Gray was one of the first drivers to sign up for the American Sprint Car Series, and by the mid-1990s he was the driver it measured itself against. The Bartlett, Tennessee, privateer, who owned and maintained his own cars, had been racing since 1974 and scored his first major win in a World of Outlaws feature at Riverside Speedway in Arkansas in 1980. He was inducted into the National Sprint Car Hall of Fame in 2022.",
+            "In 1995 Gray won the ASCS National Tour championship, and he won it again in each of the next three seasons. Those four straight titles from 1995 through 1998 came with 43 wins and stood as the series record for 22 years. He later became the cornerstone of the United Sprint Car Series."
+          ],
+          "achievements": [
+            "4 ASCS National Tour titles (1995–98)",
+            "16 USCS national championships",
+            "98 USCS feature wins through 2024",
+            "2022 National Sprint Car Hall of Fame"
+          ],
+          "sources": [
+            "https://ascsracing.com/drivers/?driver=Terry-Gray",
+            "https://ascsracing.com/about/series-champions/",
+            "https://www.speedsport.com/insider/kerchner-terry-gray-finally-gets-his-due/"
+          ],
+          "snippet": "Terry Gray of Bartlett, Tennessee, won four straight American Sprint Car Series (ASCS) National Tour championships from 1995 through 1998. The 2022 National Sprint Car Hall of Fame inductee also won 16 USCS titles and three NCRA championships.",
+          "stats": [
+            "4 ASCS titles",
+            "43 ASCS wins in title years",
+            "16 USCS titles",
+            "3 NCRA titles"
+          ]
+        },
+        {
+          "name": "Sam Hafertepe Jr.",
+          "synopsis": [
+            "Sam Hafertepe Jr. of Sunnyvale, Texas, won his first ASCS National Tour feature at I-30 Speedway in 2010. He became the series' dominant driver of the modern era and won five consecutive National Tour championships from 2016 through 2020, breaking Terry Gray's record of four in a row.",
+            "With 95 National Tour wins, he ranks second all-time behind Gary Wright, whom he has called the driver everyone wanted to be like when he started. In October 2026 he clinched his seventh National Tour title, the most in series history."
+          ],
+          "achievements": [
+            "7 ASCS National Tour championships (series record)",
+            "5 straight titles, 2016–20",
+            "95 ASCS National Tour wins (2nd all-time)"
+          ],
+          "sources": [
+            "https://ascsracing.com/all-time-winners/",
+            "https://ascsracing.com/news/sam-hafertepe-jr-reflects-on-career-defining-seventh-ascs-national-tour-championship/",
+            "https://ascsracing.com/news/hafertepe-adding-to-historic-ascs-milestones/",
+            "https://www.thethirdturn.com/wiki/American_Sprint_Car_Series_National_Tour_Central/All-Time_Wins_List"
+          ],
+          "snippet": "Sam Hafertepe Jr. is a seven-time American Sprint Car Series (ASCS) National Tour champion, the series record, including five straight titles from 2016 to 2020. His 95 ASCS National Tour wins rank second all-time.",
+          "stats": [
+            "7 ASCS titles (record)",
+            "95 ASCS wins"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uscs",
+      "name": "United Sprint Car Series (USCS)",
+      "intro": "Pete Walton's Atlanta-based United Sprint Car Series has raced 360 winged sprint cars on dirt and asphalt across the Southeast since the late 1990s. We could not find a published all-time USCS wins list from two independent sources, so no top-five list is shown here yet.",
+      "legends": [
+        {
+          "name": "Terry Gray",
+          "synopsis": [
+            "No driver is more closely tied to the United Sprint Car Series than Terry Gray. The Bartlett, Tennessee, veteran, who began racing in 1974, has been the series' cornerstone for more than two decades, racing as a privateer who builds and maintains his own equipment. He was inducted into the National Sprint Car Hall of Fame in 2022.",
+            "Gray has raced the United Sprint Car Series regularly since 2001 and has missed only a handful of its events. He won the 2024 Outlaw Thunder Tour title, his 16th USCS national championship, and finished that season with 98 career USCS feature wins. He also fields cars as an owner in the series."
+          ],
+          "achievements": [
+            "4 ASCS National Tour titles (1995–98)",
+            "16 USCS national championships",
+            "98 USCS feature wins through 2024",
+            "2022 National Sprint Car Hall of Fame"
+          ],
+          "sources": [
+            "http://www.uscsracing.com/press/2024/article/164254",
+            "https://speedsport.com/sprints-midgets/gray-claims-16th-uscs-outlaw-championship/",
+            "https://www.thethirdturn.com/wiki/United_Sprint_Car_Series_Central"
+          ],
+          "snippet": "Terry Gray is the defining driver of the United Sprint Car Series (USCS), with 16 national championships and 98 feature wins through 2024. The Bartlett, Tennessee, privateer also won four ASCS titles and was inducted into the National Sprint Car Hall of Fame in 2022.",
+          "stats": [
+            "16 USCS titles",
+            "98 USCS wins (through 2024)",
+            "4 ASCS titles",
+            "3 NCRA titles"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "narc",
+      "name": "Northern Auto Racing Club (NARC)",
+      "intro": "Founded in 1960, the Northern Auto Racing Club is Northern California's home for 410 sprint cars. In 2017 the King of the West series was rebranded under the NARC name.",
+      "top5": [
+        [
+          "Brent Kaeding",
+          84
+        ],
+        [
+          "Tim Kaeding",
+          75
+        ],
+        [
+          "Jonathan Allard",
+          41
+        ],
+        [
+          "Kyle Hirst",
+          31
+        ],
+        [
+          "Steve Kent / Justin Sanders (tie)",
+          28
+        ]
+      ],
+      "top5_note": "Single source: this is NARC's own King of the West all-time list, current through July 21, 2025. The Third Turn treats the original NARC (1960–2000) and King of the West as separate series and has no combined count. Older reports credit Brent Kaeding with roughly 160 wins under the original NARC banner, so these numbers depend on which history is being counted.",
+      "top5_sources": [
+        "https://narc410.com/our-history/all-time-winners-list/",
+        "https://thethirdturn.com/wiki/Northern_Auto_Racing_Club"
+      ],
+      "legends": [
+        {
+          "name": "Brent Kaeding",
+          "nickname": "B.K.",
+          "synopsis": [
+            "Brent Kaeding of Campbell, California, is the second of three generations of Northern California open-wheel champions. His father, Howard, raced modifieds and super modifieds, and his son Tim and nephew Bud also became top 410 sprint car drivers. Brent won his first NARC race at Silver Dollar Speedway in Chico in April 1981 and went on to win a record 13 NARC championships, including eight in a row.",
+            "Over a career of more than three decades he won hundreds of features, an estimated 375 to more than 400, and he holds career win records at tracks from Chico to Tulare. He also won 13 Golden State Challenge titles and four Trophy Cup championships, and he won the 1985 Turkey Night Grand Prix at Ascot."
+          ],
+          "achievements": [
+            "13 NARC championships (record)",
+            "13 Golden State Challenge titles",
+            "4 Trophy Cup championships",
+            "1985 Turkey Night Grand Prix winner"
+          ],
+          "sources": [
+            "https://www.sprintcarhof.com/helper_pages/FileGet.aspx?id=281",
+            "https://www.rustmag.com/blog/brentkaeding",
+            "https://thethirdturn.com/wiki/Northern_Auto_Racing_Club",
+            "https://tjslideways.com/2012/01/23/legend-brent-kaeding-scores-3rd-in-kws-points/"
+          ],
+          "snippet": "Brent Kaeding of Campbell, California, won a record 13 Northern Auto Racing Club (NARC) 410 sprint car championships, including eight in a row. He also won 13 Golden State Challenge titles, four Trophy Cups and the 1985 Turkey Night Grand Prix.",
+          "stats": [
+            "13 NARC titles (record)",
+            "13 Golden State Challenge titles",
+            "4 Trophy Cups",
+            "1985 Turkey Night Grand Prix"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ncra",
+      "name": "National Championship Racing Association (NCRA)",
+      "intro": "The NCRA ran a 410 winged Outlaw sprint car tour across the central Great Plains from 1988 to 2004, along with a 360 division. Gary Wright, profiled in the ASCS section, won the 410 tour nine years running. Our sources did not agree on a full all-time wins list (Wright alone is credited with 76 or 80 wins), so no top-five list is shown here.",
+      "legends": [
+        {
+          "name": "Terry Gray",
+          "synopsis": [
+            "Terry Gray was the first star of the NCRA 410 tour. By the time the series launched, the Bartlett, Tennessee, privateer had been racing since 1974 and had a World of Outlaws feature win at Riverside Speedway in Arkansas from 1980 on his record, and he had won with USA as well. He was inducted into the National Sprint Car Hall of Fame in 2022.",
+            "On the NCRA 410 tour, Gray led the series in wins in its first two seasons and won NCRA championships in 1989, 1990 and 1992 before his longtime friend and traveling companion Gary Wright began his run of titles. He then took that experience into ASCS, where he won four straight titles from 1995 through 1998, and into USCS, where he won 16 championships."
+          ],
+          "achievements": [
+            "4 ASCS National Tour titles (1995–98)",
+            "16 USCS national championships",
+            "98 USCS feature wins through 2024",
+            "2022 National Sprint Car Hall of Fame"
+          ],
+          "sources": [
+            "https://www.thethirdturn.com/wiki/O%27Reilly_Auto_Parts_NCRA_Outlaw_Sprint_Car_Series",
+            "https://www.speedsport.com/insider/kerchner-terry-gray-finally-gets-his-due/",
+            "https://www.sprintcarhof.com/helper_pages/FileGet.aspx?id=349"
+          ],
+          "snippet": "Terry Gray won NCRA 410 sprint car championships in 1989, 1990 and 1992 and led the series in wins in its first two seasons. The Bartlett, Tennessee, driver later won four ASCS and 16 USCS titles and entered the National Sprint Car Hall of Fame in 2022.",
+          "stats": [
+            "3 NCRA titles",
+            "4 ASCS titles",
+            "16 USCS titles"
+          ]
+        }
+      ]
+    }
+  ]
+}
