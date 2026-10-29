@@ -2,7 +2,7 @@ import json,html,re
 E=html.escape
 src=open('this-day-in-history.html').read()
 d=json.load(open('legends-data.json'))
-head=src[:src.index('</style></head><body>')]
+head=src[:src.index('</style></head><body>')]+open('legends-compact.css').read()
 head=re.sub(r'<title>.*?</title>','<title>Sprint Car &amp; Midget Racing Legends: World of Outlaws, USAC, High Limit &amp; More | DirtSprintCars.com</title>',head,1,re.S)
 head=re.sub(r'<meta name="description"[^>]*>','<meta name="description" content="Career profiles of sprint car and midget racing legends, including Steve Kinser, Donny Schatz, Tony Stewart and Kody Swanson. Championships, record win totals and crown-jewel victories across World of Outlaws, High Limit, USAC Sprint, Midget and Silver Crown, ASCS, USCS, NARC and NCRA.">',head,1)
 head=re.sub(r'<meta property="og:title"[^>]*>','<meta property="og:title" content="Sprint Car &amp; Midget Racing Legends | DirtSprintCars.com"><meta property="og:description" content="Career profiles of sprint car and midget racing legends, including Steve Kinser, Donny Schatz, Tony Stewart and Kody Swanson. Championships, record win totals and crown-jewel victories across World of Outlaws, High Limit, USAC Sprint, Midget and Silver Crown, ASCS, USCS, NARC and NCRA."><meta property="og:type" content="article">',head,1)
