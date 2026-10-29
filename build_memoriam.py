@@ -23,7 +23,7 @@ body=f'''<main class="wrap">
 <div class="chk" style="margin-top:24px"></div>
 <h1 class="disp" style="font-size:48px;margin:24px 0 8px">In Memoriam</h1>
 <p class="meta">Remembering drivers who lost their lives racing sprint cars and midgets. Listed in order of date of death, oldest first; each entry is confirmed by at least two independent sources.</p>
-<div class="note"><b>DRAFT — not published.</b> Pending Kevin's approval. This list is a starting point, not a complete record. Corrections and additions welcome via Contribute.</div>
+<div class="note">This list is a starting point, not a complete record. Corrections and additions welcome via Contribute.</div>
 <p class="jump">{jump}</p>
 {''.join(out)}
 '''
