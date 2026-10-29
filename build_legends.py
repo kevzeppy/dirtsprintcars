@@ -29,8 +29,11 @@ def host(u): return re.sub(r'^https?://(www\.)?','',u).split('/')[0]
 def srcs(l):
   l=[u for u in (l or []) if u]
   return '' if not l else '<footer class="srcfoot">Sources: '+''.join(f'<a href="{E(u)}" target="_blank" rel="noopener">{E(host(u))}</a>' for u in l)+'</footer>'
-out=[]
+NOTES={'410 Sprint Cars': '410 cubic-inch engines, the top level of sprint car racing. Winged: World of Outlaws, High Limit, NARC/King of the West, NCRA, All Stars, PA Posse, POWRi 410. Non-winged: USAC Sprint.', '360 Sprint Cars': '360 cubic-inch engines, the regional and national 360 tours.', 'Midgets': 'Small, light open-wheel cars, raced separately from sprint cars.', 'Silver Crown & USAC Triple Crown': 'Front-engine Champ Dirt Cars, plus the drivers who won USAC titles in Sprint, Midget and Silver Crown.'}
+out=[];cg=None
 for s in d['series']:
+  if s.get('group')!=cg:
+    cg=s.get('group');out.append(f'<h2 class="grp disp" id="g-{re.sub(r"[^a-z0-9]+","-",cg.lower()).strip("-")}">{E(cg)}</h2>'+(f'<p class="grpnote">{E(NOTES[cg])}</p>' if cg in NOTES else ''))
   b=[f'<section class="ser-wrap" aria-labelledby="h-{s["id"]}"><details class="ser" id="{s["id"]}" open><summary><h2 class="disp" id="h-{s["id"]}">{E(s["name"])}</h2></summary>']
   if s.get('intro'): b.append(f'<p class="intro">{E(s["intro"])}</p>')
   if s.get('top5'):
@@ -48,7 +51,8 @@ for s in d['series']:
 hdr=src[src.index('<header>'):src.index('</header>')+9]
 hdr=hdr.replace('<li><a href="legends.html" class="lbl">Legends</a></li>','<li><a href="legends.html" class="lbl" aria-current="page">Legends</a></li>')
 ftr=src[src.index('<footer>'):src.index('</footer>')+9]
-jump='<nav class="jump" aria-label="Series">'+''.join(f'<a href="#{s["id"]}" class="lbl">{E(s["name"])}</a>' for s in d['series'])+'</nav>'
+import itertools
+jump='<nav class="jump" aria-label="Series">'+''.join('<div class="jgrp"><span class="jlbl lbl">'+E(k)+'</span>'+''.join(f'<a href="#{s["id"]}" class="lbl">{E(s["name"])}</a>' for s in v)+'</div>' for k,v in itertools.groupby(d['series'],key=lambda s:s.get('group','')))+'</nav>'
 js="<script>function oh(){var e=document.getElementById(location.hash.slice(1));if(e&&e.tagName=='DETAILS')e.open=true}window.addEventListener('hashchange',oh);oh();document.addEventListener('click',function(ev){var b=ev.target.closest('.more');if(!b)return;var f=document.getElementById(b.getAttribute('aria-controls')),o=b.getAttribute('aria-expanded')=='true';f.hidden=o;f.parentNode.querySelector('.snip').hidden=!o;b.setAttribute('aria-expanded',String(!o));b.textContent=o?'Read more':'Show less';if(o)f.parentNode.scrollIntoView({block:'nearest'})});</script>"
-page=head+'</style><style>'+css+'</style></head><body>\n'+hdr+'\n<main class="wrap">\n<header class="lhero"><span class="lbl tag">Guide</span><h1 class="disp">Legends</h1><p>The drivers and moments that built sprint car and midget racing.</p></header>\n'+jump+'\n'+'\n'.join(out)+'\n</main>\n'+js+'\n'+ftr+'\n</body></html>\n'
+page=head+'</style><style>'+css+'</style></head><body>\n'+hdr+'\n<main class="wrap">\n<header class="lhero"><span class="lbl tag">Guide</span><h1 class="disp">Legends</h1><p>The drivers and moments that built sprint car and midget racing.</p><p class="cjnote">Crown jewels: Knoxville Nationals, Kings Royal, National Open, Chili Bowl and Australian Classic (Grand Annual Sprintcar Classic, Warrnambool).</p></header>\n'+jump+'\n'+'\n'.join(out)+'\n</main>\n'+js+'\n'+ftr+'\n</body></html>\n'
 open('legends.html','w').write(page)

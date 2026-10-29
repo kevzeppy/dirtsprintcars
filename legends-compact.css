@@ -24,3 +24,9 @@
 .leg .stats,.leg .ach{font-size:13px;color:var(--dim);margin-top:4px}
 .more{margin-top:6px;background:none;border:1px solid var(--line);color:var(--fg);border-radius:4px;padding:3px 10px;font-size:12px;cursor:pointer}
 .more:hover{border-color:var(--red-hi)}
+.jump{flex-direction:column;gap:8px}
+.jgrp{display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+.jlbl{min-width:120px;font-size:11px;color:var(--dirt);letter-spacing:.1em}
+.grp{font-size:24px;margin:26px 0 2px;padding-bottom:4px;border-bottom:2px solid var(--red)}
+.grpnote{font-size:13px;color:var(--dim);margin:0 0 10px}
+.cjnote{font-size:14px;color:var(--dim)}
