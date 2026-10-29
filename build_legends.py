@@ -33,7 +33,7 @@ NOTES={'410 Sprint Cars': '410 cubic-inch engines, the top level of sprint car r
 out=[];cg=None
 for s in d['series']:
   if s.get('group')!=cg:
-    cg=s.get('group');out.append(f'<h2 class="grp disp" id="g-{re.sub(r"[^a-z0-9]+","-",cg.lower()).strip("-")}">{E(cg)}</h2>'+(f'<p class="grpnote">{E(NOTES[cg])}</p>' if cg in NOTES else ''))
+    cg=s.get('group');out.append(f'<h2 class="grp disp" id="g-{re.sub(r"[^a-z0-9]+","-",cg.lower()).strip("-")}">{E(cg)}</h2>')
   b=[f'<section class="ser-wrap" aria-labelledby="h-{s["id"]}"><details class="ser" id="{s["id"]}" open><summary><h2 class="disp" id="h-{s["id"]}">{E(s["name"])}</h2></summary>']
   if s.get('intro'): b.append(f'<p class="intro">{E(s["intro"])}</p>')
   if s.get('top5'):

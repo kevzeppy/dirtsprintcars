@@ -27,6 +27,8 @@
 .jump{flex-direction:column;gap:8px}
 .jgrp{display:flex;flex-wrap:wrap;align-items:center;gap:6px}
 .jlbl{min-width:120px;font-size:11px;color:var(--dirt);letter-spacing:.1em}
-.grp{font-size:24px;margin:26px 0 2px;padding-bottom:4px;border-bottom:2px solid var(--red)}
+.grp{font-size:15px;letter-spacing:.08em;color:var(--dirt);margin:18px 0 6px;padding-bottom:2px;border-bottom:1px solid var(--line)}
 .grpnote{font-size:13px;color:var(--dim);margin:0 0 10px}
 .cjnote{font-size:14px;color:var(--dim)}
+
+.ser>summary h2{font-size:17px}

@@ -18,7 +18,6 @@ ul{list-style:none;padding:0}
 .disp{font-family:'Barlow Condensed','Arial Narrow',sans-serif;text-transform:uppercase;letter-spacing:.01em}
 .lbl{font-family:'Barlow Condensed','Arial Narrow',sans-serif;text-transform:uppercase;letter-spacing:.12em;font-weight:700;font-size:13px}
 .wrap{max-width:1280px;margin:0 auto;padding-left:max(24px,env(safe-area-inset-left,0px));padding-right:max(24px,env(safe-area-inset-right,0px))}
-.chk{height:10px;background:repeating-conic-gradient(#f2f1ee 0 25%,#0e0e0f 0 50%) 0 0/20px 20px}
 .red{color:var(--red-hi)}
 .sr{position:absolute;left:-9999px}
 
@@ -203,9 +202,8 @@ footer .wrap{padding-top:40px;padding-bottom:40px;display:flex;flex-direction:co
 </nav>
 </header>
 <main class="wrap">
-<div class="chk" style="margin-top:24px"></div>
 <section class="hero" aria-label="This Day in History">
-<img src="images/this-day-hero.jpg" alt="Classic dirt sprint cars Channel Lock No. 1 and Quaker State No. 11 racing side by side">
+<img src="images/this-day-hero.jpg" alt="Classic sprint cars">
 <div class="shade"></div>
 <div class="copy">
 <span class="lbl tag">Archive</span>
@@ -223,7 +221,6 @@ window.addEventListener('hashchange',openM);openM();
 (function(){var b=document.getElementById('jt');if(!b)return;b.addEventListener('click',function(){var t=new Date(),m=t.getMonth()+1,id='m'+t.getFullYear()+'-'+(m<10?'0':'')+m,el=document.getElementById(id)||document.querySelector('details.mon');if(!el)return;el.open=true;el.scrollIntoView({behavior:'smooth',block:'start'});el.classList.remove('fade');el.classList.add('flash');setTimeout(function(){el.classList.add('fade')},900);setTimeout(function(){el.classList.remove('flash','fade')},2200);});})();
 </script>
 <footer>
-<div class="chk"></div>
 <div class="wrap">
 <div class="flinks lbl">
 <a href="#">About</a><a href="#">Contact</a><a href="#">Advertise with us</a><a href="#">Submit news</a><a href="#">Photo licensing and permissions</a><a href="#">Privacy policy</a><a href="#">Terms</a><a href="#">Social</a>
