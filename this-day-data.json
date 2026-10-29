@@ -8,7 +8,9 @@
     "source_url": "https://www.highlimitracing.com/press/article/183214",
     "blurb": "Year three of High Limit got a map that looks like a road atlas exploded. Haulers in 21 states, wives in zero of them.",
     "category": "series-change",
-    "birthdays": []
+    "birthdays": [],
+    "source2": "https://www.highlimitracing.com/press/2026/article/186075",
+    "verified_notes": "Official HLR release dated 11/3/2025 (highlimitracing.com/press/article/183214); corroborated by HLR 3/2/2026 and 3/9/2026 releases referencing the original 65-night plan"
   },
   {
     "date": "2025-11-19",
@@ -19,7 +21,9 @@
     "source_url": "https://worldofoutlaws.com/sprintcars/world-of-outlaws-rule-updates-for-2026/",
     "blurb": "Fuel cells stay bolted on, feet stay inside the car, and Dzus buttons got their walking papers. Not every rule bulletin is this sensible.",
     "category": "safety",
-    "birthdays": []
+    "birthdays": [],
+    "source2": "http://dirtrackr.com/daily/1465",
+    "verified_notes": "worldofoutlaws.com post timestamped Nov 19, 2025 3:41 pm; DIRTRACKR Daily 11-4-2025 reported the team bulletin earlier; Epartrade syndication matches"
   },
   {
     "date": "2025-12-19",
@@ -30,7 +34,9 @@
     "source_url": "https://www.sprintcarhof.com/Article/799/nine-inductees-announced-as-class-of-2026-for-national-sprint-car-hall-of-fame.aspx",
     "blurb": "An early Christmas present for Knoxville: nine legends, from TSR wrench Jimmy Carr to cam king Ed Iskenderian. Santa runs a 410, apparently.",
     "category": "milestone",
-    "birthdays": []
+    "birthdays": [],
+    "source2": "https://speedsport.com/sprints-midgets/nine-sprint-car-hall-of-fame-inductees-announced/",
+    "verified_notes": "sprintcarhof.com release dated Dec 19, 2025; Speed Sport Dec 19, 2025 ('announced Friday'); TJSlideways repost Dec 20"
   },
   {
     "date": "2026-01-26",
@@ -41,7 +47,9 @@
     "source_url": "https://www.usacracing.com/news/2026-usac-national-sprint-car-midget-rule-updates",
     "blurb": "Five shocks max, two inches of cage over your helmet, and wheel covers that stay put or cost you. Speedway, Indiana did its homework over the winter.",
     "category": "series-change",
-    "birthdays": []
+    "birthdays": [],
+    "source2": "https://www.floracing.com/articles/15295598-usac-announces-sprint-car-midget-rule-updates-for-2026",
+    "verified_notes": "usacracing.com release dated Jan 26, 2026; FloRacing Jan 26, 2026"
   },
   {
     "date": "2026-02-11",
@@ -52,29 +60,35 @@
     "source_url": "https://www.highlimitracing.com/press/2026/article/185597",
     "blurb": "The tractor folks handed over the keys and the battery folks jumped in. Finally, a series name that will start on a cold March morning.",
     "category": "other",
-    "birthdays": []
+    "birthdays": [],
+    "source2": "https://www.sportsbusinessjournal.com/Articles/2026/02/11/interstate-batteries-antes-up-for-high-limit-racing-title-sponsorship-replacing-kubota/",
+    "verified_notes": "HLR release dated Feb 11, 2026; SportsBusiness Journal Feb 11, 2026; TJSlideways Feb 11, 2026"
   },
   {
     "date": "2026-08-27",
-    "headline": "Gold Cup scraps split fields, returns to full-field three-night format",
+    "headline": "Gold Cup debuts full-field three-night format, ditching split fields",
     "series": "High Limit",
     "track": "Silver Dollar Speedway",
     "result": "All entrants race all three nights with full series points each night",
     "source_url": "https://www.floracing.com/articles/16147741-understanding-high-limit-racings-new-gold-cup-format",
     "blurb": "Chico said no more half-measures: 50-plus cars, three nights, everybody races everybody. Bring a cooler and a second cooler.",
     "category": "series-change",
-    "birthdays": []
+    "birthdays": [],
+    "source2": "https://www.highlimitracing.com/press/article/183214",
+    "verified_notes": "Date is the debut night of the full-field format (Gold Cup night 1, Aug 27-29 per HLR schedule release) and FloRacing's explainer date; no earlier standalone series announcement found"
   },
   {
-    "date": "2026-10-21",
+    "date": "2026-10-20",
     "headline": "Keith Kunz Motorsports to close after 2026 season",
     "series": "USAC Midgets",
     "track": "N/A",
     "result": "KKM to cease operations after Turkey Night (Nov. 27-28); 8 Chili Bowl wins, 11 USAC National Midget titles, 200+ USAC wins",
-    "source_url": "https://www.floracing.com/articles/16274901-keith-kunz-motorsports-to-close-as-owner-eyes-semi-retirement",
+    "source_url": "https://racingnews.co/2026/10/20/keith-kunz-motorsports-shop-for-sale/",
     "blurb": "The finishing school for half the NASCAR garage is closing its doors. Keith calls it semi-retirement, which means he'll still be at a micro track near you.",
     "category": "team-news",
-    "birthdays": []
+    "birthdays": [],
+    "source2": "https://www.floracing.com/articles/16274901-keith-kunz-motorsports-to-close-as-owner-eyes-semi-retirement",
+    "verified_notes": "Corrected from 10-21: DIRTVision interview (Conner Wade) published Oct 20, 2026 (per DirtSprintCars.com article and RacingNews.co Oct 20 report quoting it); FloRacing/Yahoo/Speed Sport follow-ups dated Oct 21"
   },
   {
     "date": "2025-10-29",
