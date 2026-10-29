@@ -14,9 +14,9 @@ for x in d:
   if m!=cur:
     if cur:out.append('</details>')
     out.append(f'<details class="mon" id="m{m:02d}" open><summary><h2 class="disp">{M[m-1]}</h2></summary>');cur=m
-  s2=f' <a class="src2" href="{e(x["source2_url"])}" target="_blank" rel="noopener">{e(host(x["source2_url"]))}</a>' if x.get('source2_url') else ''
-  nt=f'<p class="meta"><i>{e(x["notes"])}</i></p>' if x.get('notes') else ''
-  out.append(f'<article class="day"><div class="dd disp">{M[m-1][:3]} <b>{int(dd)}</b></div><div><div class="ev"><span class="yr disp">{y}</span><span class="chip lbl">{e(x["series"])}</span><h3>{e(x["name"])}</h3><p class="meta">{e(x["track"])}</p><p>{e(x["description"])}</p>{nt}<footer class="srcfoot">Sources: <a href="{e(x["source_url"])}" target="_blank" rel="noopener">{e(host(x["source_url"]))}</a>{s2}{(" <a class=\"src2\" href=\""+e(x["wiki_url"])+"\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>") if x.get("wiki_url") else ""}</footer></div></div></article>')
+  lk=' '.join(f'<a href="{e(u)}" target="_blank" rel="noopener">{"Wikipedia" if "wikipedia.org" in u else e(host(u))}</a>' for u in x['sources'])
+  body=''.join(f'<p>{e(p)}</p>' for p in x['career'])
+  out.append(f'<article class="day"><div class="dd disp">{M[m-1][:3]} <b>{int(dd)}</b></div><div><div class="ev"><span class="yr disp">{y}</span><span class="chip lbl">{e(x["series"])}</span><h3>{e(x["name"])}</h3>{body}<p class="meta rip" style="font-style:italic;opacity:.8">{e(x["death_note"])}</p><footer class="srcfoot">Sources: {lk}</footer></div></div></article>')
 out.append('</details>')
 jump=' '.join(f'<a href="#m{m:02d}" class="lbl">{M[m-1][:3]}</a>' for m in sorted({int(x["date"][5:7]) for x in d},reverse=True))
 body=f'''<main class="wrap">
