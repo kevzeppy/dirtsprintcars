@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>In Memoriam | DirtSprintCars.com</title>
+<meta name="description" content="On this day in dirt sprint car and midget racing: World of Outlaws, USAC, Silver Crown, High Limit, Chili Bowl and more, day by day.">
+<meta property="og:title" content="In Memoriam — DirtSprintCars.com">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0e0e0f;--panel:#161718;--line:#2a2c2f;--fg:#f2f1ee;--mute:#b8bcc2;--dim:#9a9ea4;--red:#d6262b;--red-hi:#ff4d4f;--dirt:#d8a36b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:'Barlow',system-ui,sans-serif;line-height:1.4}
+img{max-width:100%}
+a{color:inherit;text-decoration:none}
+a:hover{color:var(--red-hi)}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--red-hi);outline-offset:2px}
+h1,h2,h3,p,ul{margin:0}
+ul{list-style:none;padding:0}
+.disp{font-family:'Barlow Condensed','Arial Narrow',sans-serif;text-transform:uppercase;letter-spacing:.01em}
+.lbl{font-family:'Barlow Condensed','Arial Narrow',sans-serif;text-transform:uppercase;letter-spacing:.12em;font-weight:700;font-size:13px}
+.wrap{max-width:1280px;margin:0 auto;padding-left:max(24px,env(safe-area-inset-left,0px));padding-right:max(24px,env(safe-area-inset-right,0px))}
+.chk{height:10px;background:repeating-conic-gradient(#f2f1ee 0 25%,#0e0e0f 0 50%) 0 0/20px 20px}
+.red{color:var(--red-hi)}
+.sr{position:absolute;left:-9999px}
+
+/* utility + header */
+.util{background:var(--red);color:#fff;font-weight:600}
+.util .wrap{padding-top:8px;padding-bottom:8px;display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between}
+header{background:var(--panel);border-bottom:1px solid var(--line)}
+.head-top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;padding-top:20px}
+.logo{font-size:clamp(22px,7vw,40px);max-width:100%;font-weight:800;line-height:1;color:#fff}
+.logo b{color:var(--red-hi);font-weight:800}
+.logo small{font-size:.5em;color:var(--mute);letter-spacing:.04em;text-transform:none}
+.search{display:flex;flex:1 1 280px;min-width:0;max-width:420px}
+.search input{flex:1;width:0;min-width:0;height:44px;padding:0 14px;background:var(--bg);color:var(--fg);border:1px solid #3a3d41;border-right:0;font:inherit;font-size:15px}
+.search button{height:44px;padding:0 20px;background:var(--red);color:#fff;border:0;cursor:pointer;font-size:14px}
+nav ul{display:flex;flex-wrap:wrap;gap:0 4px}
+nav a{display:block;padding:16px 12px;font-size:15px;border-bottom:3px solid transparent}
+nav a[aria-current]{color:#fff;border-bottom-color:var(--red)}
+
+/* hero */
+.hero{display:block;position:relative;overflow:hidden;background:var(--panel);margin-top:32px}
+.hero img{display:block;width:100%;height:clamp(360px,52vw,640px);object-fit:cover;object-position:50% 42%}
+.hero .shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(14,14,15,.92) 0%,rgba(14,14,15,.7) 38%,rgba(14,14,15,0) 70%)}
+.hero .copy{position:absolute;left:0;bottom:0;max-width:620px;padding:clamp(20px,4vw,48px);display:flex;flex-direction:column;gap:14px}
+.tag{align-self:flex-start;background:var(--red);color:#fff;padding:5px 10px}
+.hero h1{font-size:clamp(36px,5.4vw,68px);line-height:.98;font-weight:800;text-wrap:balance;color:#fff}
+.hero p{font-size:18px;line-height:1.45;color:#d8d9dc;max-width:52ch}
+
+@media (max-width:640px){
+.hero{background:var(--panel)}
+.hero img{height:240px}
+.hero .shade{display:none}
+.hero .copy{position:static;max-width:none;padding:20px 16px 24px}
+.util .wrap{font-size:12px}
+}
+/* sections */
+.sec{padding-top:56px}
+.sec-head{display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.sec-head h2,.h2{font-size:36px;font-weight:800}
+.grid3{margin-top:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px}
+.card{display:flex;flex-direction:column;gap:12px;min-width:0}
+.card .ph{overflow:hidden;aspect-ratio:3/2;background:var(--panel)}
+.card .ph img,.thumb{display:block;width:100%;height:100%;object-fit:cover;transition:transform .25s}
+.card:hover .thumb,.card:hover .ph img,.hero:hover img{transform:scale(1.03)}
+.card h3{font-size:26px;line-height:1.05;font-weight:700;text-wrap:balance}
+.card p{font-size:15px;line-height:1.5;color:var(--mute)}
+.card .date{font-size:13px;color:var(--dim)}
+@media (prefers-reduced-motion:reduce){.thumb,.card .ph img,.hero img{transition:none}}
+
+/* schedule */
+.two{display:flex;flex-wrap:wrap;gap:40px}
+.sched{flex:999 1 560px;min-width:0}
+.res{flex:1 1 320px;min-width:0}
+.chips{margin-top:8px;display:flex;flex-wrap:wrap;gap:8px}
+.chips:first-of-type{margin-top:16px}
+.chip{height:40px;padding:0 16px;background:transparent;color:#d8d9dc;border:1px solid #4a4e53;font-size:14px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--red);border-color:var(--red);color:#fff}
+#events{margin-top:16px;border-top:1px solid var(--line)}
+#events li{border-bottom:1px solid var(--line)}
+#events a{display:flex;flex-wrap:wrap;align-items:center;gap:8px 20px;padding:16px 0}
+.ev-date{flex:0 0 140px;white-space:nowrap;font-size:22px;font-weight:700;color:#fff}
+.ev-main{flex:1 1 220px;min-width:0;display:flex;flex-direction:column;gap:2px}
+.ev-name{font-size:22px;font-weight:700;line-height:1.1}
+.ev-sub{font-size:14px;color:var(--mute)}
+.ev-disc{flex:0 0 110px;white-space:nowrap}
+.empty{margin-top:16px;color:var(--mute)}
+.note{margin-top:12px;font-size:13px;color:var(--dim)}
+.resbox{margin-top:16px;background:var(--panel);border-top:3px solid var(--red)}
+.resbox li{padding:16px 20px;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:6px}
+.resbox li:last-child{border-bottom:0}
+.resbox a:hover{color:var(--red-hi)}
+
+/* spotlights */
+.spot{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:32px;padding-top:64px}
+.spot>div{min-width:0;display:flex;flex-direction:column;gap:16px}
+.feat{display:block;position:relative;overflow:hidden;background:var(--panel)}
+.feat img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;transition:transform .25s}
+.feat:hover img{transform:scale(1.03)}
+.feat .cap{position:absolute;inset:auto 0 0 0;padding:48px 20px 20px;background:linear-gradient(0deg,rgba(14,14,15,.95),rgba(14,14,15,0))}
+.feat h3{margin-top:4px;font-size:28px;line-height:1.05;font-weight:700}
+.list{border-top:1px solid var(--line)}
+.list li{border-bottom:1px solid var(--line)}
+.list a{display:block;padding:12px 0;font-size:16px;font-weight:600}
+
+/* contribute */
+.contrib{margin-top:20px;display:flex;flex-wrap:wrap;gap:32px 56px;align-items:flex-start}
+.contrib-copy{flex:1 1 320px;min-width:0}
+.contrib-copy p{margin:0 0 14px;font-size:18px;line-height:1.6;color:var(--mute)}
+.contrib-copy .lead{font-size:22px;line-height:1.4;color:var(--fg)}
+.cform{flex:1 1 360px;max-width:520px;min-width:0;display:flex;flex-direction:column;gap:6px;padding:24px;background:var(--panel);border-top:3px solid var(--red)}
+.cform .lbl{margin-top:8px;color:var(--mute)}
+.cform input,.cform select,.cform textarea{width:100%;min-width:0;padding:12px 14px;font:inherit;font-size:16px;color:var(--fg);background:#0e0e0f;border:1px solid #3a3d41;border-radius:0}
+.cform button{margin-top:16px;height:48px;background:var(--red);color:#fff;border:0;font-size:15px;cursor:pointer}
+.cform button:hover{background:#b81f24}
+/* about */
+.about{margin-top:20px;max-width:720px;border-left:3px solid var(--red);padding-left:20px}
+.about p{margin:0 0 14px;font-size:18px;line-height:1.6;color:var(--mute)}
+.about .lead{font-size:22px;line-height:1.4;color:var(--fg)}
+/* links */
+.lkgrid{margin-top:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.lk{display:flex;flex-direction:column;gap:8px;min-width:0;padding:18px 20px;background:var(--panel);border-top:3px solid var(--red)}
+.lk:hover{background:#1d1f21;color:var(--fg)}
+.lk-name{font-size:26px;line-height:1.05;font-weight:700}
+.lk-desc{font-size:15px;line-height:1.5;color:var(--mute);flex:1}
+.lk-go{color:var(--red-hi);margin-top:4px}
+/* bands */
+.band{margin-top:64px;background:var(--panel);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.band .wrap{padding-top:40px;padding-bottom:40px;display:flex;flex-wrap:wrap;gap:32px;align-items:center}
+.band .pic{flex:1 1 420px;min-width:0;overflow:hidden}
+.band .pic img{display:block;width:100%;aspect-ratio:3/2;object-fit:cover}
+.band .txt{flex:1 1 360px;min-width:0;display:flex;flex-direction:column;gap:14px}
+.big{font-size:44px;line-height:1;font-weight:800;text-wrap:balance}
+.lead{font-size:17px;line-height:1.5;color:#c9cbd0;max-width:52ch}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-block;padding:12px 22px;font-size:15px;border:1px solid #5a5e63}
+.btn.solid{background:var(--red);border-color:var(--red);color:#fff}
+.btn.solid:hover{color:#fff;background:#b81f24}
+.hist{display:flex;flex-wrap:wrap;gap:32px;align-items:stretch;padding-top:64px}
+.hist .pic{flex:1 1 420px;min-width:0;overflow:hidden;background:var(--panel)}
+.hist .pic img{display:block;width:100%;height:100%;min-height:320px;object-fit:cover}
+.hist .txt{flex:1 1 360px;min-width:0;display:flex;flex-direction:column;justify-content:center;gap:14px}
+
+/* newsletter */
+.nl{margin-top:64px;background:var(--red);color:#fff}
+.nl .wrap{padding-top:48px;padding-bottom:48px;display:flex;flex-wrap:wrap;gap:24px 48px;align-items:center;justify-content:space-between}
+.nl h2{margin:6px 0 8px;font-size:56px;line-height:.95;font-weight:800}
+.nl p{font-size:18px;line-height:1.45;max-width:48ch}
+.nl form{flex:1 1 360px;max-width:520px;display:flex;flex-wrap:wrap;gap:8px}
+.nl input[type=email]{flex:1 1 220px;min-width:0;height:52px;padding:0 16px;border:0;font:inherit;font-size:16px;color:#0e0e0f;background:#fff}
+.nl button{height:52px;padding:0 28px;background:#0e0e0f;color:#fff;border:0;font-size:16px;cursor:pointer}
+.nl a:hover{color:#fff}
+
+.shop{padding-top:40px;display:flex;flex-wrap:wrap;gap:12px 32px;align-items:center;justify-content:space-between}
+.shop h2{font-size:30px;font-weight:800}
+.shop p{margin-top:4px;color:var(--mute);font-size:15px}
+
+footer{margin-top:56px;background:var(--panel);border-top:1px solid var(--line)}
+footer .wrap{padding-top:40px;padding-bottom:40px;display:flex;flex-direction:column;gap:28px}
+.flinks{display:flex;flex-wrap:wrap;gap:12px 28px}
+.flinks a{font-size:14px}
+.credits{border-top:1px solid var(--line);padding-top:20px;font-size:13px;line-height:1.6;color:#a4a8ae;max-width:900px}
+.credits .lbl{display:block;margin-bottom:6px;color:var(--mute)}
+.copy-line{font-size:13px;color:#8d9197}
+</style><style>
+.note{border:1px solid var(--red);background:#1d1112;padding:14px 18px;margin:24px 0;color:var(--mute)}
+.mon h2{font-size:34px;margin:40px 0 12px;border-bottom:3px solid var(--red);padding-bottom:6px}
+.day{display:grid;grid-template-columns:90px 1fr;gap:16px;border-bottom:1px solid var(--line);padding:14px 0}
+.dd{font-size:18px;color:var(--dim);text-transform:uppercase}.dd b{display:block;font-size:40px;color:var(--fg);line-height:1}
+.ev{margin-bottom:10px}.ev h3{margin:4px 0;font-size:19px}.yr{color:var(--red-hi);font-size:20px;margin-right:10px}
+.chip{display:inline-block;background:var(--panel);border:1px solid var(--line);padding:2px 8px;font-size:12px;color:var(--mute)}
+.meta{color:var(--mute);margin:2px 0}.joke{color:var(--dim);font-style:italic;margin:2px 0}.srcfoot{display:block;margin-top:8px;padding-top:6px;border-top:1px solid var(--line);font-size:12px;color:var(--dim);letter-spacing:.02em}.srcfoot a{color:var(--mute);text-decoration:none;border-bottom:1px dotted var(--line)}.srcfoot a:hover{color:var(--fg);border-bottom-color:var(--mute)}
+.jump a{margin-right:10px;color:var(--mute)}
+.mon summary{cursor:pointer;list-style:none}.mon summary::-webkit-details-marker{display:none}.mon summary h2::before{content:"\25B8 ";color:var(--red)}.mon[open] summary h2::before{content:"\25BE "}.ev .src2{margin-left:12px}
+</style></head><body>
+<header>
+<div class="wrap head-top">
+<a href="index.html" class="logo disp" aria-label="DirtSprintCars.com home">Dirt Sprint Cars<small>.com</small></a>
+<form class="search" id="search" role="search">
+<label for="q" class="sr">Search news, tracks and drivers</label>
+<input id="q" type="search" placeholder="Search news, tracks, drivers">
+<button type="submit" class="lbl">Search</button>
+</form>
+</div>
+<nav class="wrap" aria-label="Main">
+<ul>
+<li><a href="index.html" class="lbl">Home</a></li>
+<li><a href="#news" class="lbl">News</a></li>
+<li><a href="#schedule" class="lbl">Schedules</a></li>
+<li><a href="#results" class="lbl">Results</a></li>
+<li><a href="#sprint" class="lbl">Sprint Cars</a></li>
+<li><a href="#midget" class="lbl">Midgets</a></li>
+<li><a href="#schedule" class="lbl">USA</a></li>
+<li><a href="#links" class="lbl">Racing Links</a></li>
+<li><a href="this-day-in-history.html" class="lbl">This Day</a></li>
+<li><a href="in-memoriam.html" class="lbl">In Memoriam</a></li>
+<li><a href="#about" class="lbl">About</a></li>
+<li><a href="#contribute" class="lbl">Contribute</a></li>
+<li><a href="#shop" class="lbl">Shop</a></li>
+</ul>
+</nav>
+</header>
+<main class="wrap">
+<div class="chk" style="margin-top:24px"></div>
+<h1 class="disp" style="font-size:48px;margin:24px 0 8px">In Memoriam</h1>
+<p class="meta">Remembering drivers who lost their lives racing sprint cars and midgets. Listed by calendar day, newest first; each entry is confirmed by at least two independent sources.</p>
+<div class="note"><b>DRAFT — not published.</b> Pending Kevin's approval. This list is a starting point, not a complete record. Corrections and additions welcome via Contribute.</div>
+<p class="jump"><a href="#m09" class="lbl">Sep</a> <a href="#m08" class="lbl">Aug</a> <a href="#m07" class="lbl">Jul</a> <a href="#m06" class="lbl">Jun</a> <a href="#m03" class="lbl">Mar</a></p>
+<details class="mon" id="m09" open><summary><h2 class="disp">September</h2></summary><article class="day"><div class="dd disp">Sep <b>20</b></div><div><div class="ev"><span class="yr disp">2018</span><span class="chip lbl">410 Sprint Car (Central Pennsylvania)</span><h3>Greg Hodnett</h3><p class="meta">BAPS Motor Speedway, York Haven, PA</p><p>The longtime Pennsylvania Posse standout and multi-time Williams Grove/Lincoln champion was fatally injured in a sprint car crash at BAPS Motor Speedway.</p><footer class="srcfoot">Sources: <a href="https://apnews.com/sprint-car-driver-greg-hodnett-killed-in-crash-197dd42f704a41a4b5fd56ec0dcf78d2" target="_blank" rel="noopener">apnews.com</a> <a class="src2" href="https://www.lewistownsentinel.com/sports/local-sports/2018/09/sprint-car-driver-hodnett-killed/" target="_blank" rel="noopener">lewistownsentinel.com</a></footer></div></div></article></details><details class="mon" id="m08" open><summary><h2 class="disp">August</h2></summary><article class="day"><div class="dd disp">Aug <b>9</b></div><div><div class="ev"><span class="yr disp">2014</span><span class="chip lbl">Empire Super Sprints</span><h3>Kevin Ward Jr.</h3><p class="meta">Canandaigua Motorsports Park, Canandaigua, NY</p><p>After spinning on Lap 14, the 20-year-old left his car under caution and was struck on the track. He died of blunt-force trauma. The incident led to rule changes across motorsports requiring drivers to remain in their cars until safety crews arrive.</p><footer class="srcfoot">Sources: <a href="https://www.nascar.com/news-media/2014/09/24/grand-jury-no-charges-against-tony-stewart/" target="_blank" rel="noopener">nascar.com</a> <a class="src2" href="https://www.cnn.com/2014/08/11/us/tony-stewart-racer-death" target="_blank" rel="noopener">cnn.com</a></footer></div></div></article><article class="day"><div class="dd disp">Aug <b>7</b></div><div><div class="ev"><span class="yr disp">2016</span><span class="chip lbl">USAC National Midget (Belleville Midget Nationals)</span><h3>Bryan Clauson</h3><p class="meta">Belleville High Banks, Belleville, KS</p><p>While leading the Belleville Midget Nationals on Aug. 6, Clauson made contact with a lapped car, flipped and was struck by another car. He died the following evening at Bryan Medical Center West in Lincoln, Neb., aged 27. An organ donor, his legacy lives on through the BC39 and Driven2SaveLives.</p><p class="meta"><i>Crash Aug 6; died Aug 7.</i></p><footer class="srcfoot">Sources: <a href="https://trans.usacracing.com/news/midget/item/5592-bryan-clauson-passes-away-after-injuries-sustained-in-belleville-crash" target="_blank" rel="noopener">trans.usacracing.com</a> <a class="src2" href="https://www.indystar.com/story/sports/motor/2016/08/08/press-conference-bryan-clauson-scheduled-8-m/88385852/" target="_blank" rel="noopener">indystar.com</a></footer></div></div></article><article class="day"><div class="dd disp">Aug <b>4</b></div><div><div class="ev"><span class="yr disp">2013</span><span class="chip lbl">410 Sprint Car (Central Pennsylvania)</span><h3>Kramer Williamson</h3><p class="meta">Lincoln Speedway, Abbottstown, PA</p><p>The 63-year-old veteran in the familiar pink No. 73 crashed during a qualifying race, striking the Turn 2 wall and flipping. He died the next day at York Hospital.</p><p class="meta"><i>Crash the night of Aug 3; died Aug 4.</i></p><footer class="srcfoot">Sources: <a href="https://www.espn.com/racing/story/_/id/9539598/sprint-car-driver-kramer-williamson-dies" target="_blank" rel="noopener">espn.com</a> <a class="src2" href="https://www.usatoday.com/story/sports/nascar/2013/08/04/sprint-car-driver-death-accident-kramer-williamson/2617733/" target="_blank" rel="noopener">usatoday.com</a></footer></div></div></article></details><details class="mon" id="m07" open><summary><h2 class="disp">July</h2></summary><article class="day"><div class="dd disp">Jul <b>21</b></div><div><div class="ev"><span class="yr disp">1990</span><span class="chip lbl">USAC National Sprint Car (Joe James/Pat O&#x27;Connor Memorial)</span><h3>Rich Vogler</h3><p class="meta">Salem Speedway, Salem, IN</p><p>Leading near the white flag, Vogler crashed off Turn 4 and suffered fatal head injuries, five days before his 40th birthday. The race reverted to the last completed lap and he was declared the winner — the last of his record 171 USAC feature wins.</p><footer class="srcfoot">Sources: <a href="https://www.usacracing.com/hall-of-fame-inductees/rich-vogler" target="_blank" rel="noopener">usacracing.com</a> <a class="src2" href="https://www.latimes.com/archives/la-xpm-1990-07-22-sp-965-story.html" target="_blank" rel="noopener">latimes.com</a></footer></div></div></article></details><details class="mon" id="m06" open><summary><h2 class="disp">June</h2></summary><article class="day"><div class="dd disp">Jun <b>12</b></div><div><div class="ev"><span class="yr disp">2013</span><span class="chip lbl">410 Sprint Car (three-time USAC National Midget champion)</span><h3>Jason Leffler</h3><p class="meta">Bridgeport Speedway, Swedesboro/Logan Twp., NJ</p><p>Running second in a heat race, Leffler&#x27;s car suffered a front-suspension failure that locked the steering; it struck the wall and flipped. He died of a blunt-force neck injury, aged 37.</p><footer class="srcfoot">Sources: <a href="https://www.nascar.com/news-media/2013/06/12/leffler-killed-in-sprint-car-race-accident/" target="_blank" rel="noopener">nascar.com</a> <a class="src2" href="https://www.inquirer.com/philly/sports/auto_racing/20130622_Mechanical_failure_cited_in_fatal_Glouco_speedway_crash.html" target="_blank" rel="noopener">inquirer.com</a></footer></div></div></article></details><details class="mon" id="m03" open><summary><h2 class="disp">March</h2></summary><article class="day"><div class="dd disp">Mar <b>25</b></div><div><div class="ev"><span class="yr disp">2017</span><span class="chip lbl">Southern Sprint Car Shootout Series (two-time USAC Silver Crown champion)</span><h3>Dave Steele</h3><p class="meta">Desoto Speedway, Bradenton, FL</p><p>On the opening lap of the feature, Steele&#x27;s left-front wheel made contact with another car&#x27;s right rear, sending his car airborne into the Turn 1 wall. He was pronounced dead at the scene, aged 42.</p><footer class="srcfoot">Sources: <a href="https://history.usacracing.com/news/silver-crown/item/6083-dave-steele-two-time-usac-silver-crown-champ-passes-away-after-florida-sprint-crash" target="_blank" rel="noopener">history.usacracing.com</a> <a class="src2" href="https://www.espn.com/racing/story/_/id/19005639/sprint-car-driver-dave-steele-killed-crash" target="_blank" rel="noopener">espn.com</a></footer></div></div></article></details>
+</main>
+<footer>
+<div class="chk"></div>
+<div class="wrap">
+<div class="flinks lbl">
+<a href="#">About</a><a href="#">Contact</a><a href="#">Advertise with us</a><a href="#">Submit news</a><a href="#">Photo licensing and permissions</a><a href="#">Privacy policy</a><a href="#">Terms</a><a href="#">Social</a>
+</div>
+<div class="credits">
+<span class="lbl">Photo credits</span>
+Jamie Webster via Unsplash; photographyurway via Pexels. Sponsor logos, car numbers and team names visible on the cars belong to their owners. DirtSprintCars.com is independent and not affiliated with any series, track, team or driver.
+</div>
+<div class="copy-line">© DirtSprintCars.com</div>
+</div>
+</footer>
+</body></html>
