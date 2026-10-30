@@ -32,3 +32,4 @@
 .cjnote{font-size:14px;color:var(--dim)}
 
 .ser>summary h2{font-size:17px}
+@media (max-width:640px){.jump{gap:4px;margin:8px 0 12px}.jgrp{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;gap:4px;padding-bottom:2px}.jgrp::-webkit-scrollbar{display:none}.jlbl{min-width:0;flex:0 0 auto;font-size:10px;line-height:1;margin-right:2px}.jump a{padding:3px 8px;font-size:11px;line-height:1.2;letter-spacing:.04em;flex:0 0 auto}}
