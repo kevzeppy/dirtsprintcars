@@ -174,8 +174,16 @@ footer .wrap{padding-top:40px;padding-bottom:40px;display:flex;flex-direction:co
 
 <div class="util">
 <div class="wrap">
-<span class="lbl">Results as of Oct 29, 2026 · other sections still sample content</span>
-<span class="lbl">Sprint cars · Midgets</span>
+<span class="lbl">Website still under construction</span>
+<span class="lbl">Updated <time id="site-updated" datetime="2026-10-30">Oct 30, 2026</time></span>
+<script>
+/* Last-updated date = date of latest commit on main (auto-updates on every push).
+   Static fallback above: bump it when pushing if the GitHub API is unreachable. */
+(function(){var t=document.getElementById('site-updated');if(!t||!window.fetch)return;
+fetch('https://api.github.com/repos/kevzeppy/dirtsprintcars/commits/main').then(function(r){return r.ok?r.json():null}).then(function(j){
+if(!j||!j.commit)return;var d=new Date(j.commit.committer.date);if(isNaN(d))return;
+t.setAttribute('datetime',d.toISOString());t.textContent=d.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric',timeZone:'America/New_York'});}).catch(function(){});})();
+</script>
 </div>
 </div>
 
