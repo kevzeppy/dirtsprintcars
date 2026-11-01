@@ -45,9 +45,9 @@ nav a[aria-current]{color:#fff;border-bottom-color:var(--red)}
 /* hero */
 .hero{display:block;position:relative;overflow:hidden;background:var(--panel);margin-top:48px}
 .hero img{display:block;width:100%;height:clamp(360px,52vw,640px);object-fit:cover;object-position:50% 42%}
-.hero-text{min-height:clamp(240px,30vw,360px);border-top:3px solid var(--red)}
-.hero-text .shade{display:none}
-.hero-text .copy{padding-top:clamp(36px,5vw,64px)}
+.hero-text{border-top:3px solid var(--red)}
+.hero.hero-text .shade{display:none}
+.hero.hero-text .copy{position:static;max-width:760px;padding:clamp(28px,4vw,48px)}
 .hero .shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(14,14,15,.92) 0%,rgba(14,14,15,.7) 38%,rgba(14,14,15,0) 70%)}
 .hero .copy{position:absolute;left:0;bottom:0;max-width:620px;padding:clamp(20px,4vw,48px);display:flex;flex-direction:column;gap:14px}
 .tag{align-self:flex-start;background:var(--red);color:#fff;padding:5px 10px}
@@ -176,7 +176,7 @@ footer .wrap{padding-top:40px;padding-bottom:40px;display:flex;flex-direction:co
 <div class="util">
 <div class="wrap">
 <span class="lbl">Website still under construction</span>
-<span class="lbl">Updated <time id="site-updated" datetime="2026-10-30">Oct 30, 2026</time></span>
+<span class="lbl">Updated <time id="site-updated" datetime="2026-11-01">Nov 1, 2026</time></span>
 <script>
 /* Last-updated date = date of latest commit on main (auto-updates on every push).
    Static fallback above: bump it when pushing if the GitHub API is unreachable. */
