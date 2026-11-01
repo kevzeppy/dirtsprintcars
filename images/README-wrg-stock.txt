@@ -7,3 +7,4 @@ Charlotte venue photos (World Finals use)
 - charlotte-dirt-track-night-lineup.jpg — night lineup under lights, full grandstands, THE DIRT TRACK AT CHARLOTTE banner
 - charlotte-dirt-track-dusk.jpg — dusk/early night cars on track, same grandstand/signage
 Credit: Photo: Tyler Carr / World Racing Group
+- wrg-stock-volusia-four-wide-paul-arch.jpg  Volusia four-wide WoO shot (removed from World Finals preview). General stock. Credit: Photo: Paul Arch / World of Outlaws, courtesy WRG

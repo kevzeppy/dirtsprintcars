@@ -43,10 +43,11 @@ nav a{display:block;padding:16px 12px;font-size:15px;border-bottom:3px solid tra
 nav a[aria-current]{color:#fff;border-bottom-color:var(--red)}
 
 /* hero */
-.hero{display:block;position:relative;overflow:hidden;background:var(--panel);margin-top:32px}
+.hero{display:block;position:relative;overflow:hidden;background:var(--panel);margin-top:48px}
 .hero img{display:block;width:100%;height:clamp(360px,52vw,640px);object-fit:cover;object-position:50% 42%}
 .hero-text{min-height:clamp(240px,30vw,360px);border-top:3px solid var(--red)}
 .hero-text .shade{display:none}
+.hero-text .copy{padding-top:clamp(36px,5vw,64px)}
 .hero .shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(14,14,15,.92) 0%,rgba(14,14,15,.7) 38%,rgba(14,14,15,0) 70%)}
 .hero .copy{position:absolute;left:0;bottom:0;max-width:620px;padding:clamp(20px,4vw,48px);display:flex;flex-direction:column;gap:14px}
 .tag{align-self:flex-start;background:var(--red);color:#fff;padding:5px 10px}
@@ -225,7 +226,7 @@ t.setAttribute('datetime',d.toISOString());t.textContent=d.toLocaleDateString('e
 <div class="shade"></div>
 <div class="copy">
 <span class="lbl tag">Results · 410 Sprint cars · Just in</span>
-<h1 class="disp">Tanner Thorson Wins Trophy Cup Finale; Landon Brooks Takes Trophy Cup 32 Title</h1>
+<h1 class="disp">Tanner Thorson Wins Trophy Cup Finale; Landon Brooks Takes Trophy Cup Title</h1>
 <p>Thorson won the 50-lap 410 A-main from 15th ($10,000). Landon Brooks finished 4th from 22nd to clinch the Trophy Cup 32 title ($30,000); Tanner Holmes won the Three Cup Challenge.</p>
 <span class="lbl red">Read the story →</span>
 </div>
@@ -242,7 +243,7 @@ t.setAttribute('datetime',d.toISOString());t.textContent=d.toLocaleDateString('e
 <!-- NEWS FLOW: every published story gets a card here by default (newest first), plus any other section it fits (Latest results, Top story). -->
 <a href="trophy-cup-2026-night-3-results.html" class="card">
 <span class="lbl red">Results &middot; 410 Sprint cars &middot; Top story</span>
-<h3 class="disp">Tanner Thorson Wins Trophy Cup Finale; Landon Brooks Takes Trophy Cup 32 Title</h3>
+<h3 class="disp">Tanner Thorson Wins Trophy Cup Finale; Landon Brooks Takes Trophy Cup Title</h3>
 <p>Thorson won the 50-lap 410 A-main from 15th ($10,000). Landon Brooks finished 4th from 22nd to clinch the Trophy Cup 32 title ($30,000); Tanner Holmes won the Three Cup Challenge.</p>
 <span class="date">November 1, 2026</span>
 </a>
@@ -361,7 +362,7 @@ t.setAttribute('datetime',d.toISOString());t.textContent=d.toLocaleDateString('e
 <div class="sched" id="schedule">
 <h2 class="h2 disp">Upcoming race weekend</h2>
 <p style="margin:0 0 14px"><span class="lbl red">Next major · World of Outlaws · Nov 4–7</span><br><span class="disp" style="font-size:22px;font-weight:700">World of Outlaws World Finals, The Dirt Track at Charlotte</span><br><span style="font-size:14px;color:var(--mute)">Four nights in Concord, N.C., with World of Outlaws Sprint Cars, Late Models and Super DIRTcar Series Big-Blocks.</span></p>
-<figure style="margin:0 0 16px"><img src="images/woo-four-wide-paul-arch.jpg" alt="World of Outlaws sprint cars racing four wide" loading="lazy" style="display:block;width:100%;height:auto"><figcaption style="margin-top:6px;font-size:12px;color:var(--mute)">Photo: Paul Arch / World of Outlaws, courtesy WRG</figcaption></figure>
+<figure style="margin:0 0 16px"><img src="images/charlotte-dirt-track-night-lineup.jpg" alt="Sprint cars lined up under the lights in front of full grandstands at The Dirt Track at Charlotte" loading="lazy" style="display:block;width:100%;height:auto"><figcaption style="margin-top:6px;font-size:12px;color:var(--mute)">The Dirt Track at Charlotte. Photo: Tyler Carr / World Racing Group</figcaption></figure>
 <figure style="margin:0 0 16px"><img src="images/charlotte-dirt-track-dusk.jpg" alt="Cars on track at dusk in front of the grandstand at The Dirt Track at Charlotte" loading="lazy" style="display:block;width:100%;height:auto"><figcaption style="margin-top:6px;font-size:12px;color:var(--mute)">The Dirt Track at Charlotte. Photo: Tyler Carr / World Racing Group</figcaption></figure>
 <div class="chips" role="group" aria-label="Filter by discipline" data-key="disc">
 <button type="button" class="chip lbl" aria-pressed="true">All</button>
