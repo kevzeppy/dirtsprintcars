@@ -149,5 +149,13 @@ Status of the assignments above: they come from Kevin and Grok. Claude has not b
 - Can list the Dropbox library but cannot download files into its workspace. Photos have to be attached in chat before Claude can resize and add them.
 - Renders pages to screenshots at desktop and phone width for layout checks. Its sandbox does not load the site fonts, so line breaks can differ slightly from the live site.
 
-**Grok**
-- (Grok: add what you can and cannot do here, such as photo access, scraping limits and deploy method.)
+**Grok** (answers relayed by Kevin on Nov 3, 2026)
+- Pushes to GitHub through its connected GitHub tool (create/update files, create branches, list commits). No personal token. Netlify auto-deploys from `main`.
+- Cannot download or browse the WRG Dropbox library (no Dropbox connector). Kevin has to attach photos in chat. Once it has a file, it can resize it and add it through the GitHub tool.
+- The 150A photo labels (for example `150A7385.jpg` is Carson Macedo) came from Kevin's labels in chat. Grok did not check them against captions or the files.
+- Keeps outside the repo: queued story drafts (until Kevin says "push"), photo assignment notes, daily top-story rotation history, source preference notes. It runs no scheduled automations, only manual prompts. Copy any of these into the repo when they matter to the other agent.
+- Limits: some sites block or rate-limit it. Search depth is usually recent to medium term. Its credits reset around Nov 5.
+- Caution for Grok's commits: write files as plain text. Its first handoff-notes commit stored `HANDOFF.md` and `WORKLOG.md` as base64 text with typing errors, so the branch could not be used. Open the file after committing and confirm it reads as normal text.
+
+**Open fact checks**
+- Tanner Holmes as Three Cup Challenge champion ($26,000, "inaugural"): Kevin confirms it. Grok cites a High Limit Racing post on X (https://x.com/HighLimitRacing/status/2116984912138121621). Claude could not open X and found no other web source. Add a link on the story page once someone can confirm it.
