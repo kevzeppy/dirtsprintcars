@@ -161,11 +161,14 @@
     "source_url": "https://www.thethirdturn.com/wiki/1998_Channellock_Fall_Classic",
     "source2": "https://www.thethirdturn.com/wiki/1998_Pennzoil_World_of_Outlaws_Sprint_Car_Series_Central",
     "category": "race-result",
-    "verified_notes": "Date/track/winner from The Third Turn season log",
+    "verified_notes": "Date/track/winner/finish from The Third Turn; confirmed by WoO race report (Richard Day, The Auto Channel)",
     "birthdays": [],
-    "verification": "single-source",
+    "story_url": "mark-kinser-channellock-fall-classic-1998.html",
+    "verification": "dual-source",
     "verification_sources": [
-      "The Third Turn (event page + season log, same publisher)"
+      "The Third Turn (event page + season log)",
+      "The Auto Channel / Richard Day WoO race report: https://www.theautochannel.com/news/date/19981107/news000307.html",
+      "Las Vegas Sun, Nov. 4, 1998: https://lasvegassun.com/news/1998/nov/04/mark-kinser-top-outlaw-in-las-vegas-again/"
     ]
   },
   {
