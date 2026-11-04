@@ -21,11 +21,14 @@ css='''<style>
 .cjt .fo{columns:2;column-gap:24px;margin:6px 0 2px;padding-left:28px;font-size:14px;color:var(--mute)}
 .cjt .fo li{break-inside:avoid}
 .cjt .nh{color:var(--dim);font-style:italic}
-.mw{display:flex;flex-wrap:wrap;gap:6px 18px;margin:6px 0 10px;font-size:14px;color:var(--mute)}.mw b{color:var(--fg)}
+.yrs{display:flex;flex-wrap:wrap;margin:4px 0 10px;max-height:96px;overflow-y:auto}.mw{display:flex;flex-wrap:wrap;gap:6px 18px;margin:6px 0 10px;font-size:14px;color:var(--mute)}.mw b{color:var(--fg)}
 @media(max-width:640px){.cjt .p3,.cjt th.p3{display:none}.cjt .fo{columns:1}}
 </style>'''
 head=head.replace('</head>',css+'</head>',1)
 e=html.escape
+def ok(x):
+    st=(x.get('status') or '').strip().lower()
+    return bool(st) and not st.startswith('freeform') and not st.startswith(x['driver'].lower().split(' (')[0][:6]) and st.replace(' ','').isalnum() and len(st)<12
 out=['<main class="wrap">','<header class="lhero"><img class="lhimg" src="images/this-day-hero.jpg" alt="Classic sprint cars"><span class="lbl tag">History</span><h1 class="disp">Crown Jewels</h1><p>Every winner of sprint car and midget racing&#x27;s five crown jewel events, with A-main finishing orders.</p><p class="cjnote">Crown jewels: Knoxville Nationals, Kings Royal, National Open, Chili Bowl and Australian Classic (Grand Annual Sprintcar Classic, Warrnambool). See also <a href="legends.html">Legends</a> and <a href="this-day-in-history.html">This Day</a>.</p></header>']
 out.append('<nav class="jump" aria-label="Events"><div class="jgrp"><span class="jlbl lbl">Crown Jewels</span>'+''.join(f'<a href="#{ev["id"]}" class="lbl">{e(ev["name"])}</a>' for ev in D['events'])+'</div></nav>')
 for ev in D['events']:
@@ -36,22 +39,28 @@ for ev in D['events']:
     top=[t for t in top if len(t[1])>=len(top[min(4,len(top)-1)][1]) and len(t[1])>1][:6]
     o=[f'<section class="ser-wrap" aria-labelledby="h-{ev["id"]}"><details class="ser" id="{ev["id"]}" open><summary><h2 class="disp" id="h-{ev["id"]}">{e(ev["name"])}</h2></summary>',f'<p class="intro">{e(ev["intro"])}</p>']
     o.append('<aside class="top5" aria-label="Most wins"><span class="lbl">Most wins</span><ol>'+''.join(f'<li>{e(n)} <b>{len(y)}</b></li>' for n,y in top)+'</ol></aside>')
+    ys=sorted({r['year'] for r in ev['races']},reverse=True)
+    o.append('<div class="yrs" role="group" aria-label="Pick a year"><button type="button" class="yf on" data-y="all">All</button>'+''.join(f'<button type="button" class="yf" data-y="{y}">{y}</button>' for y in ys)+'</div>')
     o.append('<table class="cjt"><thead><tr><th>Year</th><th>Winner</th><th>Second</th><th class="p3">Third</th><th>Full results</th></tr></thead><tbody>')
     for r in sorted(ev['races'],key=lambda r:(r['year'],r.get('label',''))):
         y=str(r['year'])+(f' <span class="num">{e(r["label"])}</span>' if r.get('label') else '')
         if r.get('not_held'):
-            o.append(f'<tr><td class="yr">{r["year"]}</td><td colspan="4" class="nh">{e(r["not_held"])}</td></tr>');continue
+            o.append(f'<tr data-y="{r["year"]}"><td class="yr">{r["year"]}</td><td colspan="4" class="nh">{e(r["not_held"])}</td></tr>');continue
         fo=r.get('finish',[])
         p=lambda i:e(fo[i]['driver']) if len(fo)>i else ''
         car=f'<span class="num">#{e(r["car"])}</span>' if r.get('car') else ''
         full=''
         if len(fo)>3:
-            full='<details><summary>'+str(len(fo))+' finishers</summary><ol class="fo">'+''.join(f'<li>{e(x["driver"])}'+(f' <span class="num">#{e(x["car"])}</span>' if x.get('car') else '')+(f' <span class="num">{e(x["status"])}</span>' if x.get('status') else '')+'</li>' for x in fo)+'</ol></details>'
-        o.append(f'<tr><td class="yr">{y}</td><td class="w">{e(r["winner"])}{car}</td><td>{p(1)}</td><td class="p3">{p(2)}</td><td>{full}</td></tr>')
+            full='<details><summary>'+str(len(fo))+' finishers</summary><ol class="fo">'+''.join(f'<li>{e(x["driver"])}'+(f' <span class="num">#{e(x["car"])}</span>' if x.get('car') else '')+(f' <span class="num">{e(x["status"])}</span>' if ok(x) else '')+'</li>' for x in fo)+'</ol></details>'
+        o.append(f'<tr data-y="{r["year"]}"><td class="yr">{y}</td><td class="w">{e(r["winner"])}{car}</td><td>{p(1)}</td><td class="p3">{p(2)}</td><td>{full}</td></tr>')
     o.append('</tbody></table>')
     o.append('<footer class="srcfoot">Sources: '+''.join(f'<a href="{e(u)}" target="_blank" rel="noopener">{e(n)}</a>' for n,u in ev['sources'])+'</footer>')
     o.append('</details></section>')
     out+=o
 out.append('</main>')
+out.append('''<script>document.querySelectorAll('.ser').forEach(function(sec){var bs=sec.querySelectorAll('.yf'),rows=sec.querySelectorAll('tbody tr');
+function pick(y){bs.forEach(function(b){b.classList.toggle('on',b.dataset.y===y)});rows.forEach(function(r){var m=y==='all'||r.dataset.y===y;r.classList.toggle('hid',!m);var d=r.querySelector('details');if(d)d.open=(y!=='all'&&m)});}
+bs.forEach(function(b){b.addEventListener('click',function(){pick(b.dataset.y)})});
+rows.forEach(function(r){var c=r.querySelector('td.yr');c.style.cursor='pointer';c.addEventListener('click',function(){var d=r.querySelector('details');if(d)d.open=!d.open})});});</script>''')
 open('crown-jewels.html','w').write(head+'\n'.join(out)+foot)
 print('ok')
