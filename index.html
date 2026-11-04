@@ -169,6 +169,9 @@ footer .wrap{padding-top:40px;padding-bottom:40px;display:flex;flex-direction:co
 .credits{border-top:1px solid var(--line);padding-top:20px;font-size:13px;line-height:1.6;color:#a4a8ae;max-width:900px}
 .credits .lbl{display:block;margin-bottom:6px;color:var(--mute)}
 .copy-line{font-size:13px;color:#8d9197}
+.to-top{position:fixed;right:20px;bottom:20px;z-index:50;width:48px;height:48px;border:0;border-radius:50%;background:var(--red);color:#fff;font-size:22px;line-height:1;cursor:pointer;box-shadow:0 4px 14px rgba(0,0,0,.5);opacity:0;visibility:hidden;transition:opacity .2s,visibility .2s}
+.to-top.show{opacity:1;visibility:visible}
+.to-top:hover{background:var(--red-hi)}
 </style>
 </head>
 <body>
@@ -246,6 +249,12 @@ t.setAttribute('datetime',d.toISOString());t.textContent=d.toLocaleDateString('e
 <span class="lbl red">Driver change &middot; Top story</span>
 <h3 class="disp">Logan Seavey and Abacus Racing Part Ways</h3>
 <p>Seavey stepped away from Abacus Racing effective immediately after four years together and has no 2027 plans in place yet. Source: Logan Seavey Racing.</p>
+<span class="date">November 4, 2026</span>
+</a>
+<a href="powri-texas-deuces-wild-preview-2026.html" class="card">
+<span class="lbl red">Preview &middot; POWRi 410</span>
+<h3 class="disp">POWRi 410 Sprints Close 2026 Season at Texas Motor Speedway Dirt Track</h3>
+<p>The Deuces Wild Championships runs Nov. 5-7 in Fort Worth, paying $5,000 and $7,000 to win, with the POWRi 410 title decided. Source: POWRi Texas.</p>
 <span class="date">November 4, 2026</span>
 </a>
 <a href="mark-kinser-channellock-fall-classic-1998.html" class="card">
@@ -643,6 +652,13 @@ Tyler Carr / World of Outlaws, courtesy World Racing Group (Knoxville partnershi
   document.getElementById('search').addEventListener('submit',function(e){e.preventDefault()});
   render();
 })();
+</script>
+<button type="button" class="to-top" id="to-top" aria-label="Back to top" title="Back to top">&uarr;</button>
+<script>
+(function(){var b=document.getElementById('to-top');if(!b)return;
+function u(){b.classList.toggle('show',window.scrollY>400);}
+window.addEventListener('scroll',u,{passive:true});u();
+b.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'});});})();
 </script>
 </body>
 </html>
