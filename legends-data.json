@@ -228,7 +228,7 @@
   {
    "id": "usac-sprint",
    "name": "USAC Sprint Cars",
-   "intro": "USAC's National Sprint Car championship dates to 1956. It is non-winged 410 racing, and it has long been a proving ground for drivers headed to Indianapolis and NASCAR. A USAC career Triple Crown means a driver has won the national championship in all three USAC divisions: Sprint, Midget and Silver Crown. Only eight drivers have done it.",
+   "intro": "USAC's National Sprint Car championship dates to 1956. It is non-winged 410 racing, and it has long been a proving ground for drivers headed to Indianapolis and NASCAR.",
    "legends": [
     {
      "name": "Pancho Carter",
@@ -252,37 +252,6 @@
       "4 USAC titles (Midget, 2 Sprint, Silver Crown)",
       "70 USAC national wins",
       "Triple Crown"
-     ]
-    },
-    {
-     "name": "Tony Stewart",
-     "synopsis": [
-      "Tony Stewart has given back to the short-track world that made him, perhaps more than any other driver. As a car owner he has won seven USAC Sprint and seven Silver Crown owner championships, and his team fielded Donny Schatz's World of Outlaws title cars for 18 seasons.",
-      "The Columbus, Indiana, driver won the 1994 National Midget title. In 1995 he won the Midget, Sprint and Silver Crown championships, the first driver ever to sweep all three in a single season.",
-      "He won 27 USAC National Midget races, 10 Sprint races and three Silver Crown races.",
-      "Stewart won the 1997 Indy Racing League title and started on the pole for the 1996 Indianapolis 500. He then won three NASCAR Cup championships as a driver, in 2002, 2005 and 2011, the last as an owner-driver. He is the only driver to win championships in both IndyCar and NASCAR.",
-      "Stewart took his racing to the drag strip as an owner. Tony Stewart Racing entered NHRA's nitro classes, and in 2023 Matt Hagan won the Funny Car world championship, his fourth and the team's first NHRA title. In 2024 Stewart drove the team's Top Fuel dragster himself, reached two final rounds, made the Countdown to the Championship and was named NHRA Rookie of the Year.",
-      "He was inducted into the National Midget Hall of Fame in 2001 and the NASCAR Hall of Fame in 2020."
-     ],
-     "achievements": [
-      "1995 single-season USAC Triple Crown",
-      "27 USAC Midget, 10 Sprint, 3 Silver Crown wins",
-      "3 NASCAR Cup titles",
-      "2024 NHRA Top Fuel Rookie of the Year; owner of 2023 NHRA Funny Car champion"
-     ],
-     "sources": [
-      "https://www.usacracing.com/hall-of-fame-inductees/tony-stewart",
-      "https://en.wikipedia.org/wiki/Tony_Stewart",
-      "https://performanceracing.com/magazine/industry-news/02-25-2013/usac-announces-triple-crown-guidelines",
-      "https://www.nhra.com/news/2024/tony-stewart-named-2024-nhra-rookie-year",
-      "https://www.nhra.com/news/2023/matt-hagan-joins-elite-company-fourth-nhra-funny-car-title"
-     ],
-     "snippet": "Tony Stewart is the first driver to win all three USAC national championships in one season, sweeping the Midget, Sprint and Silver Crown titles in 1995. He went on to win the 1997 IndyCar (IRL) title and three NASCAR Cup championships, and as a car owner he has won seven USAC Sprint and seven Silver Crown titles, and his Tony Stewart Racing team won the 2023 NHRA Funny Car title.",
-     "stats": [
-      "4 USAC titles",
-      "40 USAC national wins (27 Midget, 10 Sprint, 3 Silver Crown)",
-      "3 NASCAR Cup titles",
-      "NHRA: 2023 Funny Car owner title"
      ]
     },
     {
@@ -315,52 +284,6 @@
      ]
     },
     {
-     "name": "J.J. Yeley",
-     "synopsis": [
-      "J.J. Yeley's 2003 season remains the high-water mark for a USAC driver. Racing Tony Stewart's sprint and Silver Crown cars and the Steve Lewis midget Stewart had driven in 1995, he won all three national championships and 24 USAC races. That broke the single-season record of 19 set by A.J. Foyt.",
-      "Yeley won Indiana Sprint Week and USAC Sprint Rookie of the Year in 1997. He finished ninth in the 1998 Indianapolis 500 despite a first-lap spin.",
-      "After an IndyCar run in 2000, he returned to USAC. He won the Sprint title in 2001, the Silver Crown title in 2002, and then the 2003 sweep, joining Stewart as the only drivers to win the Triple Crown in a single season.",
-      "He moved to NASCAR with Joe Gibbs Racing in 2004 and has raced in the national touring series ever since."
-     ],
-     "achievements": [
-      "2003 single-season USAC Triple Crown"
-     ],
-     "sources": [
-      "https://en.wikipedia.org/wiki/J._J._Yeley",
-      "https://performanceracing.com/magazine/industry-news/02-25-2013/usac-announces-triple-crown-guidelines",
-      "https://www.usacracing.com/news/2024-usac-sprint-review"
-     ],
-     "snippet": "J.J. Yeley swept all three USAC national championships in 2003, joining Tony Stewart as the only single-season Triple Crown winners. His 24 USAC wins that year broke A.J. Foyt's single-season record, and he also won the 2001 Sprint and 2002 Silver Crown titles.",
-     "stats": [
-      "5 USAC titles",
-      "24 USAC wins in 2003",
-      "Single-season Triple Crown"
-     ]
-    },
-    {
-     "name": "Jerry Coons Jr.",
-     "synopsis": [
-      "Jerry Coons Jr. brought Arizona into USAC's elite. The Tucson driver made his National Midget debut in 1987 and has 430 series starts, among the most ever, and he became one of USAC's most respected veterans.",
-      "His first National Midget win came at the 1996 Belleville Midget Nationals. He later became the first three-time winner of that race, in 2005, 2007 and 2012.",
-      "Coons won the National Midget championship in 2006 and 2007. In 2008 he won both the Sprint and Silver Crown titles to complete the career Triple Crown. USAC named him National Midget Driver of the Decade for 2000–09.",
-      "At Eldora's 4-Crown Nationals he won in all three USAC divisions: Silver Crown in 2007 and 2014, Sprint in 2009 and Midget in 2010."
-     ],
-     "achievements": [
-      "USAC Triple Crown champion (2008)"
-     ],
-     "sources": [
-      "https://www.usacracing.com/drivers/jerry-coons-jr",
-      "https://en.wikipedia.org/wiki/Jerry_Coons_Jr.",
-      "https://tjslideways.com/2012/08/05/coons-wins-belleville-for-the-third-time/",
-      "https://tjslideways.com/statistics/4-crown-nationals-winners/"
-     ],
-     "snippet": "Jerry Coons Jr. of Tucson, Arizona, is a USAC Triple Crown champion. He won the National Midget titles in 2006 and 2007, then both the Sprint and Silver Crown titles in 2008. He was USAC's Midget Driver of the Decade for 2000–09 and the first three-time winner of the Belleville Midget Nationals.",
-     "stats": [
-      "4 USAC titles",
-      "Triple Crown"
-     ]
-    },
-    {
      "name": "Tracy Hines",
      "synopsis": [
       "Tracy Hines spent most of a quarter-century as a full-time competitor in all three USAC national divisions. He was the son of a New Castle, Indiana, midget racing family, and his father Jim and brother Ted were champions too. He later helped build other drivers' programs as a team executive.",
@@ -383,53 +306,6 @@
       "3 USAC titles",
       "91 USAC national wins (47 Sprint)",
       "Triple Crown"
-     ]
-    },
-    {
-     "name": "Chris Windom",
-     "synopsis": [
-      "Chris Windom of Canton, Illinois, showed how far a family-run program could go in USAC. He won the Little 500 in 2011 and again in 2015.",
-      "He won the Silver Crown title in 2016 and the National Sprint title in 2017. In 2020 he won the National Midget title and became the seventh career Triple Crown champion.",
-      "Windom won Indiana Sprint Week in 2011 and 2018, the Eastern Storm in 2017 and 2018.",
-      "He has also raced stock cars, including the 2021 NASCAR Cup race on the Bristol dirt, and in recent seasons he has moved toward winged sprint car racing."
-     ],
-     "achievements": [
-      "USAC Triple Crown champion"
-     ],
-     "sources": [
-      "https://www.usacracing.com/news/2024-usac-sprint-review",
-      "https://en.wikipedia.org/wiki/Chris_Windom",
-      "https://sidesmotorsports.com/bio-chris-windom/",
-      "https://andersonspeedway.com/windom-and-goacher-racing-continue-partnership-in-2019/"
-     ],
-     "snippet": "Chris Windom became USAC's seventh Triple Crown champion with the 2016 Silver Crown, 2017 National Sprint and 2020 National Midget titles. The Canton, Illinois, driver is also a two-time Little 500 and two-time Indiana Sprint Week winner.",
-     "stats": [
-      "3 USAC titles",
-      "Triple Crown"
-     ]
-    },
-    {
-     "name": "Logan Seavey",
-     "synopsis": [
-      "Logan Seavey of Sutter, California, and Abacus Racing built one of USAC's most complete modern programs. Abacus became only the second team to win owner titles in all three national divisions.",
-      "Seavey won the 2018 National Midget championship as a rookie.",
-      "In 2023 he won both the Silver Crown and National Midget titles. He added the 2024 Sprint title, along with Indiana Sprint Week and the National Drivers championship, to become the eighth career Triple Crown champion.",
-      "In 2023 he swept all three USAC features at Eldora's 4-Crown Nationals. In 2025 he won in all three divisions again, 11 times in all."
-     ],
-     "achievements": [
-      "USAC Triple Crown champion (2024)"
-     ],
-     "sources": [
-      "https://www.usacracing.com/drivers/logan-seavey",
-      "https://en.wikipedia.org/wiki/Logan_Seavey",
-      "https://www.usacracing.com/news/2024-usac-sprint-review",
-      "https://tjslideways.com/statistics/4-crown-nationals-winners/"
-     ],
-     "snippet": "Logan Seavey became USAC's eighth Triple Crown champion when he added the 2024 National Sprint title to his 2023 Silver Crown and his 2018 and 2023 National Midget titles. He did it with Abacus Racing, which won owner titles in all three divisions.",
-     "stats": [
-      "4 USAC titles",
-      "Triple Crown",
-      "2 Chili Bowls"
      ]
     },
     {
