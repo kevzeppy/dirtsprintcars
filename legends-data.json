@@ -128,7 +128,8 @@
       "10 WoO titles",
       "316 WoO wins",
       "Crown jewels: 11 Knoxville Nationals, 6 Kings Royals, 6 National Opens, 2 Australian Classics"
-     ]
+     ],
+     "active": true
     },
     {
      "name": "Mark Kinser",
@@ -247,6 +248,43 @@
       "2025 High Limit title",
       "2014 USAC Midget title",
       "2 Chili Bowls"
+     ],
+     "active": true
+    },
+    {
+     "name": "Kyle Larson",
+     "nickname": "Yung Money",
+     "active": true,
+     "snippet": "Kyle Larson co-founded High Limit Racing, won its first championship and put together the 2020 dirt season people still measure everything against: 46 wins in 97 starts. He is also a two-time NASCAR Cup Series champion.",
+     "synopsis": [
+      "Kyle Larson of Elk Grove, California, came up through California micros and midgets before NASCAR came calling. He never left dirt behind.",
+      "In 2020, with NASCAR on hold for him, he raced dirt almost every night and won 46 of 97 starts in sprint cars, midgets, Silver Crown and a dirt late model. That is a .474 winning percentage against the best drivers in the sport. Running only 26 of the 54 World of Outlaws events, he still led the series with 12 wins. He also won his first Chili Bowl that year, swept Indiana Midget Week, and won the Hoosier Hundred and the Bettenhausen 100 on the dirt miles.",
+      "With Brad Sweet he announced High Limit Racing at Eldora in July 2022. He won the series' inaugural championship in 2023, and in late 2023 High Limit took over the All Star Circuit of Champions from Tony Stewart. Through 2025 he had nine High Limit wins, fourth on the all-time list.",
+      "His dirt crown jewels include three Chili Bowls (2020, 2021, 2025), three Knoxville Nationals (2021, 2023, 2024) and the 2021 Kings Royal. In NASCAR he won the Cup Series championship with Hendrick Motorsports in 2021, with 10 wins, and again in 2025, and he was named one of NASCAR's 75 Greatest Drivers."
+     ],
+     "achievements": [
+      "2023 High Limit Racing champion (inaugural season)",
+      "High Limit Racing co-founder (2022)",
+      "2020: 46 wins in 97 dirt starts; 12 World of Outlaws wins, most in the series",
+      "Chili Bowl: 2020, 2021, 2025",
+      "Knoxville Nationals: 2021, 2023, 2024",
+      "NASCAR Cup Series champion: 2021, 2025"
+     ],
+     "stats": [
+      "2023 High Limit title",
+      "9 High Limit wins (4th)",
+      "2020: 46 wins in 97 starts",
+      "3 Chili Bowls",
+      "3 Knoxville Nationals",
+      "2 NASCAR Cup titles"
+     ],
+     "sources": [
+      "https://www.highlimitracing.com/history",
+      "https://www.floracing.com/articles/15618568-the-2026-high-limit-season-opener-watch-guide-schedules-entries-news",
+      "https://worldofoutlaws.com/sprintcars/the-way-back-kyle-larsons-world-of-outlaws-return-at-bristol-brings-it-all-full-circle/",
+      "https://speedwaydigest.com/index.php/news/nascar-craftsman-truck-series-news/61272-kyle-larson-returns-to-the-truck-series-for-the-pinty-s-truck-race-on-dirt/",
+      "https://www.kylelarsonracing.com/",
+      "https://en.wikipedia.org/wiki/Kyle_Larson"
      ]
     }
    ],
@@ -492,7 +530,8 @@
       "https://www.usacracing.com/drivers/brady-bacon",
       "https://tjslideways.com/statistics/usac-national-sprint-car-series-champions/",
       "https://www.usacracing.com/news/eldora-usac-sprint-car-results-may-16-2026"
-     ]
+     ],
+     "active": true
     },
     {
      "name": "Tom Bigelow",
@@ -563,7 +602,8 @@
       "3 USAC titles",
       "USAC Sprint wins record",
       "5 National Drivers titles"
-     ]
+     ],
+     "active": true
     },
     {
      "name": "Jack Hewitt",
@@ -766,7 +806,8 @@
      "stats": [
       "6 ASCS titles (record)",
       "2nd all-time in ASCS wins"
-     ]
+     ],
+     "active": true
     },
     {
      "name": "Jason Johnson",
@@ -990,7 +1031,8 @@
      "stats": [
       "8 Silver Crown titles (record)",
       "49 Silver Crown wins (record)"
-     ]
+     ],
+     "active": true
     },
     {
      "name": "Jack Hewitt",
@@ -1227,7 +1269,8 @@
      "stats": [
       "3 USAC titles",
       "Triple Crown"
-     ]
+     ],
+     "active": true
     },
     {
      "name": "Logan Seavey",
@@ -1251,7 +1294,8 @@
       "4 USAC titles",
       "Triple Crown",
       "2 Chili Bowls"
-     ]
+     ],
+     "active": true
     }
    ],
    "group": "Silver Crown & USAC Triple Crown"
@@ -1384,5 +1428,6 @@
     }
    ]
   }
- ]
+ ],
+ "active_note": "* Active driver, still racing as of 2026."
 }
