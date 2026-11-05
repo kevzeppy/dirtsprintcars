@@ -253,6 +253,168 @@
    "group": "410 Sprint Cars"
   },
   {
+   "id": "all-stars",
+   "name": "All Star Circuit of Champions",
+   "group": "410 Sprint Cars",
+   "intro": "Bud Miller founded the All Star Circuit of Champions in 1970 as a touring 410 winged sprint car series built around Ohio. Bert Emick revived it in 1980 and ran it through 2002, Tony Stewart bought it in 2015, and High Limit Racing acquired it after the 2023 season. It sat out 2024 and returned in 2025 with Ohio Sprint Speedweek still at its heart.",
+   "legends": [
+    {
+     "name": "Dale Blaney",
+     "synopsis": [
+      "Dale Blaney is the winningest driver in All Star Circuit of Champions history, with 137 feature wins. The Hartford, Ohio, driver won six series titles, in 1995, 1996, 2008, 2013, 2014 and 2015, tying the series record.",
+      "His title runs span two decades. He was inducted into the National Sprint Car Hall of Fame in 2016."
+     ],
+     "achievements": [
+      "137 All Stars wins (all-time record)",
+      "6 All Stars titles (tied for record)",
+      "2016 National Sprint Car Hall of Fame"
+     ],
+     "sources": [
+      "https://en.wikipedia.org/wiki/Dale_Blaney",
+      "https://en.wikipedia.org/wiki/All_Star_Circuit_of_Champions",
+      "https://www.thethirdturn.com/wiki/All_Star_Circuit_of_Champions_Central/All-Time_Wins_List",
+      "https://www.sprintcarhof.com/pages/hall-of-fame.aspx"
+     ],
+     "stats": [
+      "6 All Stars titles",
+      "137 All Stars wins (record)"
+     ]
+    },
+    {
+     "name": "Kenny Jacobs",
+     "synopsis": [
+      "Kenny Jacobs of Holmesville, Ohio, ranks second all-time in All Stars feature wins with 97. He won four straight All Star Circuit of Champions titles, from 1998 through 2001.",
+      "He was inducted into the National Sprint Car Hall of Fame in 2007."
+     ],
+     "achievements": [
+      "97 All Stars wins (2nd all-time)",
+      "4 straight All Stars titles (1998–2001)",
+      "2007 National Sprint Car Hall of Fame"
+     ],
+     "sources": [
+      "https://en.wikipedia.org/wiki/All_Star_Circuit_of_Champions",
+      "https://www.thethirdturn.com/wiki/All_Star_Circuit_of_Champions_Central/All-Time_Wins_List",
+      "https://www.sprintcarhof.com/pages/hall-of-fame.aspx"
+     ],
+     "stats": [
+      "4 All Stars titles",
+      "97 All Stars wins"
+     ]
+    },
+    {
+     "name": "Chad Kemenah",
+     "synopsis": [
+      "Chad Kemenah of Findlay, Ohio, won six All Star Circuit of Champions titles, tying Dale Blaney's series record. He won four straight from 2002 through 2005, then added back-to-back crowns in 2016 and 2017.",
+      "His championships span 16 seasons. He was inducted into the National Sprint Car Hall of Fame in 2023."
+     ],
+     "achievements": [
+      "6 All Stars titles (tied for record)",
+      "Titles 2002–05, 2016, 2017",
+      "2023 National Sprint Car Hall of Fame"
+     ],
+     "sources": [
+      "https://en.wikipedia.org/wiki/All_Star_Circuit_of_Champions",
+      "https://www.thethirdturn.com/wiki/All_Star_Circuit_of_Champions_Central/All-Time_Wins_List",
+      "https://www.sprintcarhof.com/pages/hall-of-fame.aspx"
+     ],
+     "stats": [
+      "6 All Stars titles",
+      "35 All Stars wins"
+     ]
+    },
+    {
+     "name": "Tim Shaffer",
+     "synopsis": [
+      "Tim Shaffer of Aliquippa, Pennsylvania, the Steel City Outlaw, won four straight All Star Circuit of Champions titles, from 2009 through 2012. His 69 All Stars feature wins rank fourth all-time.",
+      "He was inducted into the National Sprint Car Hall of Fame in 2020."
+     ],
+     "achievements": [
+      "4 straight All Stars titles (2009–12)",
+      "69 All Stars wins (4th all-time)",
+      "2020 National Sprint Car Hall of Fame"
+     ],
+     "sources": [
+      "https://en.wikipedia.org/wiki/All_Star_Circuit_of_Champions",
+      "https://www.thethirdturn.com/wiki/All_Star_Circuit_of_Champions_Central/All-Time_Wins_List",
+      "https://www.sprintcarhof.com/pages/hall-of-fame.aspx"
+     ],
+     "stats": [
+      "4 All Stars titles",
+      "69 All Stars wins"
+     ]
+    },
+    {
+     "name": "Frankie Kerr",
+     "synopsis": [
+      "Frankie Kerr won four All Star Circuit of Champions titles in the 1990s, in 1991, 1993, 1994 and 1997, and 52 All Stars features.",
+      "He was inducted into the National Sprint Car Hall of Fame in 2016."
+     ],
+     "achievements": [
+      "4 All Stars titles (1991, 1993, 1994, 1997)",
+      "52 All Stars wins",
+      "2016 National Sprint Car Hall of Fame"
+     ],
+     "sources": [
+      "https://en.wikipedia.org/wiki/All_Star_Circuit_of_Champions",
+      "https://www.thethirdturn.com/wiki/All_Star_Circuit_of_Champions_Central/All-Time_Wins_List",
+      "https://www.sprintcarhof.com/pages/hall-of-fame.aspx"
+     ],
+     "stats": [
+      "4 All Stars titles",
+      "52 All Stars wins"
+     ]
+    },
+    {
+     "name": "Joey Saldana",
+     "synopsis": [
+      "Joey Saldana, the Brownsburg Bullet, ranks third all-time in All Stars feature wins with 74. In 1995 he set the series single-season record with 18 wins in the Art Wendt No. 77w.",
+      "He was inducted into the National Sprint Car Hall of Fame in 2023."
+     ],
+     "achievements": [
+      "74 All Stars wins (3rd all-time)",
+      "Series record 18 wins in a season (1995)",
+      "2023 National Sprint Car Hall of Fame"
+     ],
+     "sources": [
+      "https://en.wikipedia.org/wiki/All_Star_Circuit_of_Champions",
+      "https://www.thethirdturn.com/wiki/All_Star_Circuit_of_Champions_Central/All-Time_Wins_List",
+      "https://www.sprintcarhof.com/pages/hall-of-fame.aspx"
+     ],
+     "stats": [
+      "74 All Stars wins",
+      "18 wins in 1995 (record)"
+     ]
+    },
+    {
+     "name": "Jack Hewitt",
+     "synopsis": [
+      "Jack Hewitt of Troy, Ohio, was the people's hero of Midwestern dirt racing. He was a racer's racer who would run anything, anywhere, and he was the son of racer Don Hewitt. He was a fan favorite as much for his personality as his driving. Blunt and outspoken, he never minced words, and fans loved him for it.",
+      "He won the 1985 All Star Circuit of Champions title with 12 wins that year, and his 55 All Stars feature wins rank fifth all-time. He also won 46 USAC National Sprint Car features and Silver Crown titles in 1986 and 1987.",
+      "In 1998 he reached the Indianapolis 500 and finished 12th. That same year he swept all four features at Eldora's 4-Crown Nationals, in Silver Crown, Sprint, Midget and modified, for four different teams. In all he has won 19 4-Crown features, the most of anyone.",
+      "He is a member of the National Sprint Car Hall of Fame (2002) and the USAC Hall of Fame."
+     ],
+     "achievements": [
+      "46 USAC National Sprint Car wins",
+      "National Sprint Car Hall of Fame (2002)",
+      "2-time USAC Silver Crown champion",
+      "1985 All Star Circuit of Champions champion",
+      "Only driver to sweep all four features at Eldora's 4-Crown Nationals (1998)"
+     ],
+     "sources": [
+      "https://en.wikipedia.org/wiki/All_Star_Circuit_of_Champions",
+      "https://www.thethirdturn.com/wiki/All_Star_Circuit_of_Champions_Central/All-Time_Wins_List",
+      "https://www.sprintcarhof.com/pages/hall-of-fame.aspx"
+     ],
+     "snippet": "Jack Hewitt of Troy, Ohio, won the 1985 All Star Circuit of Champions title and ranks fifth all-time in All Stars feature wins. Blunt and outspoken, he never minced words, and that made him one of the biggest fan favorites in Midwestern dirt racing.",
+     "stats": [
+      "1985 All Stars champion",
+      "55 All Stars wins (5th)",
+      "46 USAC Sprint wins"
+     ]
+    }
+   ]
+  },
+  {
    "id": "usac-sprint",
    "name": "USAC Sprint Cars",
    "intro": "USAC's National Sprint Car championship dates to 1956. It is non-winged 410 racing, and it has long been a proving ground for drivers headed to Indianapolis and NASCAR.",
