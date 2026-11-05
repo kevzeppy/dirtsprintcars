@@ -611,10 +611,10 @@
      "nickname": "The Ragin' Cajun",
      "synopsis": [
       "Jason Johnson of Eunice, Louisiana, was a 360 sprint car great on the ASCS National Tour. He won series titles in 2008, 2010, 2012, 2013 and 2014, and he and his wife, Bobbi, also won ASCS owner titles with Jason Johnson Racing.",
-      "He moved to the World of Outlaws in 2015 and was the series Rookie of the Year. In 2016 he outdueled Donny Schatz to win the Knoxville Nationals, and he won 12 World of Outlaws features, the only Louisiana native to win in the series.",
+      "He moved to the World of Outlaws in 2015 and was the series Rookie of the Year. In 2016 he outdueled Donny Schatz to win the Knoxville Nationals, a win fans and historians remember as one of the biggest upsets in the event's history, second only to Bobby Allen's in 1990. He won 12 World of Outlaws features, the only Louisiana native to win in the series.",
       "He died in 2018 and was inducted into the National Sprint Car Hall of Fame in 2019."
      ],
-     "snippet": "Jason Johnson, \"The Ragin' Cajun,\" won five ASCS National Tour titles, then beat Donny Schatz for the 2016 Knoxville Nationals.",
+     "snippet": "Jason Johnson, \"The Ragin' Cajun,\" won five ASCS National Tour titles, then beat Donny Schatz for the 2016 Knoxville Nationals, one of the biggest upsets in the event's history.",
      "achievements": [
       "5-time ASCS National Tour champion (2008, 2010, 2012, 2013, 2014)",
       "2016 Knoxville Nationals winner",
@@ -629,7 +629,8 @@
       "https://ascsracing.com/drivers/?driver=Jason-Johnson",
       "https://worldofoutlaws.com/sprintcars/the-ragin-cajun-remembering-the-life-and-legacy-of-jason-johnson/",
       "https://jasonjohnsonracing.com/about/",
-      "https://www.sprintcarhof.com/pages/hall-of-fame.aspx"
+      "https://www.sprintcarhof.com/pages/hall-of-fame.aspx",
+      "https://www.knoxvilleraceway.com/knoxville-nationals/history"
      ]
     }
    ],
@@ -1166,6 +1167,33 @@
      "sources": [
       "https://worldofoutlaws.com/sprintcars/checkered-past/checkered-past-restless-child/",
       "https://en.wikipedia.org/wiki/Jac_Haudenschild"
+     ]
+    },
+    {
+     "name": "Bobby Allen",
+     "nickname": "Scruffy",
+     "synopsis": [
+      "Bobby Allen grew up in Miami racing go-karts, then headed to Pennsylvania as a teenager because that was where the sprint cars ran three and four nights a week. He became one of the sport's original outlaws.",
+      "He was known for doing a lot with a little. He built his own chassis, put together his own engines and made his own setup calls on the familiar No. 1a, spending what money he had on the car rather than on how it looked.",
+      "On Aug. 18, 1990, in front of about 18,000 fans, his homebuilt car beat the well-funded Sammy Swindell to win the Knoxville Nationals. It is remembered as the biggest upset in the event's history. He won more than 275 sprint car features, including 30 with the World of Outlaws and 46 with the All Star Circuit of Champions, where he won the 1980 title.",
+      "He entered the National Sprint Car Hall of Fame in 1988 and later owned the Shark Racing team with his grandson Logan Schuchart. He died in 2025 at 81."
+     ],
+     "snippet": "Bobby Allen did a lot with a little. In 1990 the low-budget racer drove his homebuilt No. 1a past Sammy Swindell to win the Knoxville Nationals, still remembered as the biggest upset in the event's history.",
+     "achievements": [
+      "1990 Knoxville Nationals winner",
+      "30 World of Outlaws wins",
+      "1980 All Star Circuit of Champions champion",
+      "National Sprint Car Hall of Fame (1988)"
+     ],
+     "stats": [
+      "30 WoO wins",
+      "Crown jewel: 1990 Knoxville Nationals"
+     ],
+     "sources": [
+      "https://speedsport.com/sprints-midgets/hall-of-famer-bobby-allen-dies-at-81/",
+      "https://www.knoxvilleraceway.com/knoxville-nationals/history",
+      "https://worldofoutlaws.com/sprintcars/historical-stats-sprint-cars/all-time-wins/",
+      "https://www.sprintcarhof.com/pages/hall-of-fame.aspx"
      ]
     },
     {
