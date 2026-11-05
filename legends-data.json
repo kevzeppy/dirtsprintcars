@@ -329,6 +329,36 @@
       "USAC Sprint wins record",
       "5 National Drivers titles"
      ]
+    },
+    {
+     "name": "Jack Hewitt",
+     "synopsis": [
+      "Jack Hewitt of Troy, Ohio, was the people's hero of Midwestern dirt racing. He was a racer's racer who would run anything, anywhere, and he was the son of racer Don Hewitt. He was a fan favorite as much for his personality as his driving. Blunt and outspoken, he never minced words, and fans loved him for it.",
+      "He won 46 USAC National Sprint Car features, plus Silver Crown titles in 1986 and 1987 and the 1985 All Star Circuit of Champions title. His 23 Silver Crown wins rank second all-time, and he also won seven USAC Midget races.",
+      "In 1998 he reached the Indianapolis 500 and finished 12th. That same year he swept all four features at Eldora's 4-Crown Nationals, in Silver Crown, Sprint, Midget and modified, for four different teams. In all he has won 19 4-Crown features, the most of anyone.",
+      "He is a member of the National Sprint Car Hall of Fame (2002) and the USAC Hall of Fame."
+     ],
+     "achievements": [
+      "46 USAC National Sprint Car wins",
+      "National Sprint Car Hall of Fame (2002)",
+      "2-time USAC Silver Crown champion",
+      "1985 All Star Circuit of Champions champion",
+      "Only driver to sweep all four features at Eldora's 4-Crown Nationals (1998)"
+     ],
+     "sources": [
+      "https://www.usacracing.com/hall-of-fame-inductees/jack-hewitt",
+      "https://en.wikipedia.org/wiki/Jack_Hewitt",
+      "https://tjslideways.com/statistics/4-crown-nationals-winners/",
+      "https://premierspeedway.com.au/classic-champions/",
+      "https://tjslideways.com/statistics/grand-annual-sprintcar-classic-winners/",
+      "https://www.sprintcarhof.com/"
+     ],
+     "snippet": "Jack Hewitt of Troy, Ohio, won 46 USAC National Sprint Car features and swept all four features at Eldora's 4-Crown Nationals in 1998. Blunt and outspoken, he never minced words, and that made him one of the biggest fan favorites in Midwestern dirt racing.",
+     "stats": [
+      "46 USAC Sprint wins",
+      "2 Silver Crown titles",
+      "Crown jewel: 1998 4-Crown sweep"
+     ]
     }
    ],
    "group": "410 Sprint Cars"
@@ -703,7 +733,7 @@
     {
      "name": "Jack Hewitt",
      "synopsis": [
-      "Jack Hewitt of Troy, Ohio, was the people's hero of Midwestern dirt racing. He was a racer's racer who would run anything, anywhere, and he was the son of racer Don Hewitt.",
+      "Jack Hewitt of Troy, Ohio, was the people's hero of Midwestern dirt racing. He was a racer's racer who would run anything, anywhere, and he was the son of racer Don Hewitt. He was a fan favorite as much for his personality as his driving. Blunt and outspoken, he never minced words, and fans loved him for it.",
       "He won Silver Crown titles in 1986 and 1987 and the 1985 All Star Circuit of Champions title. His 23 Silver Crown wins rank second all-time. He also won 46 USAC Sprint and seven Midget races.",
       "In 1998 he reached the Indianapolis 500 and finished 12th. That same year he swept all four features at Eldora's 4-Crown Nationals, in Silver Crown, Sprint, Midget and modified, for four different teams. In all he has won 19 4-Crown features, the most of anyone.",
       "He is a member of the USAC Hall of Fame."
@@ -963,6 +993,60 @@
     }
    ],
    "group": "Silver Crown & USAC Triple Crown"
+  },
+  {
+   "id": "old-school",
+   "name": "Old School Legends",
+   "group": "Old School Legends",
+   "intro": "Fan favorites and era icons who don't clear the DirtSprintCars Legend Standard on titles and series records, but still belong in any conversation about the greats.",
+   "legends": [
+    {
+     "name": "Jan Opperman",
+     "synopsis": [
+      "Jan Opperman was one of the original outlaws. Discovered in California in 1968, he raced anywhere that paid, which kept him from piling up records with any one sanctioning body.",
+      "He won the 1971 Knoxville Nationals and the Western World Championship that same season, then won 44 features in 1972. In 1976 he won the Hulman Classic at Terre Haute. He also co-designed the Maxwell sprint car and made two Indianapolis 500 starts.",
+      "With long hair and a charisma few others had, he was one of the most beloved drivers in the sport and a big draw everywhere he raced. Crashes in 1976 and 1981 cut his career short. He was in the first class of the National Sprint Car Hall of Fame in 1990."
+     ],
+     "snippet": "Jan Opperman was one of the original outlaws, a long-haired racer who chased the best-paying shows across the country. He won the 1971 Knoxville Nationals and 44 features in 1972, and his charisma made him one of the most beloved drivers in the sport.",
+     "achievements": [
+      "1971 Knoxville Nationals winner",
+      "1976 Hulman Classic winner",
+      "National Sprint Car Hall of Fame, inaugural class (1990)"
+     ],
+     "stats": [
+      "Crown jewel: 1971 Knoxville Nationals",
+      "44 wins in 1972"
+     ],
+     "sources": [
+      "https://www.mshf.com/Jan-Opperman-10-1607809.html",
+      "https://www.museumofamericanspeed.org/janopperman.html",
+      "https://www.knoxvilleraceway.com/knoxville-nationals/history"
+     ]
+    },
+    {
+     "name": "Jac Haudenschild",
+     "nickname": "The Wild Child",
+     "synopsis": [
+      "Jac Haudenschild of Wooster, Ohio, was the most fearless driver the World of Outlaws ever saw. Even from ninth or 10th he could amaze a crowd, and he never burned a bridge, driving for 14 different winning car owners in the series.",
+      "He won 72 World of Outlaws features, from the 1982 Eldora Nationals to his last series win at Eldora in 2010. His best points finish was second in 1995. He won the Kings Royal three times (1987, 1994, 1998), the Gold Cup three times and the 2003 Mopar Million.",
+      "He was inducted into the National Sprint Car Hall of Fame in 2009 while still racing, and ran his final race at the 2021 World Finals."
+     ],
+     "snippet": "Jac Haudenschild, \"The Wild Child,\" was the most fearless driver in World of Outlaws history. He won 72 series features and three Kings Royals, and fans never took their eyes off him.",
+     "achievements": [
+      "72 World of Outlaws wins",
+      "Kings Royal: 1987, 1994, 1998",
+      "National Sprint Car Hall of Fame (2009)"
+     ],
+     "stats": [
+      "72 WoO wins",
+      "Crown jewel: 3 Kings Royals"
+     ],
+     "sources": [
+      "https://worldofoutlaws.com/sprintcars/checkered-past/checkered-past-restless-child/",
+      "https://en.wikipedia.org/wiki/Jac_Haudenschild"
+     ]
+    }
+   ]
   }
  ]
 }
