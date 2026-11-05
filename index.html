@@ -179,7 +179,7 @@ footer .wrap{padding-top:40px;padding-bottom:40px;display:flex;flex-direction:co
 <div class="util">
 <div class="wrap">
 <span class="lbl">Website still under construction</span>
-<span class="lbl">Updated <time id="site-updated" datetime="2026-11-04">Nov 4, 2026</time></span>
+<span class="lbl">Updated <time id="site-updated" datetime="2026-11-05">Nov 5, 2026</time></span>
 <script>
 /* Last-updated date = date of latest commit on main (auto-updates on every push).
    Static fallback above: bump it when pushing if the GitHub API is unreachable. */
@@ -427,8 +427,17 @@ t.setAttribute('datetime',d.toISOString());t.textContent=d.toLocaleDateString('e
 <button type="button" class="chip lbl" aria-pressed="false">Sprint car</button>
 <button type="button" class="chip lbl" aria-pressed="false">Midget</button>
 </div>
+<div class="chips" role="group" aria-label="Filter by series" data-key="series">
+<button type="button" class="chip lbl" aria-pressed="true" data-value="All">All series</button>
+<button type="button" class="chip lbl" aria-pressed="false" data-value="World of Outlaws">World of Outlaws</button>
+<button type="button" class="chip lbl" aria-pressed="false" data-value="High Limit">High Limit</button>
+<button type="button" class="chip lbl" aria-pressed="false" data-value="USAC">USAC</button>
+<button type="button" class="chip lbl" aria-pressed="false" data-value="All Star Circuit of Champions">All Stars</button>
+<button type="button" class="chip lbl" aria-pressed="false" data-value="POWRi 410 Outlaw Sprint League">POWRi 410</button>
+<button type="button" class="chip lbl" aria-pressed="false" data-value="Trophy Cup">Trophy Cup</button>
+</div>
 <ul id="events"></ul>
-<p class="empty" id="empty" hidden>No events match those filters yet. Try another country or discipline.</p>
+<p class="empty" id="empty" hidden>No events match those filters yet. Try another series or discipline.</p>
 <p class="note">Dates from the series and track schedules. Check the official sites for start times and any changes.</p>
 </div>
 
@@ -444,6 +453,7 @@ t.setAttribute('datetime',d.toISOString());t.textContent=d.toLocaleDateString('e
 <li><span class="lbl red">Sprint car · World of Outlaws · Fri, Oct 23</span><span class="disp" style="font-size:22px;font-weight:700">Jason Johnson Classic, Texarkana 67 Speedway</span><span style="font-size:14px;color:var(--mute)">Carson Macedo won the 41-lap feature. David Gravel was second, Sheldon Haudenschild third.</span><a href="carson-macedo-jason-johnson-classic-2026.html" class="lbl" style="font-size:12px;color:var(--dim)">Full story →</a></li>
 <li><span class="lbl red">Sprint car · High Limit · Sat, Oct 17</span><span class="disp" style="font-size:22px;font-weight:700">Season finale, Texas Motor Speedway dirt</span><span style="font-size:14px;color:var(--mute)">Giovanni Scelzi led all 30 laps and beat Rico Abreu by 0.202 seconds. Abreu clinched the series title.</span><a href="https://speedsport.com/sprints-midgets/high-limit-sprint-cars/scelzi-wins-again-abreu-is-high-limit-champ/" rel="noopener" class="lbl" style="font-size:12px;color:var(--dim)">Full results via Speed Sport →</a></li>
 <li><span class="lbl red">Sprint car · USAC · Sat, Oct 17</span><span class="disp" style="font-size:22px;font-weight:700">Bomb City 40, Route 66 Motor Speedway</span><span style="font-size:14px;color:var(--mute)">Gavin Miller led all 40 laps. Cale Coons was second, Justin Grant third.</span><a href="https://www.usacracing.com/news/route-66-amarillo-usac-sprint-car-results-oct-17-2026" rel="noopener" class="lbl" style="font-size:12px;color:var(--dim)">Full results via USAC →</a></li>
+<li><span class="lbl red">Sprint car · All Star Circuit of Champions · Sat, Oct 3</span><span class="disp" style="font-size:22px;font-weight:700">Frank &amp; Marilyn Benic Memorial (season finale), Michaels Mercer Raceway</span><span style="font-size:14px;color:var(--mute)">A.J. Flick won the 35-lap feature from ninth ($11,000). Kalib Henry finished second to clinch his second straight All Stars title. Top 5: Flick, Henry, Zane DeVault, Dale Blaney, Cale Thomas.</span><a href="https://speedsport.com/sprints-midgets/other-sprint-cars/flick-tops-all-star-finale-henry-is-champ/" rel="noopener" class="lbl" style="font-size:12px;color:var(--dim)">Full results via Speed Sport →</a></li>
 </ul>
 <a href="#" class="lbl" style="display:inline-block;margin-top:14px;color:var(--mute)">Full results →</a>
 </div>
@@ -459,6 +469,7 @@ t.setAttribute('datetime',d.toISOString());t.textContent=d.toLocaleDateString('e
 <li><a href="trophy-cup-2026-night-3-results.html">Oct 31: Tanner Thorson wins Trophy Cup finale; Landon Brooks takes Trophy Cup 32 title</a></li>
 <li><a href="trophy-cup-2026-night-2-results.html">Oct 30: Tanner Thorson wins Trophy Cup Night 2 at Thunderbowl</a></li>
 <li><a href="gravel-third-title-2026.html">Oct 30: Gravel, Big Game Motorsports lead WoO points toward third straight title</a></li>
+<li><a href="https://speedsport.com/sprints-midgets/other-sprint-cars/flick-tops-all-star-finale-henry-is-champ/" rel="noopener">Oct 3: A.J. Flick wins All Stars finale at Mercer; Kalib Henry clinches second straight title <span style="font-size:13px;font-weight:500;color:var(--dim)">· All Stars</span></a></li>
 </ul>
 </div>
 <div id="midget">
@@ -621,6 +632,7 @@ Tyler Carr / World of Outlaws, courtesy World Racing Group (Knoxville partnershi
 <script>
 (function(){
   var events=[
+    {date:'Sat, Oct 3',name:'Frank & Marilyn Benic Memorial (season finale)',track:'Michaels Mercer Raceway, Mercer, PA',country:'USA',disc:'Sprint car',status:'Results',series:'All Star Circuit of Champions',url:'https://speedsport.com/sprints-midgets/other-sprint-cars/flick-tops-all-star-finale-henry-is-champ/'},
     {date:'Thu, Oct 29',name:'Trophy Cup 32 - Night 1',track:'Thunderbowl Raceway, Tulare, CA',country:'USA',disc:'Sprint car',status:'Results',series:'Trophy Cup',url:'trophy-cup-2026-night-1-results.html'},
     {date:'Fri, Oct 30',name:'Trophy Cup 32 - Night 2',track:'Thunderbowl Raceway, Tulare, CA',country:'USA',disc:'Sprint car',status:'Results',series:'Trophy Cup',url:'trophy-cup-2026-night-2-results.html'},
     {date:'Sat, Oct 31',name:'Trophy Cup 32 - Night 3',track:'Thunderbowl Raceway, Tulare, CA',country:'USA',disc:'Sprint car',status:'Results',series:'Trophy Cup',url:'trophy-cup-2026-night-3-results.html'},
@@ -630,13 +642,14 @@ Tyler Carr / World of Outlaws, courtesy World Racing Group (Knoxville partnershi
     {date:'Fri, Nov 6',name:'Dave Smith Motors World of Outlaws World Finals',track:'The Dirt Track at Charlotte, Concord, NC',country:'USA',disc:'Sprint car',status:'Upcoming',series:'World of Outlaws',url:'https://worldofoutlaws.com/sprintcars/'},
     {date:'Fri, Nov 6',name:'POWRi Deuces Wild Championships - Night 1',track:'Dirt Track at Texas Motor Speedway, Fort Worth, TX',country:'USA',disc:'Sprint car',status:'Upcoming',series:'POWRi 410 Outlaw Sprint League',url:'powri-texas-deuces-wild-preview-2026.html'},
     {date:'Sat, Nov 7',name:'Dave Smith Motors World of Outlaws World Finals',track:'The Dirt Track at Charlotte, Concord, NC',country:'USA',disc:'Sprint car',status:'Upcoming',series:'World of Outlaws',url:'https://worldofoutlaws.com/sprintcars/'},
-    {date:'Sat, Nov 7',name:'POWRi Deuces Wild Championships - Night 2 (season finale)',track:'Dirt Track at Texas Motor Speedway, Fort Worth, TX',country:'USA',disc:'Sprint car',status:'Upcoming',series:'POWRi 410 Outlaw Sprint League',url:'powri-texas-deuces-wild-preview-2026.html'}
+    {date:'Sat, Nov 7',name:'POWRi Deuces Wild Championships - Night 2 (season finale)',track:'Dirt Track at Texas Motor Speedway, Fort Worth, TX',country:'USA',disc:'Sprint car',status:'Upcoming',series:'POWRi 410 Outlaw Sprint League',url:'powri-texas-deuces-wild-preview-2026.html'},
+    {date:'TBA',name:'2027 All Star Circuit of Champions season',track:'Schedule TBA — allstarsprintcar.com',country:'USA',disc:'Sprint car',status:'Upcoming',series:'All Star Circuit of Champions',url:'https://www.allstarsprintcar.com/schedule/'}
   ];
-  var state={disc:'All',country:'All'};
+  var state={disc:'All',country:'All',series:'All'};
   var list=document.getElementById('events'), empty=document.getElementById('empty');
   function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&','<':'<','>':'>','"':'"'}[c]})}
   function render(){
-    var rows=events.filter(function(e){return (state.disc==='All'||e.disc===state.disc)&&(state.country==='All'||e.country===state.country)});
+    var rows=events.filter(function(e){return (state.disc==='All'||e.disc===state.disc)&&(state.country==='All'||e.country===state.country)&&(state.series==='All'||e.series===state.series)});
     list.innerHTML=rows.map(function(e){
       var c=e.disc==='Sprint car'?'red':'';
       var st=e.disc==='Midget'?' style="color:var(--dirt)"':'';
@@ -647,7 +660,7 @@ Tyler Carr / World of Outlaws, courtesy World Racing Group (Knoxville partnershi
   document.querySelectorAll('.chips').forEach(function(group){
     group.addEventListener('click',function(ev){
       var b=ev.target.closest('button'); if(!b) return;
-      state[group.dataset.key]=b.textContent.trim();
+      state[group.dataset.key]=(b.getAttribute('data-value')||b.textContent).trim();
       group.querySelectorAll('button').forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false')});
       render();
     });
