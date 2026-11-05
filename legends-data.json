@@ -726,7 +726,8 @@
       "3 NCRA titles",
       "4 ASCS titles",
       "16 USCS titles"
-     ]
+     ],
+     "active": true
     }
    ],
    "group": "410 Sprint Cars"
@@ -784,7 +785,8 @@
       "43 ASCS wins in title years",
       "16 USCS titles",
       "3 NCRA titles"
-     ]
+     ],
+     "active": true
     },
     {
      "name": "Sam Hafertepe Jr.",
@@ -867,7 +869,8 @@
       "98 USCS wins (through 2024)",
       "4 ASCS titles",
       "3 NCRA titles"
-     ]
+     ],
+     "active": true
     }
    ],
    "group": "360 Sprint Cars"
