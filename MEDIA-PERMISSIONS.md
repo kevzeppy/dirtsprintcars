@@ -24,3 +24,15 @@
 - Date sent: 2026-10-29
 - Contact: dakota@amesvisuals.com
 - Thread: Gmail subject "Editorial photo licensing — DirtSprintCars.com"
+
+## Knoxville Raceway (press)
+- Status: Used with credit (no written permission on file)
+- Date: 2026-11-05
+- Source: https://www.knoxvilleraceway.com/press/2015/article/34345
+- Used on: Crown Jewels header (images/crown-jewels-hero-knoxville.jpg)
+
+## Flickr (Jack Hewitt photo)
+- Status: Used with credit (no written permission on file; license not verified)
+- Date: 2026-11-05
+- Source: https://live.staticflickr.com/3163/3041392708_8d7c981a97_b.jpg
+- Used on: This Day header (images/this-day-hero-hewitt.jpg)
