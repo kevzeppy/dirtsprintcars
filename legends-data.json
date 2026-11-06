@@ -196,31 +196,8 @@
       "id": "hl",
       "name": "High Limit Racing",
       "intro": "Brad Sweet and Kyle Larson launched High Limit Racing in 2022, and it became a full touring series in 2023. Interstate Batteries is now its title sponsor. The series is young, but it has already become a major stage for wing sprint car racing.",
-      "top5": [
-        [
-          "Rico Abreu",
-          25
-        ],
-        [
-          "Brad Sweet",
-          14
-        ],
-        [
-          "Corey Day",
-          11
-        ],
-        [
-          "Kyle Larson",
-          9
-        ],
-        [
-          "Aaron Reutzel",
-          8
-        ]
-      ],
-      "top5_sources": [
-        "https://www.floracing.com/articles/15618568-the-2026-high-limit-season-opener-watch-guide-schedules-entries-news"
-      ],
+      "top5": [],
+      "top5_sources": [],
       "legends": [
         {
           "name": "Rico Abreu",
@@ -228,14 +205,16 @@
             "Rico Abreu has been part of High Limit Racing from its start and helped build it into a national tour. Abreu is a Northern Californian who has achondroplasia and is four feet four inches tall. He has run every High Limit points race since 2023 and holds the series' career records for wins, starts, podiums and top-10 finishes.",
             "He made his name in midgets. He won the 2014 USAC National Midget championship, then won the Chili Bowl Midget Nationals in back-to-back years, 2015 and 2016.",
             "Stock cars came next, with backing from his friend Kyle Larson. He won the 2015 NASCAR K&N Pro Series East race at Columbus Motor Speedway, his first stock car win, before returning to open-wheel racing.",
-            "Back on dirt, he became a regular winner at marquee events, including the Outlaws and High Limit shows at Eldora's 4-Crown. He won his first national sprint car championship, the 2025 High Limit title, by winning the season finale at Texas Motor Speedway. He retained the High Limit championship in 2026 with Tony Stewart/Curb-Agajanian Racing."
+            "Back on dirt, he became a regular winner at marquee events, including the Outlaws and High Limit shows at Eldora's 4-Crown. He won his first national sprint car championship, the 2025 High Limit title, by winning the season finale at Texas Motor Speedway. He retained the High Limit championship in 2026 with Tony Stewart/Curb-Agajanian Racing, winning eight High Limit features that season."
           ],
           "achievements": [
             "2025 and 2026 High Limit Racing champion",
+            "Eight High Limit wins in 2026",
             "All-time High Limit wins leader",
             "2014 USAC National Midget champion"
           ],
           "sources": [
+            "https://www.highlimitracing.com/standings/2026",
             "https://www.highlimitracing.com/history",
             "https://www.highlimitracing.com/press/2026/article/186266",
             "https://en.wikipedia.org/wiki/Rico_Abreu",
@@ -243,9 +222,10 @@
             "https://www.nascar.com/news-media/2016/01/17/rico-abreu-wins-second-consecutive-chili-bowl/",
             "https://tjslideways.com/statistics/4-crown-nationals-winners/"
           ],
-          "snippet": "Rico Abreu won consecutive High Limit Racing championships in 2025 and 2026. He is the series' all-time leader in wins, starts, podiums and top-10 finishes. He also won the 2014 USAC National Midget championship and back-to-back Chili Bowl Midget Nationals in 2015 and 2016.",
+          "snippet": "Rico Abreu won consecutive High Limit Racing championships in 2025 and 2026, with eight High Limit wins in 2026. He is the series' all-time leader in wins, starts, podiums and top-10 finishes. He also won the 2014 USAC National Midget championship and back-to-back Chili Bowl Midget Nationals in 2015 and 2016.",
           "stats": [
             "2 High Limit titles (2025–26)",
+            "8 High Limit wins in 2026",
             "2014 USAC Midget title",
             "2 Chili Bowls"
           ],
@@ -586,19 +566,22 @@
           "name": "Justin Grant",
           "synopsis": [
             "Justin Grant of Ione, California, built his record on durability. In July 2025 he set the record for consecutive USAC National Sprint starts, with 325, and he became the series' all-time wins leader.",
-            "Grant was the 2010 USAC National Sprint Rookie of the Year. He won Silver Crown titles in 2020 and 2025 and the National Sprint title in 2022. He has also won the National Drivers championship five times.",
+            "Grant was the 2010 USAC National Sprint Rookie of the Year. He won Silver Crown titles in 2020 and 2025 and National Sprint titles in 2022 and 2023. He has also won the National Drivers championship five times.",
             "In September 2025 at Lucas Oil Speedway he won his 63rd National Sprint feature, breaking Dave Darland's record, and that season he became the eighth driver with 100 USAC wins. He finished the 2026 season with 71 USAC National Sprint Car victories, his sixth and final 2026 win coming Aug. 29 at Kokomo."
           ],
           "achievements": [
             "USAC National Sprint all-time wins leader",
+            "2022 and 2023 USAC National Sprint Car champion",
             "71 USAC National Sprint Car wins through 2026"
           ],
           "sources": [
             "https://www.usacracing.com/drivers/justin-grant",
             "https://en.wikipedia.org/wiki/Justin_Grant_(racing_driver)",
-            "https://www.thethirdturn.com/wiki/AMSOIL_USAC_Sprint_Car_National_Championship_Central/All-Time_Wins_List"
+            "https://www.thethirdturn.com/wiki/AMSOIL_USAC_Sprint_Car_National_Championship_Central/All-Time_Wins_List",
+            "https://www.usacracing.com/news/back-2-back-grant-climbs-his-way-back-to-the-topp-in-2023",
+            "https://tjslideways.com/statistics/usac-national-sprint-car-series-champions/"
           ],
-          "snippet": "Justin Grant is the all-time wins leader in USAC National Sprint Car racing, finishing the 2026 season with 71 series victories. He won the 2022 National Sprint title and the 2020 and 2025 Silver Crown titles, and he has won the USAC National Drivers championship five times.",
+          "snippet": "Justin Grant is the all-time wins leader in USAC National Sprint Car racing, finishing the 2026 season with 71 series victories. He was the 2022 and 2023 USAC National Sprint Car champion, won Silver Crown titles in 2020 and 2025, and has won the USAC National Drivers championship five times.",
           "stats": [
             "3 USAC titles",
             "71 USAC Sprint wins",
@@ -793,22 +776,26 @@
           "name": "Sam Hafertepe Jr.",
           "synopsis": [
             "Sam Hafertepe Jr. of Sunnyvale, Texas, won his first ASCS National Tour feature at I-30 Speedway in 2010. He became the series' dominant driver of the modern era and won five consecutive National Tour championships from 2016 through 2020, breaking Terry Gray's record of four in a row.",
-            "He ranks second on the National Tour's all-time wins list behind Gary Wright, whom he has called the driver everyone wanted to be like when he started. Through the 2026 season he had won seven National Tour championships, the most in series history."
+            "He ranks second on the National Tour's all-time wins list behind Gary Wright, whom he has called the driver everyone wanted to be like when he started. Through the 2026 season he had 95 ASCS National Tour feature wins, including seven in 2026, and seven National Tour championships, the most in series history."
           ],
           "achievements": [
             "7 ASCS National Tour championships through 2026 (series record)",
             "5 straight titles, 2016–20",
+            "95 ASCS National Tour feature wins through 2026, including seven in 2026",
             "2nd on ASCS National Tour all-time wins list"
           ],
           "sources": [
             "https://ascsracing.com/all-time-winners/",
             "https://ascsracing.com/news/hafertepe-adding-to-historic-ascs-milestones/",
-            "https://www.thethirdturn.com/wiki/American_Sprint_Car_Series_National_Tour_Central/All-Time_Wins_List"
+            "https://www.thethirdturn.com/wiki/American_Sprint_Car_Series_National_Tour_Central/All-Time_Wins_List",
+            "https://ascsracing.com/recap/seven-sam-hafertepe-jr-wins-fuzzys-fall-fling-at-creek-county-clinches-seventh-ascs-national-title/",
+            "https://ascsracing.com/news/sam-hafertepe-jr-reflects-on-career-defining-seventh-ascs-national-tour-championship/"
           ],
-          "snippet": "Sam Hafertepe Jr. won seven American Sprint Car Series (ASCS) National Tour championships through 2026, the series record, including five straight titles from 2016 to 2020. He ranks second on the National Tour's all-time wins list.",
+          "snippet": "Sam Hafertepe Jr. won seven American Sprint Car Series (ASCS) National Tour championships through 2026, the series record, including five straight titles from 2016 to 2020. He has 95 ASCS National Tour feature wins through 2026, including seven in 2026, and ranks second on the National Tour's all-time wins list.",
           "stats": [
             "7 ASCS titles (record)",
-            "2nd all-time in ASCS wins"
+            "95 ASCS National Tour wins through 2026",
+            "7 ASCS National Tour wins in 2026"
           ],
           "active": true
         },
