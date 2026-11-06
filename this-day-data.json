@@ -179,13 +179,14 @@
     "track": "Perris Auto Speedway (Perris, CA)",
     "result": "Bryan Clauson wins",
     "source_url": "https://www.thethirdturn.com/wiki/2009_Budweiser_Oval_Nationals_Night_1",
-    "source2": "https://www.thethirdturn.com/wiki/2009_USAC_National_Sprint_Car_Series_Central",
+    "source2": "https://www.tjslideways.com/2009/11/06/clauson-wins-opening-night-of-the-oval-nationals/",
     "category": "majors",
-    "verified_notes": "Date/track/winner from The Third Turn season log",
+    "verified_notes": "Date, track, and winner confirmed by The Third Turn and TJSlideways",
     "birthdays": [],
-    "verification": "single-source",
+    "verification": "dual-source",
     "verification_sources": [
-      "The Third Turn (event page + season log, same publisher)"
+      "The Third Turn",
+      "TJSlideways"
     ]
   },
   {
@@ -196,13 +197,15 @@
     "track": "Perris Auto Speedway (Perris, CA)",
     "result": "Chris Windom wins",
     "source_url": "https://www.thethirdturn.com/wiki/2010_Budweiser_Oval_Nationals_(Night_3)",
-    "source2": "https://www.thethirdturn.com/wiki/2010_AMSOIL_USAC_Sprint_Car_National_Championship_Central",
+    "source2": "https://www.pressenterprise.com/2010/11/07/oval-nationals-unknown-windom-gets-biggest-win/",
     "category": "majors",
-    "verified_notes": "Date/track/winner from The Third Turn season log",
+    "verified_notes": "Date, track, and winner confirmed by The Third Turn, Press-Enterprise, and TJSlideways",
     "birthdays": [],
-    "verification": "single-source",
+    "verification": "dual-source",
     "verification_sources": [
-      "The Third Turn (event page + season log, same publisher)"
+      "The Third Turn",
+      "Press-Enterprise",
+      "TJSlideways"
     ]
   },
   {
@@ -13172,6 +13175,24 @@
     "verification_sources": [
       "https://www.highlimitracing.com/history",
       "https://www.floracing.com/articles/7902688-kyle-larson-and-brad-sweet-to-promote-new-sprint-car-series"
+    ]
+  },
+  {
+    "date": "2025-11-05",
+    "historical_year": 2009,
+    "headline": "2009 Short Track Nationals Night One",
+    "series": "ASCS",
+    "track": "I-30 Speedway (Little Rock, AR)",
+    "result": "Wayne Johnson wins",
+    "source_url": "https://www.ascsracing.com/news/thursdady-night-lucas-oil-sprint-cars-stn",
+    "source2": "https://www.openwheel101.com/Article/441/short-track-nationals-night-one-results-and-stories",
+    "category": "race-result",
+    "verified_notes": "ASCS and OpenWheel101 both confirm date, track, and winner",
+    "birthdays": [],
+    "verification": "dual-source",
+    "verification_sources": [
+      "ASCS",
+      "OpenWheel101"
     ]
   }
 ]
