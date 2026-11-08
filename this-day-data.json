@@ -13194,5 +13194,23 @@
       "ASCS",
       "OpenWheel101"
     ]
+  },
+  {
+    "date": "2025-11-07",
+    "historical_year": 1964,
+    "headline": "1964 USAC National Sprint season finale at Ascot: Bobby Unser wins",
+    "series": "USAC Sprint",
+    "track": "Ascot Park (Gardena, CA)",
+    "result": "Bobby Unser wins over Parnelli Jones; led all 30 laps",
+    "source_url": "https://www.thethirdturn.com/wiki/USAC_National_Sprint:1964-24",
+    "source2": "http://www.ultimateracinghistory.com/race.php?raceid=6624",
+    "category": "race-result",
+    "verified_notes": "Date/track/winner and lead from The Third Turn (1964 race 24 of 24); finishing order, fast qualifier 22.22, race time 12:50 corroborated by Ultimate Racing History.",
+    "birthdays": [],
+    "verification": "multi-source",
+    "verification_sources": [
+      "The Third Turn USAC National Sprint:1964-24",
+      "Ultimate Racing History raceid=6624"
+    ]
   }
 ]
