@@ -280,6 +280,26 @@
   },
   {
     "date": "2025-11-09",
+    "historical_year": 2019,
+    "headline": "Brad Sweet clinches first World of Outlaws title by four points, closest finish in series history",
+    "series": "World of Outlaws",
+    "track": "The Dirt Track at Charlotte (Concord, NC)",
+    "result": "Sweet finished second to David Gravel in the World Finals finale to beat 10-time champion Donny Schatz by four points; first of Sweet's three straight titles and Kasey Kahne Racing's second (Pittman, 2013)",
+    "source_url": "https://worldofoutlaws.com/sprintcars/king-in-the-queen-city-brad-sweet-wins-first-world-of-outlaws-championship/",
+    "source2": "https://www.charlottemotorspeedway.com/media/news/williamson-sweet-sheppard-celebrate-titles-can-world-finals.html",
+    "category": "milestone",
+    "verified_notes": "Saturday, Nov. 9, 2019 date, Gravel win, Sweet second, Schatz third, and four-point margin confirmed by the official World of Outlaws recap and Charlotte Motor Speedway release (dated Nov. 9, 2019); Wikipedia 2019 season page confirms finale on Nov. 9 and first of three consecutive titles; Kasey Kahne Racing release confirms team's second title after 2013.",
+    "birthdays": [],
+    "verification": "multi-source",
+    "verification_sources": [
+      "World of Outlaws official recap",
+      "Charlotte Motor Speedway release",
+      "https://en.wikipedia.org/wiki/2019_World_of_Outlaws_Craftsman_Sprint_Car_Series",
+      "https://www.kaseykahneracing.com/post/brad-sweet-wins-2019-world-of-outlaws-sprint-car-series-championship"
+    ]
+  },
+  {
+    "date": "2025-11-09",
     "historical_year": 2018,
     "headline": "2018 Budweiser Oval Nationals presented by All Coast Construction Night 2",
     "series": "USAC Sprint",
