@@ -318,18 +318,20 @@
   {
     "date": "2025-11-10",
     "historical_year": 2012,
-    "headline": "2012 Western Classic (Midget)",
+    "headline": "Kyle Larson wins 2012 Western Classic USAC Midget feature at Canyon",
     "series": "USAC National Midget",
     "track": "Canyon Speedway Park (Peoria, AZ)",
-    "result": "Kyle Larson wins",
+    "result": "Larson passed Zach Daum on lap six and led the final 25 laps in the Keith Kunz/Curb-Agajanian No. 71, beating points leader Darren Hagen by 0.906 seconds; Rico Abreu third, Tracy Hines fourth, Bryan Clauson fifth. It was Larson's fifth USAC National Midget win of 2012, the most by any driver that season",
     "source_url": "https://www.thethirdturn.com/wiki/2012_Western_Classic_(Midget)",
     "source2": "https://www.thethirdturn.com/wiki/2012_USAC_Mopar_National_Midget_Championship_Central",
     "category": "race-result",
-    "verified_notes": "Date/track/winner from The Third Turn season log",
+    "verified_notes": "Saturday, Nov. 10, 2012 date, Canyon Speedway Park, Larson win from fourth starting spot, 25 laps led, and top five confirmed by The Third Turn event page and Ultimate Racing History race page (raceid=24174); Lonnie Wheatley race report (STLRacing.com, datelined Peoria, Ariz., Nov. 10, 2012) confirms lap-six pass of Daum, 0.906-second margin over Hagen, and series-best fifth USAC National Midget win.",
     "birthdays": [],
-    "verification": "single-source",
+    "verification": "multi-source",
     "verification_sources": [
-      "The Third Turn (event page + season log, same publisher)"
+      "The Third Turn (event page + season log)",
+      "http://www.ultimateracinghistory.com/race.php?raceid=24174",
+      "https://stlracing.com/2012/11/11/larson-whitwell-take-western-classic-wins/"
     ]
   },
   {
