@@ -13,6 +13,9 @@ css=""".lhero{padding:40px 0 8px}
 .leg{border-bottom:1px solid var(--line);padding:18px 0}.leg h3{font-size:28px;margin:0 0 6px}.nick{color:var(--dirt);font-size:16px;margin-left:8px}.leg p{line-height:1.6;color:var(--fg);max-width:75ch}.ach{color:var(--mute);margin:8px 0 0 18px}.more{background:none;border:0;padding:4px 0;color:var(--red);cursor:pointer;font:inherit;font-weight:700;text-transform:uppercase;letter-spacing:.06em;font-size:13px}.more:hover{color:var(--red-hi)}.full[hidden],.snip[hidden]{display:none}.stats{font-size:14px;font-weight:700;color:var(--dirt);margin:6px 0 2px;letter-spacing:.02em}.tnote{font-size:13px;color:var(--dim);margin-top:8px}
 .act{color:var(--red);margin-left:2px}.actnote{font-size:14px;color:var(--mute);margin:8px 0 0}.actnote b{color:var(--red)}
 .srcfoot{display:block;margin-top:10px;padding-top:6px;border-top:1px solid var(--line);font-size:12px;color:var(--dim)}.srcfoot a{color:var(--dim);margin-right:10px}.srcfoot a:hover{color:var(--red-hi)}
+.lph{margin:10px 0 14px;max-width:min(360px,100%)}
+.lph img{display:block;width:100%;height:auto;max-height:420px;object-fit:contain;background:#111}
+.lph figcaption{margin-top:6px;font-size:13px;color:var(--dim);line-height:1.45}
 """
 ABBR=('Jr.','Sr.','St.','Mt.','Dr.','Aug.','Oct.','Sept.','Nov.','Dec.','Jan.','Feb.','Ind.','J.J.','A.J.','C.J.','U.S.')
 def sents(p):
@@ -45,6 +48,17 @@ for s in d['series']:
   for g in s.get('legends',[]):
     fid=f'bio-{s["id"]}-'+re.sub(r'[^a-z0-9]+','-',g['name'].lower()).strip('-')
     x=[f'<article class="leg" aria-labelledby="{fid}-h"><h3 class="disp" id="{fid}-h">{E(g["name"])}'+('<span class="act" title="Active driver">*</span>' if g.get('active') else '')+(f'<span class="nick">"{E(g["nickname"])}"</span>' if g.get('nickname') else '')+'</h3>']
+    if g.get('photo'):
+        cap=g.get('photo_caption') or g['name']
+        cred=g.get('photo_credit') or ''
+        fig=f'<figure class="lph"><img src="{E(g["photo"])}" alt="{E(cap)}">'
+        fc=E(cap)
+        if cred:
+            if not cap.endswith(('.', '!', '?')):
+                fc += '.'
+            fc += ' Photo: '+E(cred)
+        fig += f'<figcaption>{fc}</figcaption></figure>'
+        x.append(fig)
     x.append(f'<p class="snip">{E(snippet(g))}</p><div class="full" id="{fid}" hidden>'+''.join(f'<p>{E(p)}</p>' for p in g.get('synopsis',[]) if p))
     if g.get('achievements'): x.append('<span class="lbl">Notable achievements</span><ul class="ach">'+''.join(f'<li>{E(a)}</li>' for a in g['achievements'])+'</ul>')
     x.append('</div>'+(f'<p class="stats">'+' <span aria-hidden="true">&middot;</span> '.join(E(t) for t in g['stats'])+'</p>' if g.get('stats') else '')+f'<button type="button" class="more" aria-expanded="false" aria-controls="{fid}">Read more</button>')

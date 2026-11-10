@@ -64,7 +64,10 @@
             "20 WoO titles",
             "690 WoO wins",
             "Crown jewels: 12 Knoxville Nationals, 7 Kings Royals, 4 National Opens"
-          ]
+          ],
+          "photo": "images/legends/steve-kinser.jpg",
+          "photo_credit": "Paul Arch / World of Outlaws",
+          "photo_caption": "Steve Kinser at Knoxville Raceway, Aug. 11, 2004."
         },
         {
           "name": "Sammy Swindell",
@@ -97,7 +100,10 @@
             "394 WoO wins",
             "Crown jewels: 1 Knoxville Nationals, 3 Kings Royals, 2 National Opens",
             "5 Chili Bowls"
-          ]
+          ],
+          "photo": "images/legends/sammy-swindell.jpg",
+          "photo_credit": "Paul Arch / World of Outlaws",
+          "photo_caption": "Sammy Swindell at Knoxville Raceway, August 1997."
         },
         {
           "name": "Donny Schatz",
@@ -129,7 +135,10 @@
             "316 WoO wins",
             "Crown jewels: 11 Knoxville Nationals, 6 Kings Royals, 6 National Opens, 2 Australian Classics"
           ],
-          "active": true
+          "active": true,
+          "photo": "images/legends/donny-schatz.jpg",
+          "photo_credit": "Trent Gower / World of Outlaws",
+          "photo_caption": "Donny Schatz in his Tony Stewart Racing firesuit, 2025 World of Outlaws portrait."
         },
         {
           "name": "Mark Kinser",
@@ -156,7 +165,10 @@
             "https://www.knoxvilleraceway.com/knoxville-nationals/history",
             "https://en.wikipedia.org/wiki/Mark_Kinser",
             "https://www.sprintcarhof.com/pages/hall-of-fame.aspx"
-          ]
+          ],
+          "photo": "images/legends/mark-kinser.jpg",
+          "photo_credit": "Paul Arch / World of Outlaws",
+          "photo_caption": "Mark Kinser's No. 5 Mopar sprint car at Knoxville Raceway, Aug. 13, 1999."
         },
         {
           "name": "Doug Wolfgang",
@@ -187,7 +199,10 @@
             "140 WoO wins",
             "37 All Star wins",
             "Crown jewels: 5 Knoxville Nationals, 2 Kings Royals, 3 National Opens"
-          ]
+          ],
+          "photo": "images/legends/doug-wolfgang.jpg",
+          "photo_credit": "World of Outlaws photo (photographer not identified)",
+          "photo_caption": "Doug Wolfgang's sprint car at a World of Outlaws race in Lawrenceburg, Ind."
         }
       ],
       "group": "410 Sprint Cars"
@@ -229,7 +244,10 @@
             "2014 USAC Midget title",
             "2 Chili Bowls"
           ],
-          "active": true
+          "active": true,
+          "photo": "images/legends/rico-abreu.jpg",
+          "photo_credit": "Paul Arch / World of Outlaws",
+          "photo_caption": "Rico Abreu, World of Outlaws."
         },
         {
           "name": "Kyle Larson",
@@ -275,7 +293,10 @@
             "https://www.nascar.com/news-media/2021/05/30/results-2021-cup-series-charlotte-coca-cola-600-race-recap/",
             "https://www.nascar.com/news-media/2024/07/21/kyle-larson-surges-to-front-late-wins-first-brickyard-400/",
             "https://www.nascar.com/news-media/2015/01/25/larson-mcmurray-win-rolex-24-at-daytona/"
-          ]
+          ],
+          "photo": "images/legends/kyle-larson.jpg",
+          "photo_credit": "Trent Gower / World of Outlaws",
+          "photo_caption": "Kyle Larson in Casey's Victory Lane at the Knoxville Nationals, 2025."
         }
       ],
       "group": "410 Sprint Cars"
@@ -306,7 +327,10 @@
           "stats": [
             "6 All Stars titles",
             "137 All Stars wins (record)"
-          ]
+          ],
+          "photo": "images/legends/dale-blaney.jpg",
+          "photo_credit": "Tyler Carr / World of Outlaws",
+          "photo_caption": "Dale Blaney in the car built by his brother Dave Blaney at Sharon Speedway, World of Outlaws."
         },
         {
           "name": "Kenny Jacobs",
@@ -327,7 +351,10 @@
           "stats": [
             "4 All Stars titles",
             "97 All Stars wins"
-          ]
+          ],
+          "photo": "images/legends/kenny-jacobs.jpg",
+          "photo_credit": "Max Dolder / World of Outlaws",
+          "photo_caption": "Kenny Jacobs' No. 71M sprint car, St. Augustine, Fla., Feb. 12, 1994."
         },
         {
           "name": "Chad Kemenah",
@@ -348,7 +375,10 @@
           "stats": [
             "6 All Stars titles",
             "35 All Stars wins"
-          ]
+          ],
+          "photo": "images/legends/chad-kemenah.jpg",
+          "photo_credit": "Paul Arch / World of Outlaws",
+          "photo_caption": "Chad Kemenah at Volusia, Feb. 8, 2006 (All Stars)."
         },
         {
           "name": "Tim Shaffer",
@@ -415,7 +445,10 @@
             "74 All Stars wins",
             "18 wins in 1995 (record)",
             "Crown jewels: 2 Kings Royals (2002, 2006)"
-          ]
+          ],
+          "photo": "images/legends/joey-saldana.jpg",
+          "photo_credit": "World of Outlaws photo (photographer not identified)",
+          "photo_caption": "Joey Saldana, World of Outlaws."
         },
         {
           "name": "Jack Hewitt",
@@ -442,7 +475,10 @@
             "1985 All Stars champion",
             "55 All Stars wins (5th)",
             "46 USAC Sprint wins"
-          ]
+          ],
+          "photo": "images/legends/jack-hewitt.jpg",
+          "photo_credit": "Paul Arch / World of Outlaws",
+          "photo_caption": "Jack Hewitt in a USAC sprint car at Winchester, April 2, 1995."
         }
       ]
     },
@@ -473,7 +509,10 @@
             "4 USAC titles (Midget, 2 Sprint, Silver Crown)",
             "70 USAC national wins",
             "Triple Crown"
-          ]
+          ],
+          "photo": "images/legends/pancho-carter.jpg",
+          "photo_credit": "USAC (photographer not identified)",
+          "photo_caption": "Pancho Carter, USAC."
         },
         {
           "name": "Dave Darland",
@@ -502,7 +541,10 @@
             "62 USAC Sprint wins",
             "20 Indiana Sprint Week wins",
             "Triple Crown"
-          ]
+          ],
+          "photo": "images/legends/dave-darland.jpg",
+          "photo_credit": "USAC (photographer not identified)",
+          "photo_caption": "Dave Darland, USAC."
         },
         {
           "name": "Brady Bacon",
@@ -526,7 +568,10 @@
             "https://tjslideways.com/statistics/usac-national-sprint-car-series-champions/",
             "https://www.usacracing.com/news/eldora-usac-sprint-car-results-may-16-2026"
           ],
-          "active": true
+          "active": true,
+          "photo": "images/legends/brady-bacon.jpg",
+          "photo_credit": "Ryan Sellers / USAC",
+          "photo_caption": "Brady Bacon in victory lane after winning round five of USAC Indiana Sprint Week at Circle City Raceway (July 28, 2026)."
         },
         {
           "name": "Tom Bigelow",
@@ -550,7 +595,10 @@
             "https://www.usacracing.com/hall-of-fame-inductees/tom-bigelow",
             "https://www.usacracing.com/news/usac-legend-dave-darland-announces-retirement",
             "https://en.wikipedia.org/wiki/Tom_Bigelow"
-          ]
+          ],
+          "photo": "images/legends/tom-bigelow.jpg",
+          "photo_credit": "USAC (photographer not identified)",
+          "photo_caption": "Tom Bigelow, USAC."
         },
         {
           "name": "Tracy Hines",
@@ -575,7 +623,10 @@
             "3 USAC titles",
             "91 USAC national wins (47 Sprint)",
             "Triple Crown"
-          ]
+          ],
+          "photo": "images/legends/tracy-hines.jpg",
+          "photo_credit": "USAC (photographer not identified)",
+          "photo_caption": "Tracy Hines, USAC."
         },
         {
           "name": "Justin Grant",
@@ -606,7 +657,10 @@
             "71 USAC Sprint wins",
             "5 National Drivers titles"
           ],
-          "active": true
+          "active": true,
+          "photo": "images/legends/justin-grant.jpg",
+          "photo_credit": "Josh James Artwork / USAC",
+          "photo_caption": "Justin Grant, 2025 Mike Curb USAC National Drivers Champion."
         },
         {
           "name": "Jack Hewitt",
@@ -636,7 +690,10 @@
             "46 USAC Sprint wins",
             "2 Silver Crown titles",
             "Crown jewel: 1998 4-Crown sweep"
-          ]
+          ],
+          "photo": "images/legends/jack-hewitt.jpg",
+          "photo_credit": "Paul Arch / World of Outlaws",
+          "photo_caption": "Jack Hewitt in a USAC sprint car at Winchester, April 2, 1995."
         }
       ],
       "group": "410 Sprint Cars"
@@ -705,7 +762,10 @@
             "75+ NCRA wins",
             "4 ASCS titles",
             "128 ASCS wins (record)"
-          ]
+          ],
+          "photo": "images/legends/gary-wright.jpg",
+          "photo_credit": "ASCS / World Racing Group (photographer not identified)",
+          "photo_caption": "Gary Wright, ASCS."
         },
         {
           "name": "Terry Gray",
@@ -730,7 +790,10 @@
             "4 ASCS titles",
             "16 USCS titles"
           ],
-          "active": true
+          "active": true,
+          "photo": "images/legends/terry-gray.jpg",
+          "photo_credit": "ASCS / World Racing Group (photographer not identified)",
+          "photo_caption": "Terry Gray, ASCS."
         }
       ],
       "group": "410 Sprint Cars"
@@ -763,7 +826,10 @@
             "4 ASCS titles",
             "9 NCRA titles",
             "128 ASCS wins (record)"
-          ]
+          ],
+          "photo": "images/legends/gary-wright.jpg",
+          "photo_credit": "ASCS / World Racing Group (photographer not identified)",
+          "photo_caption": "Gary Wright, ASCS."
         },
         {
           "name": "Terry Gray",
@@ -789,7 +855,10 @@
             "16 USCS titles",
             "3 NCRA titles"
           ],
-          "active": true
+          "active": true,
+          "photo": "images/legends/terry-gray.jpg",
+          "photo_credit": "ASCS / World Racing Group (photographer not identified)",
+          "photo_caption": "Terry Gray, ASCS."
         },
         {
           "name": "Sam Hafertepe Jr.",
@@ -816,7 +885,10 @@
             "95 ASCS National Tour wins through 2026",
             "7 ASCS National Tour wins in 2026"
           ],
-          "active": true
+          "active": true,
+          "photo": "images/legends/sam-hafertepe-jr.jpg",
+          "photo_credit": "David Sink / World of Outlaws",
+          "photo_caption": "Sam Hafertepe Jr.'s No. 15 sprint car, World of Outlaws (2021 story)."
         },
         {
           "name": "Jason Johnson",
@@ -879,7 +951,10 @@
             "4 ASCS titles",
             "3 NCRA titles"
           ],
-          "active": true
+          "active": true,
+          "photo": "images/legends/terry-gray.jpg",
+          "photo_credit": "ASCS / World Racing Group (photographer not identified)",
+          "photo_caption": "Terry Gray, ASCS."
         }
       ],
       "group": "360 Sprint Cars"
@@ -939,7 +1014,10 @@
           "stats": [
             "7 USAC Midget titles",
             "111 USAC Midget wins (record)"
-          ]
+          ],
+          "photo": "images/legends/mel-kenyon.jpg",
+          "photo_credit": "USAC (photographer not identified)",
+          "photo_caption": "Mel Kenyon, USAC."
         },
         {
           "name": "Rich Vogler",
@@ -965,7 +1043,10 @@
             "134 USAC national wins",
             "8 Hut Hundreds",
             "1 Chili Bowl"
-          ]
+          ],
+          "photo": "images/legends/rich-vogler.jpg",
+          "photo_credit": "USAC (photographer not identified)",
+          "photo_caption": "Rich Vogler, USAC."
         },
         {
           "name": "Bob Wente",
@@ -990,7 +1071,10 @@
           "stats": [
             "1963 USAC Midget title",
             "78 USAC Midget wins"
-          ]
+          ],
+          "photo": "images/legends/bob-wente.jpg",
+          "photo_credit": "USAC (photographer not identified)",
+          "photo_caption": "Bob Wente, USAC."
         },
         {
           "name": "Dave Darland",
@@ -1011,7 +1095,10 @@
           "stats": [
             "2 USAC Midget titles",
             "30 USAC Midget wins"
-          ]
+          ],
+          "photo": "images/legends/dave-darland.jpg",
+          "photo_credit": "USAC (photographer not identified)",
+          "photo_caption": "Dave Darland, USAC."
         }
       ],
       "group": "Midgets"
@@ -1049,7 +1136,10 @@
             "49 Silver Crown wins (record)",
             "4 Little 500s (2016, 2018, 2019, 2026)"
           ],
-          "active": true
+          "active": true,
+          "photo": "images/legends/kody-swanson.jpg",
+          "photo_credit": "Josh James Artwork / USAC",
+          "photo_caption": "Kody Swanson, 2024 USAC Silver Crown National Champion."
         },
         {
           "name": "Jack Hewitt",
@@ -1078,7 +1168,10 @@
             "23 Silver Crown wins",
             "19 4-Crown wins",
             "Crown jewel: 1991 Australian Classic"
-          ]
+          ],
+          "photo": "images/legends/jack-hewitt.jpg",
+          "photo_credit": "Paul Arch / World of Outlaws",
+          "photo_caption": "Jack Hewitt in a USAC sprint car at Winchester, April 2, 1995."
         },
         {
           "name": "Dave Steele",
@@ -1101,7 +1194,10 @@
           "stats": [
             "2 Silver Crown titles",
             "60 USAC national wins (16 Silver Crown)"
-          ]
+          ],
+          "photo": "images/legends/dave-steele.jpg",
+          "photo_credit": "USAC (photographer not identified)",
+          "photo_caption": "Dave Steele, USAC."
         }
       ],
       "group": "Silver Crown & USAC Triple Crown"
@@ -1133,7 +1229,10 @@
             "4 USAC titles (Midget, 2 Sprint, Silver Crown)",
             "70 USAC national wins",
             "Triple Crown"
-          ]
+          ],
+          "photo": "images/legends/pancho-carter.jpg",
+          "photo_credit": "USAC (photographer not identified)",
+          "photo_caption": "Pancho Carter, USAC."
         },
         {
           "name": "Tony Stewart",
@@ -1200,7 +1299,10 @@
             "Owner: 2 NASCAR Cup titles (2011 Stewart, 2014 Harvick)",
             "Owner: 2 NASCAR Xfinity titles (2018, 2023 Custer)",
             "Owner: 2023 NHRA Funny Car title (Hagan)"
-          ]
+          ],
+          "photo": "images/legends/tony-stewart.jpg",
+          "photo_credit": "Chris Owens / World of Outlaws",
+          "photo_caption": "Tony Stewart, World of Outlaws."
         },
         {
           "name": "Dave Darland",
@@ -1229,7 +1331,10 @@
             "62 USAC Sprint wins",
             "20 Indiana Sprint Week wins",
             "Triple Crown"
-          ]
+          ],
+          "photo": "images/legends/dave-darland.jpg",
+          "photo_credit": "USAC (photographer not identified)",
+          "photo_caption": "Dave Darland, USAC."
         },
         {
           "name": "J.J. Yeley",
@@ -1275,7 +1380,10 @@
           "stats": [
             "4 USAC titles",
             "Triple Crown"
-          ]
+          ],
+          "photo": "images/legends/jerry-coons-jr.jpg",
+          "photo_credit": "USAC (photographer not identified)",
+          "photo_caption": "Jerry Coons Jr., USAC."
         },
         {
           "name": "Tracy Hines",
@@ -1300,7 +1408,10 @@
             "3 USAC titles",
             "91 USAC national wins (47 Sprint)",
             "Triple Crown"
-          ]
+          ],
+          "photo": "images/legends/tracy-hines.jpg",
+          "photo_credit": "USAC (photographer not identified)",
+          "photo_caption": "Tracy Hines, USAC."
         },
         {
           "name": "Chris Windom",
@@ -1324,7 +1435,10 @@
             "3 USAC titles",
             "Triple Crown"
           ],
-          "active": true
+          "active": true,
+          "photo": "images/legends/chris-windom.jpg",
+          "photo_credit": "Trent Gower / World of Outlaws",
+          "photo_caption": "Chris Windom's NOS Energy Drink sprint car, 2025 World of Outlaws."
         },
         {
           "name": "Logan Seavey",
@@ -1353,7 +1467,10 @@
             "Triple Crown",
             "2 Chili Bowls (2023, 2024)"
           ],
-          "active": true
+          "active": true,
+          "photo": "images/legends/logan-seavey.jpg",
+          "photo_credit": "Josh James Artwork / USAC",
+          "photo_caption": "Logan Seavey, 2024 USAC AMSOIL Sprint Car National Champion."
         }
       ],
       "group": "Silver Crown & USAC Triple Crown"
@@ -1385,7 +1502,10 @@
             "https://www.knoxvilleraceway.com/knoxville-nationals/history",
             "https://www.empamedia.com/halloffameKenny%20Weld.html",
             "https://www.sprintcarhof.com/pages/hall-of-fame.aspx"
-          ]
+          ],
+          "photo": "images/legends/kenny-weld.jpg",
+          "photo_credit": "World of Outlaws archive photo (photographer not identified)",
+          "photo_caption": "Kenny Weld after his fifth straight track title, Williams Grove, Pa., Oct. 5, 1974."
         },
         {
           "name": "Jan Opperman",
@@ -1408,7 +1528,10 @@
             "https://www.mshf.com/Jan-Opperman-10-1607809.html",
             "https://www.museumofamericanspeed.org/janopperman.html",
             "https://www.knoxvilleraceway.com/knoxville-nationals/history"
-          ]
+          ],
+          "photo": "images/legends/jan-opperman.jpg",
+          "photo_credit": "World of Outlaws photo (photographer not identified)",
+          "photo_caption": "Jan Opperman's Bogar No. 90 at a USAC race at Eldora Speedway, Ohio."
         },
         {
           "name": "Jac Haudenschild",
@@ -1431,7 +1554,10 @@
           "sources": [
             "https://worldofoutlaws.com/sprintcars/checkered-past/checkered-past-restless-child/",
             "https://en.wikipedia.org/wiki/Jac_Haudenschild"
-          ]
+          ],
+          "photo": "images/legends/jac-haudenschild.jpg",
+          "photo_credit": "Trent Gower / World of Outlaws",
+          "photo_caption": "Jac Haudenschild with his son Sheldon Haudenschild (cropped to Jac), World of Outlaws."
         },
         {
           "name": "Bobby Allen",
@@ -1458,7 +1584,10 @@
             "https://www.knoxvilleraceway.com/knoxville-nationals/history",
             "https://worldofoutlaws.com/sprintcars/historical-stats-sprint-cars/all-time-wins/",
             "https://www.sprintcarhof.com/pages/hall-of-fame.aspx"
-          ]
+          ],
+          "photo": "images/legends/bobby-allen.jpg",
+          "photo_credit": "Paul Arch / World of Outlaws",
+          "photo_caption": "Bobby Allen at Hagerstown, May 24, 1987, World of Outlaws."
         },
         {
           "name": "Brad Doty",
@@ -1482,7 +1611,10 @@
             "https://worldofoutlaws.com/sprintcars/checkered-past-kid-from-apple-creek/",
             "https://waynecountysportshof.com/members/decade-of-the-2020s/brad-doty/",
             "https://speedsport.com/insider/insider-qa-what-does-brad-doty-think/"
-          ]
+          ],
+          "photo": "images/legends/brad-doty.jpg",
+          "photo_credit": "Paul Arch / World of Outlaws",
+          "photo_caption": "Brad Doty at Attica, July 14, 2020, World of Outlaws."
         }
       ]
     }
