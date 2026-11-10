@@ -399,7 +399,10 @@
           "stats": [
             "4 All Stars titles",
             "69 All Stars wins"
-          ]
+          ],
+          "photo": "images/legends/tim-shaffer.jpg",
+          "photo_credit": "DB3 Imaging / World of Outlaws",
+          "photo_caption": "Tim Shaffer's team in victory lane, Vegas night one at The Dirt Track at Las Vegas, Feb. 27-28, 2019."
         },
         {
           "name": "Frankie Kerr",
@@ -915,7 +918,10 @@
             "https://jasonjohnsonracing.com/about/",
             "https://www.sprintcarhof.com/pages/hall-of-fame.aspx",
             "https://www.knoxvilleraceway.com/knoxville-nationals/history"
-          ]
+          ],
+          "photo": "images/legends/jason-johnson.jpg",
+          "photo_credit": "World of Outlaws photo (photographer not identified)",
+          "photo_caption": "Jason Johnson in victory lane, World of Outlaws."
         }
       ],
       "group": "360 Sprint Cars"
@@ -1357,7 +1363,10 @@
             "5 USAC titles",
             "24 USAC wins in 2003",
             "Single-season Triple Crown"
-          ]
+          ],
+          "photo": "images/legends/j-j-yeley.jpg",
+          "photo_credit": "A.J. Johnson / USAC",
+          "photo_caption": "J.J. Yeley (in race suit, left of center) in victory lane after winning the USAC CRA race at Calistoga, Aug. 30, 2025."
         },
         {
           "name": "Jerry Coons Jr.",
