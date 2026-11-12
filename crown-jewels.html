@@ -214,6 +214,22 @@ footer .wrap{padding-top:40px;padding-bottom:40px;display:flex;flex-direction:co
 .leg{border-bottom:1px solid var(--line);padding:18px 0}.leg h3{font-size:28px;margin:0 0 6px}.nick{color:var(--dirt);font-size:16px;margin-left:8px}.leg p{line-height:1.6;color:var(--fg);max-width:75ch}.ach{color:var(--mute);margin:8px 0 0 18px}.more{background:none;border:0;padding:4px 0;color:var(--red);cursor:pointer;font:inherit;font-weight:700;text-transform:uppercase;letter-spacing:.06em;font-size:13px}.more:hover{color:var(--red-hi)}.full[hidden],.snip[hidden]{display:none}.stats{font-size:14px;font-weight:700;color:var(--dirt);margin:6px 0 2px;letter-spacing:.02em}.tnote{font-size:13px;color:var(--dim);margin-top:8px}
 .act{color:var(--red);margin-left:2px}.actnote{font-size:14px;color:var(--mute);margin:8px 0 0}.actnote b{color:var(--red)}
 .srcfoot{display:block;margin-top:10px;padding-top:6px;border-top:1px solid var(--line);font-size:12px;color:var(--dim)}.srcfoot a{color:var(--dim);margin-right:10px}.srcfoot a:hover{color:var(--red-hi)}
+.lph{margin:10px 0 14px;max-width:min(360px,100%)}
+.lph img{display:block;width:100%;height:auto;max-height:420px;object-fit:contain;background:#111}
+.lph figcaption{margin-top:6px;font-size:13px;color:var(--dim);line-height:1.45}
+/* Series jump: slim sticky bar (one select) + full link list that scrolls away with the page */
+.jbar{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:10px;height:48px;margin:0 0 8px;background:rgba(14,14,15,.97);border-bottom:1px solid var(--line)}
+.jbar label{flex:none;font-size:12px;color:var(--dirt);letter-spacing:.1em}
+.jbar select{flex:1 1 auto;min-width:0;max-width:420px;height:38px;padding:0 10px;background:var(--panel);color:var(--fg);border:1px solid #3a3d41;border-radius:4px;font:inherit;font-size:16px}
+.jbar select:focus-visible{outline:2px solid var(--red-hi);outline-offset:2px}
+.jbox{margin:0 0 10px}
+.jbox>summary{cursor:pointer;list-style:none;display:inline-flex;align-items:center;gap:8px;padding:6px 0;font-size:13px;color:var(--mute);letter-spacing:.08em}
+.jbox>summary::-webkit-details-marker{display:none}
+.jbox>summary::after{content:"\25BE";font-size:12px}
+.jbox[open]>summary::after{content:"\25B4"}
+.jump{position:static;z-index:auto;padding:0;border-bottom:0;background:none;margin:4px 0 6px}
+.ser{scroll-margin-top:64px}
+@media (max-width:640px){.jlbl{min-width:0;width:100%}.jbar label{display:none}.jbar select{max-width:none}}
 </style><style>
 .cjt{width:100%;border-collapse:collapse;font-size:15px;margin:6px 0 4px}
 .cjt th{text-align:left;font-family:'Barlow Condensed',sans-serif;text-transform:uppercase;letter-spacing:.04em;color:var(--dim);font-weight:700;border-bottom:1px solid var(--line);padding:6px 8px}
@@ -574,4 +590,5 @@ bs.forEach(function(b){b.addEventListener('click',function(){pick(b.dataset.y)})
 rows.forEach(function(r){var c=r.querySelector('td.yr');c.style.cursor='pointer';c.addEventListener('click',function(){var d=r.querySelector('details');if(d)d.open=!d.open})});});</script>
 
 
+<script src="to-top.js" defer></script>
 </body></html>

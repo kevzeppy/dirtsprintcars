@@ -937,6 +937,10 @@ function dscVisible(dates,today,days,min){
         li.innerHTML='<span class="lbl red">'+esc(e.historical_year)+' &middot; '+esc(e.series)+'</span><span class="disp" style="font-size:22px;font-weight:700">'+esc(e.headline)+'</span><span style="font-size:14px;color:var(--mute)">'+esc(e.track)+(e.result?' &middot; '+esc(e.result):'')+'</span>';
         list.insertBefore(li,more);
       });
+      /* Keep today's list newest year on top, static stories and JSON entries together. */
+      var items=[].slice.call(list.children).filter(function(x){return x!==more;}).map(function(x,j){var m=(x.textContent||'').match(/\b(1[89]\d\d|20\d\d)\b/);return {x:x,y:m?parseInt(m[1],10):0,j:j};});
+      items.sort(function(a,b){return b.y-a.y||a.j-b.j;});
+      items.forEach(function(o){list.insertBefore(o.x,more);});
     }).catch(function(){});
   }
   if('IntersectionObserver' in window){var io=new IntersectionObserver(function(en){if(en[0].isIntersecting){io.disconnect();load();}},{rootMargin:'400px'});io.observe(list);}else{load();}

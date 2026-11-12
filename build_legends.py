@@ -16,6 +16,19 @@ css=""".lhero{padding:40px 0 8px}
 .lph{margin:10px 0 14px;max-width:min(360px,100%)}
 .lph img{display:block;width:100%;height:auto;max-height:420px;object-fit:contain;background:#111}
 .lph figcaption{margin-top:6px;font-size:13px;color:var(--dim);line-height:1.45}
+/* Series jump: slim sticky bar (one select) + full link list that scrolls away with the page */
+.jbar{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:10px;height:48px;margin:0 0 8px;background:rgba(14,14,15,.97);border-bottom:1px solid var(--line)}
+.jbar label{flex:none;font-size:12px;color:var(--dirt);letter-spacing:.1em}
+.jbar select{flex:1 1 auto;min-width:0;max-width:420px;height:38px;padding:0 10px;background:var(--panel);color:var(--fg);border:1px solid #3a3d41;border-radius:4px;font:inherit;font-size:16px}
+.jbar select:focus-visible{outline:2px solid var(--red-hi);outline-offset:2px}
+.jbox{margin:0 0 10px}
+.jbox>summary{cursor:pointer;list-style:none;display:inline-flex;align-items:center;gap:8px;padding:6px 0;font-size:13px;color:var(--mute);letter-spacing:.08em}
+.jbox>summary::-webkit-details-marker{display:none}
+.jbox>summary::after{content:"\\25BE";font-size:12px}
+.jbox[open]>summary::after{content:"\\25B4"}
+.jump{position:static;z-index:auto;padding:0;border-bottom:0;background:none;margin:4px 0 6px}
+.ser{scroll-margin-top:64px}
+@media (max-width:640px){.jlbl{min-width:0;width:100%}.jbar label{display:none}.jbar select{max-width:none}}
 """
 ABBR=('Jr.','Sr.','St.','Mt.','Dr.','Aug.','Oct.','Sept.','Nov.','Dec.','Jan.','Feb.','Ind.','J.J.','A.J.','C.J.','U.S.')
 def sents(p):
@@ -68,7 +81,9 @@ hdr=src[src.index('<header>'):src.index('</header>')+9]
 hdr=hdr.replace('<li><a href="legends.html" class="lbl">Legends</a></li>','<li><a href="legends.html" class="lbl" aria-current="page">Legends</a></li>')
 ftr=src[src.index('<footer>'):src.index('</footer>')+9]
 import itertools
-jump='<nav class="jump" aria-label="Series">'+''.join('<div class="jgrp"><span class="jlbl lbl">'+E(k)+'</span>'+''.join(f'<a href="#{s["id"]}" class="lbl">{E(s["name"])}</a>' for s in v)+'</div>' for k,v in itertools.groupby(d['series'],key=lambda s:s.get('group','')))+'</nav>'
-js="<script>function oh(){var e=document.getElementById(location.hash.slice(1));if(e&&e.tagName=='DETAILS')e.open=true}window.addEventListener('hashchange',oh);oh();document.addEventListener('click',function(ev){var b=ev.target.closest('.more');if(!b)return;var f=document.getElementById(b.getAttribute('aria-controls')),o=b.getAttribute('aria-expanded')=='true';f.hidden=o;f.parentNode.querySelector('.snip').hidden=!o;b.setAttribute('aria-expanded',String(!o));b.textContent=o?'Read more':'Show less';if(o)f.parentNode.scrollIntoView({block:'nearest'})});</script>"
-page=head+'</style><style>'+css+'</style></head><body>\n'+hdr+'\n<main class="wrap">\n<header class="lhero"><img class="lhimg" src="images/this-day-hero.jpg" alt="Classic sprint cars"><span class="lbl tag">Guide</span><h1 class="disp">Legends</h1><p>The people who built sprint car and midget racing.</p>'+(f'<p class="actnote"><b>*</b> {E(d["active_note"].lstrip("* "))}</p>' if d.get('active_note') else '')+'</header>\n'+jump+'\n'+'\n'.join(out)+'\n'+(f'<p class="actnote"><b>*</b> {E(d["active_note"].lstrip("* "))}</p>' if d.get('active_note') else '')+'\n</main>\n'+js+'\n'+ftr+'\n</body></html>\n'
+jump0='<nav class="jump" aria-label="Series">'+''.join('<div class="jgrp"><span class="jlbl lbl">'+E(k)+'</span>'+''.join(f'<a href="#{s["id"]}" class="lbl">{E(s["name"])}</a>' for s in v)+'</div>' for k,v in itertools.groupby(d['series'],key=lambda s:s.get('group','')))+'</nav>'
+bar='<div class="jbar"><label class="lbl" for="jsel">Jump to</label><select id="jsel" aria-label="Jump to a series">'+'<option value="">Jump to a series&hellip;</option>'+''.join('<optgroup label="'+E(k)+'">'+''.join(f'<option value="{s["id"]}">{E(s["name"])}</option>' for s in v)+'</optgroup>' for k,v in itertools.groupby(d['series'],key=lambda s:s.get('group','')))+'</select></div>'
+jump=bar+'\n<details class="jbox" id="jbox" open><summary class="lbl">All series</summary>'+jump0+'</details>'
+js="<script>function oh(){var e=document.getElementById(location.hash.slice(1));if(e&&e.tagName=='DETAILS')e.open=true}window.addEventListener('hashchange',oh);oh();var js_=document.getElementById('jsel');if(js_)js_.addEventListener('change',function(){var e=document.getElementById(js_.value);if(!e)return;e.open=true;e.scrollIntoView();if(history.replaceState)history.replaceState(null,'','#'+js_.value);js_.selectedIndex=0;});if(window.matchMedia&&matchMedia('(max-width:640px)').matches){var jb=document.getElementById('jbox');if(jb)jb.open=false;}document.addEventListener('click',function(ev){var b=ev.target.closest('.more');if(!b)return;var f=document.getElementById(b.getAttribute('aria-controls')),o=b.getAttribute('aria-expanded')=='true';f.hidden=o;f.parentNode.querySelector('.snip').hidden=!o;b.setAttribute('aria-expanded',String(!o));b.textContent=o?'Read more':'Show less';if(o)f.parentNode.scrollIntoView({block:'nearest'})});</script>"
+page=head+'</style><style>'+css+'</style></head><body>\n'+hdr+'\n<main class="wrap">\n<header class="lhero"><img class="lhimg" src="images/this-day-hero.jpg" alt="Classic sprint cars"><span class="lbl tag">Guide</span><h1 class="disp">Legends</h1><p>The people who built sprint car and midget racing.</p>'+(f'<p class="actnote"><b>*</b> {E(d["active_note"].lstrip("* "))}</p>' if d.get('active_note') else '')+'</header>\n'+jump+'\n'+'\n'.join(out)+'\n'+(f'<p class="actnote"><b>*</b> {E(d["active_note"].lstrip("* "))}</p>' if d.get('active_note') else '')+'\n</main>\n'+js+'\n'+ftr+'\n<script src="to-top.js" defer></script>\n</body></html>\n'
 open('legends.html','w').write(page)
