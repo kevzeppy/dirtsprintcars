@@ -370,18 +370,38 @@
   {
     "date": "2025-11-13",
     "historical_year": 2021,
-    "headline": "2021 Western World Championships Presented by San Tan Ford Night 2 (Sprint)",
+    "headline": "Logan Seavey wins 2021 Western World USAC Sprint season finale at Arizona Speedway",
     "series": "USAC Sprint",
     "track": "Arizona Speedway (Queen Creek, AZ)",
-    "result": "Logan Seavey wins",
+    "result": "Seavey started second and won the 30-lap USAC National and USAC CRA Sprint season finale, beating C.J. Leary, Jake Swanson, Thomas Meseraull and Brady Bacon",
     "source_url": "https://www.thethirdturn.com/wiki/2021_Western_World_Championships_Presented_by_San_Tan_Ford_Night_2_(Sprint)",
-    "source2": "https://www.thethirdturn.com/wiki/2021_AMSOIL_USAC_Sprint_Car_National_Championship_Central",
+    "source2": "https://www.floracing.com/articles/7215257-logan-seavey-finishes-usac-sprint-season-as-western-world-winner",
     "category": "majors",
-    "verified_notes": "Date/track/winner from The Third Turn season log",
+    "verified_notes": "Saturday, Nov. 13, 2021 date, Arizona Speedway, Seavey win from second, top five and 30-lap distance confirmed by The Third Turn event page (race 43 of 43 in the 2021 USAC National Sprint season and 21 of 21 in USAC CRA) and official USAC results posted on TJSlideways. FloRacing recap (USAC Media / Richie Murray) independently confirms the Western World season-finale win, starting spot and top five. Official results list lap leaders as Seavey 1-30; the recap says C.J. Leary briefly nosed ahead past halfway, so laps led are omitted. The recap's 3.127-second margin, $7,500 purse and 'last USAC event before closure' line are single-source and omitted. Track city kept as Queen Creek to match The Third Turn and the existing entry; the official USAC dateline uses San Tan Valley.",
     "birthdays": [],
-    "verification": "single-source",
+    "verification": "multi-source",
     "verification_sources": [
-      "The Third Turn (event page + season log, same publisher)"
+      "The Third Turn (event page + 2021 season log)",
+      "https://tjslideways.com/2021/11/14/savey-wins-usac-sprint-car-portion-of-the-western-world/",
+      "https://www.floracing.com/articles/7215257-logan-seavey-finishes-usac-sprint-season-as-western-world-winner"
+    ]
+  },
+  {
+    "date": "2025-11-13",
+    "historical_year": 1965,
+    "headline": "1965 USAC National Sprint season finale at Ascot: A.J. Foyt wins",
+    "series": "USAC Sprint",
+    "track": "Ascot Park (Gardena, CA)",
+    "result": "A.J. Foyt wins over Roger McCluskey; led all 30 laps; Mario Andretti third",
+    "source_url": "https://www.thethirdturn.com/wiki/USAC_National_Sprint:1965-27",
+    "source2": "http://ultimateracinghistory.com/race.php?raceid=6817",
+    "category": "race-result",
+    "verified_notes": "Saturday, Nov. 13, 1965 date, Ascot Park, Foyt win from second, 30 laps led, top five (McCluskey, Andretti, Jud Larson, Bobby Unser), fast qualifier 22.62 and race time 11:22 confirmed by The Third Turn event page and Ultimate Racing History (raceid=6817). The Third Turn season log lists the race as 27 of 27. Johnny Rutherford was the 1965 champion (The Third Turn standings; sprintcarunlimited.com USAC champions list); this is the season finale, not a title clinch.",
+    "birthdays": [],
+    "verification": "multi-source",
+    "verification_sources": [
+      "The Third Turn (event page + 1965 season log)",
+      "Ultimate Racing History raceid=6817"
     ]
   },
   {
