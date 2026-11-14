@@ -200,9 +200,9 @@ t.setAttribute('datetime',d.toISOString());t.textContent=d.toLocaleDateString('e
 <header>
 <div class="wrap head-top">
 <a href="index.html" class="logo disp" aria-label="DirtSprintCars.com home">Dirt Sprint Cars<small>.com</small></a>
-<form class="search" id="search" role="search">
+<form class="search" id="search" role="search" action="search.html" method="get">
 <label for="q" class="sr">Search news, tracks and drivers</label>
-<input id="q" type="search" placeholder="Search news, tracks, drivers">
+<input id="q" name="q" type="search" placeholder="Search news, tracks, drivers">
 <button type="submit" class="lbl">Search</button>
 </form>
 </div>
@@ -975,7 +975,6 @@ Tyler Carr / World of Outlaws; Jamie Webster via Unsplash; photographyurway via 
       render();
     });
   });
-  document.getElementById('search').addEventListener('submit',function(e){e.preventDefault()});
   render();
 })();
 </script>

@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Search | DirtSprintCars.com</title>
+<meta name="description" content="Search DirtSprintCars.com news, legends, This Day in History and the archive.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Search | DirtSprintCars.com">
+<meta property="og:description" content="Search DirtSprintCars.com news, legends, This Day in History and the archive.">
+<meta property="og:url" content="https://dirtsprintcars.com/search.html">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0e0e0f;--panel:#161718;--line:#2a2c2f;--fg:#f2f1ee;--mute:#b8bcc2;--dim:#9a9ea4;--red:#d6262b;--red-hi:#ff4d4f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:'Barlow',system-ui,sans-serif;line-height:1.6}
+a{color:inherit}
+a:hover{color:var(--red-hi)}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--red-hi);outline-offset:2px}
+.disp{font-family:'Barlow Condensed','Arial Narrow',sans-serif;text-transform:uppercase;letter-spacing:.01em}
+.lbl{font-family:'Barlow Condensed','Arial Narrow',sans-serif;text-transform:uppercase;letter-spacing:.12em;font-weight:700;font-size:13px}
+.wrap{max-width:1280px;margin:0 auto;padding-left:max(24px,env(safe-area-inset-left,0px));padding-right:max(24px,env(safe-area-inset-right,0px))}
+.red{color:var(--red-hi)}
+.sr{position:absolute;left:-9999px}
+header{background:var(--panel);border-bottom:1px solid var(--line)}
+.head-top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;padding-top:20px}
+.logo{font-size:clamp(22px,7vw,40px);max-width:100%;font-weight:800;line-height:1;text-decoration:none;color:#fff}
+.logo b{color:var(--red-hi);font-weight:800}
+.logo small{font-size:.5em;color:var(--mute);letter-spacing:.04em;text-transform:none}
+.search{display:flex;flex:1 1 280px;min-width:0;max-width:420px}
+.search input{flex:1;width:0;min-width:0;height:44px;padding:0 14px;background:var(--bg);color:var(--fg);border:1px solid #3a3d41;border-right:0;font:inherit;font-size:15px}
+.search button{height:44px;padding:0 20px;background:var(--red);color:#fff;border:0;cursor:pointer;font-size:14px}
+nav ul{display:flex;flex-wrap:wrap;gap:0 4px;list-style:none;margin:0;padding:0}
+nav a{display:block;padding:16px 12px;font-size:15px;border-bottom:3px solid transparent;text-decoration:none}
+nav a[aria-current]{color:#fff;border-bottom-color:var(--red)}
+.results{max-width:820px;padding:40px 0 64px}
+.tag{display:inline-block;background:var(--red);color:#fff;padding:5px 10px}
+h1{margin:16px 0 12px;font-size:clamp(38px,6vw,60px);line-height:.98;font-weight:800;text-wrap:balance}
+.dek{margin:0 0 16px;font-size:20px;line-height:1.45;color:#d8d9dc}
+.meta{font-size:14px;color:var(--dim);padding-bottom:20px;border-bottom:1px solid var(--line)}
+.alist{list-style:none;margin:20px 0 0;padding:0;border-top:1px solid var(--line)}
+.alist li{display:flex;flex-direction:column;gap:2px;padding:14px 0;border-bottom:1px solid var(--line)}
+.alist a{font-size:19px;font-weight:600;text-decoration:none}
+.alist .when{font-size:14px;color:var(--dim)}
+.alist .srcnote{font-size:13px;color:var(--mute)}
+#search-status{margin:16px 0 0;font-size:16px;color:var(--mute)}
+#search-status.empty{color:var(--fg)}
+footer{margin-top:56px;background:var(--panel);border-top:1px solid var(--line)}
+footer .wrap{padding-top:40px;padding-bottom:40px;display:flex;flex-direction:column;gap:28px}
+.flinks{display:flex;flex-wrap:wrap;gap:12px 28px}
+.flinks a{font-size:14px;text-decoration:none}
+.credits{border-top:1px solid var(--line);padding-top:20px;font-size:13px;line-height:1.6;color:#a4a8ae;max-width:900px}
+.copy-line{font-size:13px;color:#8d9197}
+</style>
+</head>
+<body>
+<header>
+<div class="wrap head-top">
+<a href="index.html" class="logo disp" aria-label="DirtSprintCars.com home">Dirt Sprint Cars<small>.com</small></a>
+<form class="search" id="search" role="search" action="search.html" method="get">
+<label for="q" class="sr">Search news, tracks and drivers</label>
+<input id="q" name="q" type="search" placeholder="Search news, tracks, drivers">
+<button type="submit" class="lbl">Search</button>
+</form>
+</div>
+<nav class="wrap" aria-label="Main">
+<ul>
+<li><a href="index.html" class="lbl">Home</a></li>
+<li><a href="index.html#news" class="lbl">News</a></li>
+<li><a href="index.html#schedule" class="lbl">Schedules</a></li>
+<li><a href="results.html" class="lbl">Results</a></li>
+<li><a href="index.html#sprint" class="lbl">Sprint Cars</a></li>
+<li><a href="index.html#midget" class="lbl">Midgets</a></li>
+<li><a href="index.html#nonwing" class="lbl">Non-Wing</a></li>
+<li><a href="index.html#schedule" class="lbl">USA</a></li>
+<li><a href="index.html#schedule" class="lbl">Australia</a></li>
+<li><a href="index.html#links" class="lbl">Racing Links</a></li>
+<li><a href="this-day-in-history.html" class="lbl">This Day</a></li>
+<li><a href="archive.html" class="lbl">Archive</a></li>
+<li><a href="legends.html" class="lbl">Legends</a></li>
+<li><a href="crown-jewels.html" class="lbl">Crown Jewels</a></li>
+<li><a href="in-memoriam.html" class="lbl">In Memoriam</a></li>
+<li><a href="index.html#about" class="lbl">About</a></li>
+<li><a href="index.html#contribute" class="lbl">Contribute</a></li>
+<li><a href="index.html#shop" class="lbl">Shop</a></li>
+</ul>
+</nav>
+</header>
+<main class="wrap">
+<div class="results">
+<span class="lbl tag">Search</span>
+<h1 class="disp">Search</h1>
+<p class="dek">News, legends, This Day in History and the archive, newest first.</p>
+<p id="search-status" class="meta" role="status" aria-live="polite">Enter a name, track or keyword to search.</p>
+<ul class="alist" id="search-results"></ul>
+</div>
+</main>
+<footer>
+<div class="wrap">
+<div class="flinks lbl">
+<a href="#">About</a><a href="#">Contact</a><a href="#">Advertise with us</a><a href="#">Submit news</a><a href="#">Photo licensing and permissions</a><a href="#">Privacy policy</a><a href="#">Terms</a><a href="#">Social</a>
+</div>
+<div class="credits">DirtSprintCars.com is independent and not affiliated with any series, track, team or driver.</div>
+<div class="copy-line">© DirtSprintCars.com</div>
+</div>
+</footer>
+<script>
+(function(){
+  var params=new URLSearchParams(window.location.search);
+  var q=(params.get('q')||'').trim();
+  var input=document.getElementById('q');
+  if(input) input.value=q;
+  var status=document.getElementById('search-status');
+  var list=document.getElementById('search-results');
+  var months=['January','February','March','April','May','June','July','August','September','October','November','December'];
+  function setStatus(text, empty){
+    status.textContent=text;
+    status.className=empty?'meta empty':'meta';
+  }
+  function fmtDate(iso){
+    var p=/^(\d{4})-(\d{2})-(\d{2})$/.exec(iso||'');
+    if(!p) return iso||'';
+    return months[+p[2]-1]+' '+(+p[3])+', '+p[1];
+  }
+  if(!q){
+    setStatus('Enter a name, track or keyword to search news, legends, This Day in History and the archive.');
+    return;
+  }
+  setStatus('Searching…');
+  fetch('search-index.json').then(function(r){
+    if(!r.ok) throw new Error('index');
+    return r.json();
+  }).then(function(idx){
+    var needle=q.toLowerCase();
+    var hits=idx.filter(function(e){
+      return String(e.title||'').toLowerCase().indexOf(needle)!==-1 || String(e.text||'').toLowerCase().indexOf(needle)!==-1;
+    }).sort(function(a,b){
+      var da=a.date||'', db=b.date||'';
+      if(da===db) return String(a.title||'').localeCompare(String(b.title||''));
+      return da<db?1:-1;
+    });
+    list.textContent='';
+    if(!hits.length){
+      setStatus('No results for “'+q+'”.', true);
+      return;
+    }
+    setStatus(hits.length+(hits.length===1?' result':' results')+' for “'+q+'”.');
+    hits.forEach(function(e){
+      var li=document.createElement('li');
+      var lab=document.createElement('span');
+      lab.className='lbl red';
+      lab.textContent=e.label||'';
+      var a=document.createElement('a');
+      a.href=e.url;
+      a.textContent=e.title;
+      li.appendChild(lab);
+      li.appendChild(a);
+      if(e.date){
+        var when=document.createElement('span');
+        when.className='when';
+        when.textContent=fmtDate(e.date);
+        li.appendChild(when);
+      }
+      if(e.text){
+        var snip=document.createElement('span');
+        snip.className='srcnote';
+        snip.textContent=e.text;
+        li.appendChild(snip);
+      }
+      list.appendChild(li);
+    });
+  }).catch(function(){
+    setStatus('Search is unavailable right now. Please try again.', true);
+  });
+})();
+</script>
+<script src="to-top.js" defer></script>
+</body>
+</html>
