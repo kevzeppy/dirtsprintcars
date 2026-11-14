@@ -178,6 +178,18 @@ footer .wrap{padding-top:40px;padding-bottom:40px;display:flex;flex-direction:co
 .tdih li{padding:14px 20px;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:4px}
 .tdih li:last-child{border-bottom:0}
 .tdih .yr{font-size:22px;font-weight:800}
+/* Regions nav dropdown: same details/summary pattern as the legends "jump to a series" list */
+nav .has-menu{position:relative}
+nav .nav-drop{position:relative}
+nav .nav-drop>summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:6px;padding:16px 12px;font-size:13px;border-bottom:3px solid transparent}
+nav .nav-drop>summary::-webkit-details-marker{display:none}
+nav .nav-drop>summary::after{content:"\25BE";font-size:12px;line-height:1}
+nav .nav-drop[open]>summary{color:#fff;border-bottom-color:var(--red)}
+nav .nav-drop[open]>summary::after{content:"\25B4"}
+nav .nav-drop>summary:focus-visible{outline:2px solid var(--red-hi);outline-offset:2px}
+nav .nav-menu{position:absolute;top:100%;left:0;z-index:40;min-width:180px;margin:0;padding:6px 0;background:var(--panel);border:1px solid var(--line);display:flex;flex-direction:column;box-shadow:0 8px 24px rgba(0,0,0,.45)}
+nav .nav-menu a{padding:10px 16px;border-bottom:0;white-space:nowrap}
+nav .nav-menu a:hover,nav .nav-menu a:focus-visible{color:#fff;background:rgba(214,38,43,.18)}
 </style>
 </head>
 <body>
@@ -215,8 +227,16 @@ t.setAttribute('datetime',d.toISOString());t.textContent=d.toLocaleDateString('e
 <li><a href="#sprint" class="lbl">Sprint Cars</a></li>
 <li><a href="#midget" class="lbl">Midgets</a></li>
 <li><a href="#nonwing" class="lbl">Non-Wing</a></li>
-<li><a href="#schedule" class="lbl">USA</a></li>
-<li><a href="#schedule" class="lbl">Australia</a></li>
+<li class="has-menu">
+<details class="nav-drop">
+<summary class="lbl">Regions</summary>
+<div class="nav-menu" role="group" aria-label="Regions">
+<a href="#schedule-usa" class="lbl" data-region="USA">USA</a>
+<a href="#schedule-australia" class="lbl" data-region="Australia">Australia</a>
+<a href="#schedule-new-zealand" class="lbl" data-region="New Zealand">New Zealand</a>
+</div>
+</details>
+</li>
 <li><a href="#links" class="lbl">Racing Links</a></li>
 <li><a href="this-day-in-history.html" class="lbl">This Day</a></li>
 <li><a href="archive.html" class="lbl">Archive</a></li>
@@ -694,6 +714,12 @@ t.setAttribute('datetime',d.toISOString());t.textContent=d.toLocaleDateString('e
 <button type="button" class="chip lbl" aria-pressed="false" data-value="POWRi 410 Outlaw Sprint League">POWRi 410</button>
 <button type="button" class="chip lbl" aria-pressed="false" data-value="Trophy Cup">Trophy Cup</button>
 </div>
+<div class="chips" role="group" aria-label="Filter by region" data-key="country">
+<button type="button" class="chip lbl" aria-pressed="true" data-value="All">All regions</button>
+<button type="button" class="chip lbl" aria-pressed="false" data-value="USA">USA</button>
+<button type="button" class="chip lbl" aria-pressed="false" data-value="Australia">Australia</button>
+<button type="button" class="chip lbl" aria-pressed="false" data-value="New Zealand">New Zealand</button>
+</div>
 <ul id="events"></ul>
 <p class="empty" id="empty" hidden>No events match those filters yet. Try another series or discipline.</p>
 <p class="note">Dates from the series and track schedules. Check the official sites for start times and any changes.</p>
@@ -927,6 +953,7 @@ Tyler Carr / World of Outlaws; Jamie Webster via Unsplash; photographyurway via 
 </div>
 </footer>
 
+<script src="nav-regions.js"></script>
 <script>
 (function(){
   var events=[
@@ -959,7 +986,7 @@ Tyler Carr / World of Outlaws; Jamie Webster via Unsplash; photographyurway via 
   var list=document.getElementById('events'), empty=document.getElementById('empty');
   function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&','<':'<','>':'>','"':'"'}[c]})}
   function render(){
-    var rows=events.filter(function(e){return (state.disc==='All'||e.disc===state.disc)&&(state.country==='All'||e.country===state.country)&&(state.series==='All'||e.series===state.series)});
+    var rows=events.filter(function(e){return (state.disc==='All'||e.disc===state.disc)&&DSCRegions.countryMatch(e.country,state.country)&&(state.series==='All'||e.series===state.series)});
     list.innerHTML=rows.map(function(e){
       var c=e.disc==='Sprint car'?'red':'';
       var st=e.disc==='Midget'?' style="color:var(--dirt)"':'';
@@ -967,16 +994,62 @@ Tyler Carr / World of Outlaws; Jamie Webster via Unsplash; photographyurway via 
     }).join('');
     empty.hidden=rows.length>0;
   }
+  function syncCountryChips(){
+    var group=document.querySelector('.chips[data-key="country"]');
+    if(!group) return;
+    group.querySelectorAll('button').forEach(function(x){
+      var val=(x.getAttribute('data-value')||x.textContent).trim();
+      x.setAttribute('aria-pressed',val===state.country?'true':'false');
+    });
+  }
+  function applyCountry(country,opts){
+    opts=opts||{};
+    state.country=country||'All';
+    syncCountryChips();
+    render();
+    if(opts.updateHash){
+      var next='#'+DSCRegions.slugForCountry(state.country);
+      if(location.hash!==next){
+        if(history.replaceState) history.replaceState(null,'',next);
+        else location.hash=DSCRegions.slugForCountry(state.country);
+      }
+    }
+    if(opts.scroll){
+      var el=document.getElementById('schedule');
+      if(el) el.scrollIntoView();
+    }
+  }
+  function applyCountryFromHash(opts){
+    var c=DSCRegions.countryFromHash(location.hash);
+    if(c==null) return false;
+    applyCountry(c,opts||{});
+    return true;
+  }
   document.querySelectorAll('.chips').forEach(function(group){
     group.addEventListener('click',function(ev){
       var b=ev.target.closest('button'); if(!b) return;
-      state[group.dataset.key]=(b.getAttribute('data-value')||b.textContent).trim();
+      var val=(b.getAttribute('data-value')||b.textContent).trim();
+      if(group.dataset.key==='country'){
+        applyCountry(val,{updateHash:true});
+        return;
+      }
+      state[group.dataset.key]=val;
       group.querySelectorAll('button').forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false')});
       render();
     });
   });
+  document.querySelectorAll('nav .nav-menu a[data-region]').forEach(function(a){
+    a.addEventListener('click',function(ev){
+      var href=a.getAttribute('href')||'';
+      if(href.charAt(0)!=='#' && href.indexOf('index.html#')!==0) return;
+      if(!document.getElementById('events')) return;
+      ev.preventDefault();
+      applyCountry(a.getAttribute('data-region'),{updateHash:true,scroll:true});
+    });
+  });
   document.getElementById('search').addEventListener('submit',function(e){e.preventDefault()});
-  render();
+  if(!applyCountryFromHash({scroll:location.hash.toLowerCase().indexOf('#schedule-')===0})) render();
+  window.addEventListener('hashchange',function(){applyCountryFromHash({scroll:true});});
 })();
 </script>
 <script>

@@ -172,6 +172,18 @@ footer .wrap{padding-top:40px;padding-bottom:40px;display:flex;flex-direction:co
 .yf{background:var(--panel,#151515);color:var(--mute);border:1px solid var(--line);border-radius:3px;padding:3px 9px;margin:0 6px 6px 0;font-size:12px;cursor:pointer}.yf:hover{color:var(--fg)}.yf.on{background:var(--red);border-color:var(--red);color:#fff}.hid{display:none!important}.yrow{padding-left:10px;border-left:2px solid var(--red)}.df.open{border-color:var(--red);color:var(--fg)}
 .mon summary{cursor:pointer;list-style:none}.mon summary::-webkit-details-marker{display:none}.mon summary h2:before{content:"+ ";color:var(--red)}#jt{position:fixed;right:18px;bottom:18px;z-index:50;background:#111;color:#fff;border:1px solid var(--red);border-radius:4px;padding:8px 14px;font:600 13px Barlow,sans-serif;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;box-shadow:0 2px 10px rgba(0,0,0,.5)}#jt:hover{background:var(--red)}.mon.flash{outline:2px solid var(--red);outline-offset:4px;transition:outline-color 1.2s}.mon.flash.fade{outline-color:transparent}.mon[open] summary h2:before{content:"- "}
 .cnt{font-size:14px;color:var(--dim);font-weight:500}.note-ev{border-left:3px solid var(--red-hi);padding-left:10px}.cat{margin-left:6px;color:var(--red-hi);text-transform:capitalize}
+/* Regions nav dropdown: same details/summary pattern as the legends "jump to a series" list */
+nav .has-menu{position:relative}
+nav .nav-drop{position:relative}
+nav .nav-drop>summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:6px;padding:16px 12px;font-size:13px;border-bottom:3px solid transparent}
+nav .nav-drop>summary::-webkit-details-marker{display:none}
+nav .nav-drop>summary::after{content:"\25BE";font-size:12px;line-height:1}
+nav .nav-drop[open]>summary{color:#fff;border-bottom-color:var(--red)}
+nav .nav-drop[open]>summary::after{content:"\25B4"}
+nav .nav-drop>summary:focus-visible{outline:2px solid var(--red-hi);outline-offset:2px}
+nav .nav-menu{position:absolute;top:100%;left:0;z-index:40;min-width:180px;margin:0;padding:6px 0;background:var(--panel);border:1px solid var(--line);display:flex;flex-direction:column;box-shadow:0 8px 24px rgba(0,0,0,.45)}
+nav .nav-menu a{padding:10px 16px;border-bottom:0;white-space:nowrap}
+nav .nav-menu a:hover,nav .nav-menu a:focus-visible{color:#fff;background:rgba(214,38,43,.18)}
 </style></head><body>
 <header>
 <div class="wrap head-top">
@@ -190,7 +202,16 @@ footer .wrap{padding-top:40px;padding-bottom:40px;display:flex;flex-direction:co
 <li><a href="index.html#results" class="lbl">Results</a></li>
 <li><a href="index.html#sprint" class="lbl">Sprint Cars</a></li>
 <li><a href="index.html#midget" class="lbl">Midgets</a></li>
-<li><a href="index.html#schedule" class="lbl">USA</a></li>
+<li class="has-menu">
+<details class="nav-drop">
+<summary class="lbl">Regions</summary>
+<div class="nav-menu" role="group" aria-label="Regions">
+<a href="index.html#schedule-usa" class="lbl" data-region="USA">USA</a>
+<a href="index.html#schedule-australia" class="lbl" data-region="Australia">Australia</a>
+<a href="index.html#schedule-new-zealand" class="lbl" data-region="New Zealand">New Zealand</a>
+</div>
+</details>
+</li>
 <li><a href="index.html#links" class="lbl">Racing Links</a></li>
 <li><a href="this-day-in-history.html" class="lbl">This Day</a></li>
 <li><a href="legends.html" class="lbl">Legends</a></li>
@@ -236,5 +257,6 @@ Header: Jack Hewitt, via <a href="https://live.staticflickr.com/3163/3041392708_
 </div>
 </footer>
 <button id="jt" type="button" aria-label="Jump to today">Jump to today</button>
+<script src="nav-regions.js"></script>
 <script src="to-top.js" defer></script>
 </body></html>

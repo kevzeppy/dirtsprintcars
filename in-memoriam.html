@@ -172,6 +172,18 @@ footer .wrap{padding-top:40px;padding-bottom:40px;display:flex;flex-direction:co
 .jump a{margin-right:10px;color:var(--mute)}
 .mon summary{cursor:pointer;list-style:none}.mon summary::-webkit-details-marker{display:none}.mon summary h2::before{content:"\25B8 ";color:var(--red)}.mon[open] summary h2::before{content:"\25BE "}.ev .src2{margin-left:12px}
 .mph{display:flex;flex-wrap:wrap;gap:12px;margin:8px 0 12px}.mph figure{margin:0;max-width:min(300px,100%)}.mph img{display:block;width:100%;height:auto;max-height:360px;object-fit:contain;background:#111}.mph figcaption{margin-top:6px;font-size:13px;color:var(--dim);line-height:1.45}
+/* Regions nav dropdown: same details/summary pattern as the legends "jump to a series" list */
+nav .has-menu{position:relative}
+nav .nav-drop{position:relative}
+nav .nav-drop>summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:6px;padding:16px 12px;font-size:13px;border-bottom:3px solid transparent}
+nav .nav-drop>summary::-webkit-details-marker{display:none}
+nav .nav-drop>summary::after{content:"\25BE";font-size:12px;line-height:1}
+nav .nav-drop[open]>summary{color:#fff;border-bottom-color:var(--red)}
+nav .nav-drop[open]>summary::after{content:"\25B4"}
+nav .nav-drop>summary:focus-visible{outline:2px solid var(--red-hi);outline-offset:2px}
+nav .nav-menu{position:absolute;top:100%;left:0;z-index:40;min-width:180px;margin:0;padding:6px 0;background:var(--panel);border:1px solid var(--line);display:flex;flex-direction:column;box-shadow:0 8px 24px rgba(0,0,0,.45)}
+nav .nav-menu a{padding:10px 16px;border-bottom:0;white-space:nowrap}
+nav .nav-menu a:hover,nav .nav-menu a:focus-visible{color:#fff;background:rgba(214,38,43,.18)}
 </style></head><body>
 <header>
 <div class="wrap head-top">
@@ -190,7 +202,16 @@ footer .wrap{padding-top:40px;padding-bottom:40px;display:flex;flex-direction:co
 <li><a href="index.html#results" class="lbl">Results</a></li>
 <li><a href="index.html#sprint" class="lbl">Sprint Cars</a></li>
 <li><a href="index.html#midget" class="lbl">Midgets</a></li>
-<li><a href="index.html#schedule" class="lbl">USA</a></li>
+<li class="has-menu">
+<details class="nav-drop">
+<summary class="lbl">Regions</summary>
+<div class="nav-menu" role="group" aria-label="Regions">
+<a href="index.html#schedule-usa" class="lbl" data-region="USA">USA</a>
+<a href="index.html#schedule-australia" class="lbl" data-region="Australia">Australia</a>
+<a href="index.html#schedule-new-zealand" class="lbl" data-region="New Zealand">New Zealand</a>
+</div>
+</details>
+</li>
 <li><a href="index.html#links" class="lbl">Racing Links</a></li>
 <li><a href="this-day-in-history.html" class="lbl">This Day</a></li>
 <li><a href="legends.html" class="lbl">Legends</a></li>
@@ -221,5 +242,6 @@ Jamie Webster via Unsplash; photographyurway via Pexels. Sponsor logos, car numb
 <div class="copy-line">© DirtSprintCars.com</div>
 </div>
 </footer>
+<script src="nav-regions.js"></script>
 <script src="to-top.js" defer></script>
 </body></html>
