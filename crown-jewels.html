@@ -242,18 +242,19 @@ footer .wrap{padding-top:40px;padding-bottom:40px;display:flex;flex-direction:co
 .cjt .nh{color:var(--dim);font-style:italic}
 .yrs{display:flex;flex-wrap:wrap;margin:4px 0 10px;max-height:96px;overflow-y:auto}.mw{display:flex;flex-wrap:wrap;gap:6px 18px;margin:6px 0 10px;font-size:14px;color:var(--mute)}.mw b{color:var(--fg)}
 @media(max-width:640px){.cjt .p3,.cjt th.p3{display:none}.cjt .fo{columns:1}}
-/* Regions nav dropdown: same details/summary pattern as the legends "jump to a series" list */
+/* Nav dropdowns: same details/summary pattern as the legends "jump to a series" list */
 nav .has-menu{position:relative}
 nav .nav-drop{position:relative}
 nav .nav-drop>summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:6px;padding:16px 12px;font-size:13px;border-bottom:3px solid transparent}
 nav .nav-drop>summary::-webkit-details-marker{display:none}
 nav .nav-drop>summary::after{content:"\25BE";font-size:12px;line-height:1}
-nav .nav-drop[open]>summary{color:#fff;border-bottom-color:var(--red)}
+nav .nav-drop[open]>summary,nav .nav-drop:has(a[aria-current])>summary{color:#fff;border-bottom-color:var(--red)}
 nav .nav-drop[open]>summary::after{content:"\25B4"}
 nav .nav-drop>summary:focus-visible{outline:2px solid var(--red-hi);outline-offset:2px}
 nav .nav-menu{position:absolute;top:100%;left:0;z-index:40;min-width:180px;margin:0;padding:6px 0;background:var(--panel);border:1px solid var(--line);display:flex;flex-direction:column;box-shadow:0 8px 24px rgba(0,0,0,.45)}
 nav .nav-menu a{padding:10px 16px;border-bottom:0;white-space:nowrap}
-nav .nav-menu a:hover,nav .nav-menu a:focus-visible{color:#fff;background:rgba(214,38,43,.18)}
+nav .nav-menu a:hover,nav .nav-menu a:focus-visible,nav .nav-menu a[aria-current]{color:#fff;background:rgba(214,38,43,.18)}
+nav .has-menu:last-child .nav-menu{left:auto;right:0}
 </style></head><body>
 <header>
 <div class="wrap head-top">
@@ -266,30 +267,52 @@ nav .nav-menu a:hover,nav .nav-menu a:focus-visible{color:#fff;background:rgba(2
 </div>
 <nav class="wrap" aria-label="Main">
 <ul>
-<li><a href="index.html" class="lbl">Home</a></li>
 <li><a href="index.html#news" class="lbl">News</a></li>
-<li><a href="index.html#schedule" class="lbl">Schedules</a></li>
-<li><a href="index.html#results" class="lbl">Results</a></li>
-<li><a href="index.html#sprint" class="lbl">Sprint Cars</a></li>
-<li><a href="index.html#midget" class="lbl">Midgets</a></li>
+<li><a href="results.html" class="lbl">Results</a></li>
 <li class="has-menu">
 <details class="nav-drop">
-<summary class="lbl">Regions</summary>
-<div class="nav-menu" role="group" aria-label="Regions">
+<summary class="lbl">Schedules</summary>
+<div class="nav-menu" role="group" aria-label="Schedules">
+<a href="index.html#schedule" class="lbl">All</a>
 <a href="index.html#schedule-usa" class="lbl" data-region="USA">USA</a>
 <a href="index.html#schedule-australia" class="lbl" data-region="Australia">Australia</a>
 <a href="index.html#schedule-new-zealand" class="lbl" data-region="New Zealand">New Zealand</a>
 </div>
 </details>
 </li>
+<li class="has-menu">
+<details class="nav-drop">
+<summary class="lbl">Classes</summary>
+<div class="nav-menu" role="group" aria-label="Classes">
+<a href="index.html#sprint" class="lbl">Sprint Cars</a>
+<a href="index.html#midget" class="lbl">Midgets</a>
+<a href="index.html#nonwing" class="lbl">Non-Wing</a>
+</div>
+</details>
+</li>
+<li class="has-menu">
+<details class="nav-drop">
+<summary class="lbl">History</summary>
+<div class="nav-menu" role="group" aria-label="History">
+<a href="this-day-in-history.html" class="lbl">This Day</a>
+<a href="legends.html" class="lbl">Legends</a>
+<a href="crown-jewels.html" class="lbl" aria-current="page">Crown Jewels</a>
+<a href="in-memoriam.html" class="lbl">In Memoriam</a>
+<a href="archive.html" class="lbl">Archive</a>
+</div>
+</details>
+</li>
 <li><a href="index.html#links" class="lbl">Racing Links</a></li>
-<li><a href="this-day-in-history.html" class="lbl">This Day</a></li>
-<li><a href="legends.html" class="lbl" aria-current="page">Legends</a></li>
-<li><a href="crown-jewels.html" class="lbl">Crown Jewels</a></li>
-<li><a href="in-memoriam.html" class="lbl">In Memoriam</a></li>
-<li><a href="index.html#about" class="lbl">About</a></li>
-<li><a href="index.html#contribute" class="lbl">Contribute</a></li>
-<li><a href="index.html#shop" class="lbl">Shop</a></li>
+<li class="has-menu">
+<details class="nav-drop">
+<summary class="lbl">Site</summary>
+<div class="nav-menu" role="group" aria-label="Site">
+<a href="index.html#about" class="lbl">About</a>
+<a href="index.html#contribute" class="lbl">Contribute</a>
+<a href="index.html#shop" class="lbl">Shop</a>
+</div>
+</details>
+</li>
 </ul>
 </nav>
 </header>

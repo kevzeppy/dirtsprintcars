@@ -37,6 +37,13 @@
       }
     }
 
+    var drops = document.querySelectorAll('nav details.nav-drop');
+    for (var i = 0; i < drops.length; i++) {
+      drops[i].addEventListener('toggle', function () {
+        if (this.open) closeAll(this);
+      });
+    }
+
     document.addEventListener('click', function (ev) {
       var drop = ev.target.closest && ev.target.closest('nav details.nav-drop');
       closeAll(drop || null);
