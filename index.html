@@ -833,7 +833,7 @@ t.setAttribute('datetime',d.toISOString());t.textContent=d.toLocaleDateString('e
 <h2 id="h-tdih" class="disp">This Day in History</h2>
 <a href="this-day-in-history.html" class="lbl" style="color:var(--mute)">Full archive →</a>
 </div>
-<p class="note" style="margin-top:6px">Past races and milestones on today&rsquo;s date. History only; current news is above.</p>
+<p class="note" style="margin-top:6px"><span id="tdih-when">Past races and milestones on today&rsquo;s date.</span> History only; current news is above.</p>
 <ul class="tdih" id="tdih-list">
 <li data-md="11-04"><span class="lbl red">Nov. 4, 1998 &middot; World of Outlaws</span><a href="mark-kinser-channellock-fall-classic-1998.html" class="disp" style="font-size:22px;font-weight:700">Mark Kinser Wins Channellock Fall Classic at Las Vegas</a></li>
 <li data-md="11-04"><span class="lbl red">Nov. 4, 1945 &middot; Birthday</span><a href="kenny-weld-born-nov4-1945.html" class="disp" style="font-size:22px;font-weight:700">Kenny Weld Is Born in Kansas City</a></li>
@@ -1106,16 +1106,40 @@ function dscVisible(dates,today,days,min){
   apply(document.querySelector('.resbox'),'li[data-date]',DSC_MIN);
   [].slice.call(document.querySelectorAll('.spot .list')).forEach(function(ul){apply(ul,'li[data-date]',DSC_MIN);});
   [].slice.call(document.querySelectorAll('.spot .feat[data-date]')).forEach(function(f){apply(f.parentNode,'.feat[data-date]',0);});
-  /* This Day in History module: today's static history stories + today's entries from this-day-data.json */
+  /* This Day in History module: today's static history stories + today's entries from this-day-data.json.
+     If today has no entries, fall back to the most recent earlier month-day that does. */
   var list=document.getElementById('tdih-list');if(!list)return;
+  var MONTHS=['January','February','March','April','May','June','July','August','September','October','November','December'];
+  function mdLabel(s){return MONTHS[+s.slice(0,2)-1]+' '+(+s.slice(3));}
   var md=('0'+(today.getMonth()+1)).slice(-2)+'-'+('0'+today.getDate()).slice(-2);
-  [].slice.call(list.querySelectorAll('li[data-md]')).forEach(function(li){var m=li.getAttribute('data-md');li.classList.toggle('is-old',m!=='all'&&m!==md);});
+  var when=document.getElementById('tdih-when');
+  function showDay(day){
+    [].slice.call(list.querySelectorAll('li[data-md]')).forEach(function(li){var m=li.getAttribute('data-md');li.classList.toggle('is-old',m!=='all'&&m!==day);});
+    if(when){
+      if(day===md) when.textContent='Past races and milestones on '+mdLabel(md)+'.';
+      else when.textContent='No entries for '+mdLabel(md)+'. Showing the most recent date, '+mdLabel(day)+'.';
+    }
+  }
+  showDay(md);
   function esc(t){return String(t==null?'':t).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+  function rowsFor(d,day){
+    return (d||[]).filter(function(e){return e&&typeof e.date==='string'&&e.date.slice(5)===day;})
+      .sort(function(a,b){return (b.historical_year||0)-(a.historical_year||0);});
+  }
+  function hasStatic(day){return !!list.querySelector('li[data-md="'+day+'"]');}
   function load(){
     if(!window.fetch)return;
     fetch('this-day-data.json').then(function(r){return r.ok?r.json():[];}).then(function(d){
-      var rows=(d||[]).filter(function(e){return e&&typeof e.date==='string'&&e.date.slice(5)===md;})
-        .sort(function(a,b){return (b.historical_year||0)-(a.historical_year||0);}).slice(0,5);
+      var rows=rowsFor(d,md), use=md, keys={}, all, i;
+      if(!rows.length && !hasStatic(md)){
+        (d||[]).forEach(function(e){if(e&&typeof e.date==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(e.date)) keys[e.date.slice(5)]=1;});
+        [].slice.call(list.querySelectorAll('li[data-md]')).forEach(function(li){var m=li.getAttribute('data-md');if(m&&m!=='all') keys[m]=1;});
+        all=Object.keys(keys).sort();
+        for(i=all.length-1;i>=0;i--){if(all[i]<md){use=all[i];break;}}
+        if(use===md && all.length) use=all[all.length-1];
+        if(use!==md){rows=rowsFor(d,use);showDay(use);}
+      }
+      rows=rows.slice(0,5);
       var more=document.getElementById('tdih-more');
       rows.forEach(function(e){
         var li=document.createElement('li');
