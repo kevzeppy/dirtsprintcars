@@ -70,6 +70,27 @@ def short_text(*parts: str, limit: int = 280) -> str:
     return cut + "…"
 
 
+def body_text(*parts: str, limit: int = 6000) -> str:
+    """Full searchable text (not displayed), capped so the index stays small."""
+    text = " ".join(p for p in parts if p)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text[:limit]
+
+
+def div_inner(t: str, open_tag: str) -> str:
+    """Return the inner HTML of the first div that starts with open_tag, matching nested divs."""
+    i = t.find(open_tag)
+    if i == -1:
+        return ""
+    start = i + len(open_tag)
+    depth = 1
+    for m in re.finditer(r"<div\b|</div>", t[start:], flags=re.I):
+        depth += 1 if m.group(0).lower().startswith("<div") else -1
+        if depth == 0:
+            return t[start : start + m.start()]
+    return t[start:]
+
+
 def parse_published(meta_text: str) -> str:
     m = re.search(r"Published\s+([A-Za-z]+)\s+(\d{1,2}),\s+(\d{4})", meta_text)
     if not m:
@@ -85,16 +106,17 @@ def story_entry(path: Path) -> dict:
     h1 = re.search(r"<h1[^>]*>(.*?)</h1>", t, re.S)
     dek = re.search(r'<p class="dek">(.*?)</p>', t, re.S)
     meta = re.search(r'<div class="meta">(.*?)</div>', t, re.S)
-    body = re.search(r'<div class="body">(.*?)</div>', t, re.S)
+    body_html = div_inner(t, '<div class="body">')
     title = strip_tags(h1.group(1)) if h1 else path.stem
     dek_t = strip_tags(dek.group(1)) if dek else ""
-    body_t = strip_tags(body.group(1)) if body else ""
+    body_t = strip_tags(body_html)
     date = parse_published(strip_tags(meta.group(1))) if meta else ""
     return {
         "title": title,
         "url": path.name,
         "date": date,
         "text": short_text(dek_t, body_t),
+        "body": body_text(dek_t, body_t),
         "type": "story",
         "label": LABELS["story"],
     }
@@ -156,6 +178,13 @@ def legend_entries() -> list[dict]:
                     "url": f"legends.html#bio-{sid}-{slugify(name)}",
                     "date": "",
                     "text": short_text(sname + ".", driver.get("snippet") or "", syn_t, ach_t),
+                    "body": body_text(
+                        driver.get("snippet") or "",
+                        syn_t,
+                        ach_t,
+                        " ".join(driver.get("stats") or []),
+                        driver.get("photo_caption") or "",
+                    ),
                     "type": "legend",
                     "label": f"Legend · {sname}",
                 }
@@ -168,6 +197,16 @@ def tdih_entries() -> list[dict]:
     if not path.exists():
         return []
     data = json.loads(path.read_text(encoding="utf-8"))
+    page = ROOT / "this-day-in-history.html"
+    day_ids = set(re.findall(r'<article class="day" id="d([0-9-]+)"', page.read_text(encoding="utf-8"))) if page.exists() else set()
+    by_md = {d[5:]: d for d in sorted(day_ids)}
+
+    def anchor(cal: str) -> str:
+        # The archive shows one slot per calendar day; point at whichever slot holds this month-day.
+        if not day_ids or cal in day_ids:
+            return cal
+        return by_md.get(cal[5:], cal)
+
     out = []
     for ev in data:
         cal = ev.get("date") or ""
@@ -181,7 +220,7 @@ def tdih_entries() -> list[dict]:
         out.append(
             {
                 "title": title,
-                "url": f"this-day-in-history.html#d{cal}" if cal else "this-day-in-history.html",
+                "url": f"this-day-in-history.html#d{anchor(cal)}" if cal else "this-day-in-history.html",
                 "date": event_date,
                 "text": short_text(ev.get("series") or "", ev.get("track") or "", ev.get("result") or ""),
                 "type": "tdih",
@@ -208,12 +247,15 @@ def build() -> list[dict]:
 
 def main() -> int:
     entries = build()
-    OUT.write_text(json.dumps(entries, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    OUT.write_text(json.dumps(entries, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
     counts: dict[str, int] = {}
     for e in entries:
         counts[e["type"]] = counts.get(e["type"], 0) + 1
     summary = ", ".join(f"{k}={v}" for k, v in sorted(counts.items()))
-    print(f"Wrote {len(entries)} entries to {OUT.name} ({summary})")
+    size_kb = OUT.stat().st_size / 1024
+    print(f"Wrote {len(entries)} entries to {OUT.name} ({summary}), {size_kb:.0f} KB")
+    if size_kb > 1500:
+        print("Warning: search-index.json is over 1.5 MB; lower the body_text limit", file=sys.stderr)
     missing_dates = sum(1 for e in entries if e["type"] in {"story", "archive", "tdih"} and not e.get("date"))
     if missing_dates:
         print(f"Warning: {missing_dates} dated entries are missing a date", file=sys.stderr)
