@@ -60,6 +60,16 @@ nav .nav-menu{position:absolute;top:100%;left:0;z-index:40;min-width:180px;margi
 nav .nav-menu a{padding:10px 16px;border-bottom:0;white-space:nowrap}
 nav .nav-menu a:hover,nav .nav-menu a:focus-visible,nav .nav-menu a[aria-current]{color:#fff;background:rgba(214,38,43,.18)}
 nav .has-menu:last-child .nav-menu{left:auto;right:0}
+/* mobile: keep nav dropdown panels inside the screen (no sideways scroll) */
+nav .nav-drop:not([open])>.nav-menu{display:none}
+@media (max-width:640px){
+nav.wrap{position:relative}
+nav .has-menu,nav .nav-drop{position:static}
+nav .nav-menu,nav .has-menu:last-child .nav-menu{left:12px;right:12px;min-width:0;max-width:calc(100vw - 24px)}
+nav .nav-menu a{white-space:normal}
+img,video,iframe{max-width:100%}
+html,body{overflow-x:clip}
+}
 </style>
 </head>
 <body>
