@@ -494,18 +494,21 @@
   {
     "date": "2025-11-16",
     "historical_year": 2013,
-    "headline": "2013 Western World Championships Night 3 (Midget)",
+    "headline": "Clauson sweeps 46th Western World sprint and midget features for $20,000 as Bell clinches USAC National Dirt Midget title",
     "series": "USAC National Midget",
     "track": "Canyon Speedway Park (Peoria, AZ)",
-    "result": "Bryan Clauson wins",
+    "result": "Bryan Clauson won the sprint car feature and the USAC National Midget feature to wrap up the 46th Western World Championships. He passed Darren Hagen in the last corner of the midget main and won by 0.249 seconds, with Christopher Bell third. It was a $20,000 night. Bell clinched the USAC National Dirt Midget title by starting the race.",
     "source_url": "https://www.thethirdturn.com/wiki/2013_Western_World_Championships_Night_3_(Midget)",
-    "source2": "https://www.thethirdturn.com/wiki/2013_USAC_Honda_National_Dirt_Midget_Series_Central",
-    "category": "majors",
-    "verified_notes": "Date/track/winner from The Third Turn season log",
+    "source2": "https://dirtdogtvnews.blogspot.com/2013/11/clauson-last-lap-honda-national-midget.html",
+    "category": "milestone",
+    "verified_notes": "November 16, 2013 (Saturday), Canyon Speedway Park in Peoria, AZ, and the 46th Western World Championships final night confirmed by The Third Turn (Night 3 midget page), Lonnie Wheatley's STLRacing recap (Nov. 17, 2013), the official USAC Honda National Midget release republished on Dirt Dog TV News (Nov. 17, 2013), and official USAC Southwest/West Coast sprint results on MyRacePass. Clauson's midget win, Darren Hagen second and Christopher Bell third confirmed by The Third Turn, STLRacing and the USAC release. The last-corner pass of Hagen and the 0.249-second margin confirmed by STLRacing and the USAC release (The Third Turn leaves margin of victory blank). The $20,000 night (sprint and midget features plus a $5,000 sweep bonus) confirmed by STLRacing and the USAC release. Clauson's sprint feature win confirmed by STLRacing and MyRacePass (30 laps; R.J. Johnson led laps 1-3, Clauson led laps 4-30). Bell clinching the USAC National Dirt Midget title upon starting the race is from the official USAC release only (uncontradicted). Dropped the claim that Clauson led all 30 laps of the sprint feature; both STLRacing and MyRacePass show Johnson led laps 1-3. Omitted midget lap-leader splits because sources conflict: STLRacing has Bell leading laps 5-21 and Hagen 22-29, while the USAC release and The Third Turn have Bell 5-22 and Hagen 23-29.",
     "birthdays": [],
-    "verification": "single-source",
+    "verification": "dual-source",
     "verification_sources": [
-      "The Third Turn (event page + season log, same publisher)"
+      "The Third Turn (event page): https://www.thethirdturn.com/wiki/2013_Western_World_Championships_Night_3_(Midget)",
+      "STLRacing (Lonnie Wheatley): 'Clauson Cashes in on $20K Western World Sweep!' (Nov. 17, 2013) https://stlracing.com/2013/11/17/clauson-cashes-in-on-20k-western-world-sweep/",
+      "USAC Honda National Midget release via Dirt Dog TV News (Nov. 17, 2013) https://dirtdogtvnews.blogspot.com/2013/11/clauson-last-lap-honda-national-midget.html",
+      "USAC Southwest/West Coast sprint results via MyRacePass https://www.myracepass.com/series/1015/news/2013/article/19465/"
     ]
   },
   {
