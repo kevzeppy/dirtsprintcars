@@ -29,7 +29,7 @@ This file is the single source of truth. If an agent's own notes disagree with t
 
 - **Batch and wait for explicit "push" signal.** Do not auto-deploy. Draft on a branch (or local), confirm with Kevin, then merge/push to main only when he says "push."
 - **Straight news only.** No fluff, no cheesy closers ("car owners phone about to ring," "before the snow falls," etc.). Accurate, factual, no filler.
-- **Every story goes into Latest Racing News** by default, plus any other category it fits (Results, Team News, Championship, Preview, etc.).
+- **Latest Racing News excludes the current top story** (Kevin's rule, Nov 16, 2026). Latest holds the 10 most recent stories that are NOT the current top story, newest first, each with a data-date. When a new top story is set, remove it from Latest (if present) and shift the others up. When a story rotates off the top spot, add it to the top of Latest with its data-date. Stories that drop out of Latest must already be in archive.html. Every story still goes into any category list it fits (Wing / Midgets / Non-wing, each holding its 10 newest with dated titles; Results, Team News, Championship, Preview, etc.); the top story may appear in those category lists.
 - **Top story rotates daily.** Priority order: driver changes, then major wins, then championship clinches. If multiple strong candidates and unsure, ask Kevin. Never recycle the same top story on consecutive days. If no new news, lead with the last big story.
 - **Credit sources and photographers.** Always attribute (World Racing Group, specific photographer, series site, etc.). Format already in use: "Photo: Name / World Racing Group".
 - **Numerals for engine size:** Use "410" and "360," never "four-ten" or spelled-out versions.
