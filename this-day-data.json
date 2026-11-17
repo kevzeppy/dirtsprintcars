@@ -514,18 +514,20 @@
   {
     "date": "2025-11-17",
     "historical_year": 2018,
-    "headline": "2018 November Classic",
+    "headline": "Rookie Seavey's last-lap pass of Abreu at Bakersfield's November Classic all but locks up the 2018 USAC National Midget title",
     "series": "USAC National Midget",
     "track": "Bakersfield Speedway (Oildale, CA)",
-    "result": "Logan Seavey wins",
+    "result": "Rookie Logan Seavey passed Keith Kunz Motorsports teammate Rico Abreu off the high side of turn four on the last lap of Bakersfield Speedway's November Classic and won by 0.292 seconds, with Shane Golobic third, Spencer Bayston fourth and Chad Boat fifth. The win gave Seavey a 137-point lead heading into Turkey Night and all but locked up the USAC National Midget title in his rookie season.",
     "source_url": "https://www.thethirdturn.com/wiki/2018_November_Classic",
-    "source2": "https://www.thethirdturn.com/wiki/2018_USAC_P1_Insurance_Midget_National_Championship_Central",
-    "category": "race-result",
-    "verified_notes": "Date/track/winner from The Third Turn season log",
+    "source2": "https://www.wheelsofspeed.com/2018/11/18/seavey-saves-best-for-last-at-bakersfield-clinches-usac-national-midget-title/",
+    "category": "milestone",
+    "verified_notes": "November 17, 2018, Bakersfield Speedway November Classic (USAC National / Western States Midgets) confirmed by the official USAC Media report (Richie Murray, republished on Wheels of Speed, Nov. 18, 2018), The Third Turn event page (track listed in Oildale, CA), and the Bakersfield Speedway past-winners list in its 2019 November Classic preview. Seavey's last-lap pass of Keith Kunz Motorsports teammate Rico Abreu off the high side of turn four confirmed by the USAC report; the Bakersfield preview independently confirms he drove around Abreu in the fourth turn on the 30th and final lap. The 0.292-second margin confirmed by the USAC report and The Third Turn. Finishing order (Shane Golobic third, Spencer Bayston fourth, Chad Boat fifth) confirmed by all three sources. The 137-point lead heading into the Turkey Night Grand Prix at Ventura Raceway is from the official USAC report only (uncontradicted; standings listed as Seavey 988, Bacon 851). USAC's report says Seavey 'essentially clinched' the National Midget title and the Bakersfield preview says the win locked up the series title; the card uses 'all but locked up.' Seavey as a series rookie is from the official USAC report only (uncontradicted). Pole start (USAC, The Third Turn starting position 1, and the Bakersfield 2018 results) and lap leaders (USAC and The Third Turn: Abreu 1-29, Seavey 30; Bakersfield preview: Abreu led 29 and 3/4 laps) are confirmed by multiple sources but were left out of the public card. Dropped from the USAC report only, with no second source: that Seavey was the first three-time winner of 2018, and that only Danny Caruthers (1971) and Christopher Bell (2013) had previously won the National Midget title as series rookies.",
     "birthdays": [],
-    "verification": "single-source",
+    "verification": "dual-source",
     "verification_sources": [
-      "The Third Turn (event page + season log, same publisher)"
+      "The Third Turn (event page): https://www.thethirdturn.com/wiki/2018_November_Classic",
+      "USAC Media (Richie Murray) via Wheels of Speed: 'Seavey Saves Best for Last at Bakersfield, Clinches USAC National Midget Title' (Nov. 18, 2018) https://www.wheelsofspeed.com/2018/11/18/seavey-saves-best-for-last-at-bakersfield-clinches-usac-national-midget-title/",
+      "Bakersfield Speedway: 'Bakersfield November Classic Race Preview' (Nov. 18, 2019 past-winners recap) https://www.bakersfieldspeedway.com/bakersfield-november-classic-race-preview/"
     ]
   },
   {
