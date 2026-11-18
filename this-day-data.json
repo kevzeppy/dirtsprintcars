@@ -533,18 +533,21 @@
   {
     "date": "2025-11-18",
     "historical_year": 2017,
-    "headline": "2017 November Classic",
+    "headline": "Bacon wins the November Classic from 7th in his Bakersfield debut; Bayston leaves one start from the title",
     "series": "USAC National Midget",
     "track": "Bakersfield Speedway (Oildale, CA)",
-    "result": "Brady Bacon wins",
+    "result": "In his first race at Bakersfield Speedway, Brady Bacon started seventh, took the lead on lap 7 and led the rest of the way to win USAC's November Classic, his third National Midget win of the year. Runner-up Spencer Bayston left needing only to start Turkey Night to clinch his first USAC National Midget title. Zeb Wise made his USAC debut in the race.",
     "source_url": "https://www.thethirdturn.com/wiki/2017_November_Classic",
-    "source2": "https://www.thethirdturn.com/wiki/2017_USAC_National_Midget_Series_Central",
+    "source2": "https://www.myracepass.com/series/1136/news/2017/article/55118/bacon-a-blur-en-route-to-bakersfield-midget-triumph",
     "category": "race-result",
-    "verified_notes": "Date/track/winner from The Third Turn season log",
+    "verified_notes": "Date/track/winner confirmed by USAC release, official results (YankeeRacer), FloRacing, The Third Turn. Lap leaders 1-6 Faccinto, 7-30 Bacon. Exact point totals (Bayston 1441, Bacon 1374) appear only in the YankeeRacer official results, so they were left out of the public card. Winning margin left out of the public card.",
     "birthdays": [],
-    "verification": "single-source",
+    "verification": "dual-source",
     "verification_sources": [
-      "The Third Turn (event page + season log, same publisher)"
+      "USAC release via MyRacePass: \"Bacon a Blur En Route to Bakersfield Midget Triumph\" (Nov. 19, 2017) https://www.myracepass.com/series/1136/news/2017/article/55118/bacon-a-blur-en-route-to-bakersfield-midget-triumph",
+      "YankeeRacer official results (Richie Murray / USAC PR): https://yankeeracer.com/2017/11/18/bakersfield-usac-midget-results-nov-18-2017/",
+      "FloRacing: \"Brady Bacon Wins The Battle; Spencer Bayston Wins The War At Bakersfield\" (Dan Beaver, Nov. 20, 2017) https://www.floracing.com/articles/6049975-brady-bacon-wins-the-battle-spencer-bayston-wins-the-war-at-bakersfield",
+      "The Third Turn (event page): https://www.thethirdturn.com/wiki/2017_November_Classic"
     ]
   },
   {
