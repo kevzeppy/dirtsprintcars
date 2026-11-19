@@ -591,15 +591,17 @@
     "headline": "2015 Western World Championships Night 2 (CRA)",
     "series": "USAC Sprint",
     "track": "USA Raceway (Tucson, AZ)",
-    "result": "Brady Bacon wins",
+    "result": "Brady Bacon took the lead on lap 17 and held off Bryan Clauson to win Western World Night 2 at Tucson's USA Raceway. It was the 100th USAC National feature victory for Hoffman Auto Racing.",
     "source_url": "https://www.thethirdturn.com/wiki/2015_Western_World_Championships_Night_2_(CRA)",
-    "source2": "https://www.thethirdturn.com/wiki/2015_AMSOIL_USAC_Sprint_Car_National_Championship_Central",
+    "source2": "https://stlracing.com/2015/11/21/bacon-bolts-to-western-world-night-2-win-100th-usac-national-victory-for-hoffmans/",
     "category": "majors",
-    "verified_notes": "Date/track/winner from The Third Turn season log",
+    "verified_notes": "Nov. 20, 2015 (Friday) confirmed by USAC recap via STLRacing and MyRacePass track recap; 30-lap USAC National vs. USAC/CRA feature at USA Raceway; Bacon led laps 17-30 and beat Clauson; Tracy Hines 3rd, Robert Ballou 4th, Kevin Thomas Jr. 5th; 100th USAC National feature win for Dynamics Inc./Hoffman Auto Racing. Left out of the public card: winning margin (.377, STLRacing only); Bacon season/career win counts and all-time rank (STLRacing only); Hoffman-car win tie with Jerry Coons Jr. (MyRacePass only); Ballou starting position and whether the title was clinched Friday or Saturday (sources conflict: STLRacing 17th and will clinch Saturday vs MyRacePass 19th and clinched Friday); Cody Williams flip lap (lap 10 in STLRacing official notes vs after nine rounds in MyRacePass).",
     "birthdays": [],
-    "verification": "single-source",
+    "verification": "dual-source",
     "verification_sources": [
-      "The Third Turn (event page + season log, same publisher)"
+      "The Third Turn (event page): https://www.thethirdturn.com/wiki/2015_Western_World_Championships_Night_2_(CRA)",
+      "USAC recap via STLRacing: \"Bacon Bolts to Western World Night 2 Win; 100th USAC National Victory for Hoffmans\" (Nov. 21, 2015) https://stlracing.com/2015/11/21/bacon-bolts-to-western-world-night-2-win-100th-usac-national-victory-for-hoffmans/",
+      "MyRacePass: \"Bacon & Hodges Hit it Big on Western World Night Two\" (Nov. 20, 2015) https://www.myracepass.com/tracks/1866/news/2015/article/34917/bacon-hodges-hit-it-big-on-western-world-night-two"
     ]
   },
   {
