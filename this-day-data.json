@@ -572,15 +572,17 @@
     "headline": "2015 Western World Championships Night 1 (CRA)",
     "series": "USAC Sprint",
     "track": "USA Raceway (Tucson, AZ)",
-    "result": "Robert Ballou wins",
+    "result": "Robert Ballou wins from 14th; Brady Bacon 2nd, Bryan Clauson 3rd",
     "source_url": "https://www.thethirdturn.com/wiki/2015_Western_World_Championships_Night_1_(CRA)",
-    "source2": "https://www.thethirdturn.com/wiki/2015_AMSOIL_USAC_Sprint_Car_National_Championship_Central",
+    "source2": "https://jacobseelman.com/racing-nation/west-region/numbers-robert-ballous-opening-night-win-western-world-championships/",
     "category": "majors",
-    "verified_notes": "Date/track/winner from The Third Turn season log",
+    "verified_notes": "Nov 19, 2015 (Thursday) confirmed by USAC release (via STLRacing/MyRacePass) and Race Chaser/77 Sports Media recap; 13th win of 2015 tied Yeley 2003 for 2nd-most in series history.",
     "birthdays": [],
-    "verification": "single-source",
+    "verification": "dual-source",
     "verification_sources": [
-      "The Third Turn (event page + season log, same publisher)"
+      "The Third Turn (event page): https://www.thethirdturn.com/wiki/2015_Western_World_Championships_Night_1_(CRA)",
+      "https://stlracing.com/2015/11/20/lucky-number-thirteen-for-ballou-on-western-world-opening-night/",
+      "https://jacobseelman.com/racing-nation/west-region/numbers-robert-ballous-opening-night-win-western-world-championships/"
     ]
   },
   {
