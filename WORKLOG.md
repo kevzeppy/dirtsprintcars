@@ -181,3 +181,8 @@ Left unverified / not staged: Toowoomba Prelude to the Title (Nov. 18) — Speed
 
 ## 2026-11-19 5:46 PM CT — Push
 Kevin said push. main c138bae -> c1e5680 (fast-forward from grok/batch-2026-11-18b): Kalib Henry / Beaver Racing 2027 (no photo), Update: USAC Merced midgets moved to Saturday (Devin Mayo / USAC photo), TDIH Nov 19 Ballou and Nov 20 Bacon dual-source. Moran stays top (Kevin). All live pages 200. Third Turn thank-you email card shown to Kevin (tim@thethirdturn.com). Open: Toowoomba prelude / Waikaraka / Ruapuna need official sheets; Bryson/JHR awaits source; Calistoga and Dillon held.
+
+## 2026-11-19 ~7:50 PM CT — McHugh Toowoomba Prelude pushed (main c1e5680 → 1f10758)
+- Leo relayed "push" for origin/grok/news-2026-11-19. Held it: the commits use the Yahoo email, the page is bare HTML with the wrong race date (Nov 19; Speedcafe says Wed Nov 18), and the branch carries WORKLOG.md. Kevin chose a proper rebuild.
+- Rebuilt lachlan-mchugh-toowoomba-australian-sprintcar-prelude-2026.html on the standard template, sourced to Speedcafe (Jack Fletcher, Nov 19). No photo (Australian photos aren't licensed). Added a Latest card (Cale Thomas rolled off, 10 cards), Wing list item, homepage results, results.html and archive; search index rebuilt. Moran stays top.
+- Live pages return 200. Not for social (no photo). Do not merge origin/grok/news-2026-11-19 or grok/news-batch-2026-11-19.
