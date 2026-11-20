@@ -45,6 +45,7 @@ nav a[aria-current]{color:#fff;border-bottom-color:var(--red)}
 /* hero */
 .hero{display:block;position:relative;overflow:hidden;background:var(--panel);margin-top:48px}
 .hero img{display:block;width:100%;height:clamp(360px,52vw,640px);object-fit:cover;object-position:50% 42%}
+.hero img.hero-portrait{object-position:top}
 .hero-text{border-top:3px solid var(--red)}
 .hero.hero-text .shade{display:none}
 .hero.hero-text .copy{position:static;max-width:760px;padding:clamp(28px,4vw,48px)}
@@ -285,15 +286,17 @@ t.setAttribute('datetime',d.toISOString());t.textContent=d.toLocaleDateString('e
 <main>
 <section class="wrap" aria-label="Featured story">
 <!-- TOP STORY: revolve daily. Priority: driver change, major wins, championship clinches. Multiple strong candidates -> ask Kevin. Never same top story on consecutive days. No new news -> lead with last big story. The current top story must NOT also appear as a card in Latest Racing News. A story enters Latest only after it rotates off the top spot, added at the top of Latest with a data-date. Latest holds the 10 most recent non-top-story items, newest first. -->
-<a href="terry-gray-final-race-uscs-riverside-2026.html" class="hero hero-text">
+<a href="terry-gray-final-race-uscs-riverside-2026.html" class="hero">
+<img class="hero-portrait" src="images/terry-gray-ascs-headshot-2026.jpg" alt="Terry Gray. Photo: ASCS">
 <div class="shade"></div>
 <div class="copy">
 <span class="lbl tag">Driver news · USCS</span>
 <h1 class="disp">Terry Gray to Make Final Starts at USCS Flip Flop 50 at Riverside</h1>
-<p>The 16-time USCS national champion and 2022 Hall of Fame inductee, the current series points leader, says the Flip Flop 50 at West Memphis will be his last competition after a 52-year career. Source: Riverside International Speedway; USCS.</p>
+<p>The 16-time USCS national champion and 2022 Hall of Fame inductee, the current series points leader, says the Flip Flop 50 at West Memphis will be his last competition after a 52-year career. Source: Riverside International Speedway; USCS; photo: ASCS.</p>
 <span class="lbl red">Read the story →</span>
 </div>
 </a>
+<p class="note" style="margin-top:8px">Photo: ASCS</p>
 </section>
 
 
