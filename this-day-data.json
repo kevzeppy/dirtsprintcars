@@ -607,18 +607,20 @@
   {
     "date": "2025-11-21",
     "historical_year": 2015,
-    "headline": "2015 Western World Championships Night 3 (CRA)",
+    "headline": "48th Western World Championships finale (USAC National vs. USAC/CRA)",
     "series": "USAC Sprint",
     "track": "USA Raceway (Tucson, AZ)",
-    "result": "Bryan Clauson wins",
+    "result": "On Nov 21, 2015, Bryan Clauson won the 48th Western World Championships at USA Raceway in Tucson, AZ, the USAC National vs. USAC/CRA finale. He drove the B&H Contractors/Dooling Machine No. 63 and beat newly crowned 2015 USAC National Sprint Car champion Robert Ballou, with Brady Bacon third.",
     "source_url": "https://www.thethirdturn.com/wiki/2015_Western_World_Championships_Night_3_(CRA)",
-    "source2": "https://www.thethirdturn.com/wiki/2015_AMSOIL_USAC_Sprint_Car_National_Championship_Central",
+    "source2": "https://stlracing.com/2015/11/22/clauson-stops-national-champion-ballou-for-western-world-crown-gardner-wins-fourth-cra-series-title/",
     "category": "majors",
-    "verified_notes": "Date/track/winner from The Third Turn season log",
+    "verified_notes": "Date/track/winner/top 3 confirmed by USAC release and MyRacePass; margin and purse omitted (single-source)",
     "birthdays": [],
-    "verification": "single-source",
+    "verification": "dual-source",
     "verification_sources": [
-      "The Third Turn (event page + season log, same publisher)"
+      "USAC release via STLRacing.com (2015-11-22)",
+      "MyRacePass/USA Raceway news (2015-11-23)",
+      "The Third Turn"
     ]
   },
   {
@@ -627,15 +629,17 @@
     "headline": "2014 Sands Chevrolet Western World Championships Night 2 (Midget)",
     "series": "USAC National Midget",
     "track": "Canyon Speedway Park (Peoria, AZ)",
-    "result": "Christopher Bell wins",
+    "result": "Christopher Bell won the 30-lap USAC National Midget preliminary on Night 2 of the 47th Western World Championships at Canyon Speedway Park, leading all 30 laps ahead of Bryan Clauson and Zach Daum.",
     "source_url": "https://www.thethirdturn.com/wiki/2014_Sands_Chevrolet_Western_World_Championships_Night_2_(Midget)",
-    "source2": "https://www.thethirdturn.com/wiki/2014_USAC_Honda_National_Midget_Championship_Central",
+    "source2": "https://tjslideways.com/2014/11/22/bell-wins-usac-midget-feature-friday-at-the-western-world/",
     "category": "majors",
-    "verified_notes": "Date/track/winner from The Third Turn season log",
+    "verified_notes": "Nov. 21, 2014 (Friday) date, Canyon Speedway Park in Peoria, AZ, 47th Sands Chevrolet Western World Championships Night 2, Bell win, and 2nd-3rd of Bryan Clauson and Zach Daum confirmed by TJSlideways and official USAC results via MyRacePass. The Third Turn event page agrees on date, track and winner. Lap leaders (Bell 1-30) confirmed by the TJSlideways results table; the official USAC MyRacePass recap says Bell started from the front row and was largely unthreatened, with Clauson unable to gain ground for the lead. Left out of the public card: the phrase wire-to-wire (the results table supports leading all 30 laps); Bell win counts, which the sources describe differently (TJSlideways 26th overall win of the year vs official USAC sixth win of the season); point-lead figures.",
     "birthdays": [],
-    "verification": "single-source",
+    "verification": "dual-source",
     "verification_sources": [
-      "The Third Turn (event page + season log, same publisher)"
+      "The Third Turn (event page): https://www.thethirdturn.com/wiki/2014_Sands_Chevrolet_Western_World_Championships_Night_2_(Midget)",
+      "TJSlideways: \"Bell Wins USAC Midget Feature Friday at the Western World\" (Nov. 22, 2014) https://tjslideways.com/2014/11/22/bell-wins-usac-midget-feature-friday-at-the-western-world/",
+      "Official USAC results via MyRacePass: \"Bell Ascends to Top Spot in Night 2 Western World Midget Feature\" (Nov. 24, 2014) https://www.myracepass.com/tracks/1261/news/2014/article/26312/bell-ascends-to-top-spot-in-night-2-western-world-midget-feature"
     ]
   },
   {
