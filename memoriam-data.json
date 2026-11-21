@@ -35,6 +35,42 @@
   "flags": "Exact career USAC win totals differ by source (170 vs 171), so no number is stated. The National Sprint Car HOF membership isn't cross-checked, so it's left out."
  },
  {
+  "date": "1994-05-26",
+  "name": "Robbie Stanley",
+  "series": "USAC National Sprint Car",
+  "track": "Winchester Speedway, Winchester, IN",
+  "career": [
+   "Robbie Stanley of Brownsburg, Ind., won three consecutive USAC National Sprint Car championships in 1991, 1992 and 1993. He was the 1989 All Star Circuit of Champions champion before those USAC titles and scored nine career USAC National Sprint Car feature wins, including the 1991 season opener at Winchester Speedway and the 1994 Rich Vogler Classic at the same track. He won USAC features on both dirt and pavement.",
+   "He drove the Hoffman Auto Racing No. 69 and was the 1994 series point leader at the time of his death. Stanley was inducted into the National Sprint Car Hall of Fame in 2005. USAC later ran the Robbie Stanley Classic at Lawrenceburg Speedway in his name."
+  ],
+  "death_note": "Stanley died May 26, 1994, in a crash during a USAC National Sprint Car feature at Winchester Speedway in Winchester, Ind. His car spun coming out of turn four, came to rest on the frontstretch and was struck, and the crash caught fire. He was 26.",
+  "sources": [
+   "https://www.usacracing.com/hall-of-fame-inductees/robbie-stanley",
+   "http://www.motorsportmemorial.org/focus.php?db=ct&n=2111",
+   "https://thethirdturn.com/wiki/Robbie_Stanley",
+   "http://www.midwestracingarchives.com/2016/05/1994-this-week-in-racing-history.html"
+  ],
+  "flags": "Hometown is given as Brownsburg; Motorsport Memorial and Find a Grave list his birthplace as Danville, Ind., so only the hometown is stated. Historic Racing lists his All Star title as 1990; USAC, The Third Turn, Sprint Car Ratings and Motorsport Memorial say 1989. USAC's Hall of Fame bio says six of his nine USAC wins came at Winchester, and a 1991 USAC schedule archive lists a second Winchester win on May 18, 1991; Sprint Car Ratings places that May 18 win at IRP and lists only five Winchester wins, so no Winchester total is stated. Accounts differ on how many cars struck him (one vs. two) and on whether he was killed instantly or died of injuries/multiple trauma, so those details are left out. His running position (12th) and the lap of the accident (lap 7 in a USAC results reprint) each come from a single source. The exact date of the 1994 Rich Vogler Classic differs by source (April 24 vs. April 26), so only the year and event name are used. The claim that he was one of just three drivers to win three consecutive USAC National Sprint titles is from the USAC bio only. A 1980 quarter-midget title, a first sprint win at Winchester at age 16, and the restored Vogler 'White Lightning' car were not independently dual-sourced for this entry."
+ },
+ {
+  "date": "2002-01-30",
+  "name": "Ron Laney",
+  "series": "360 Sprint Car (King of the 360s)",
+  "track": "East Bay Raceway Park, Gibsonton, FL",
+  "career": [
+   "Ron Laney of Humble, Texas, was a sprint car driver whose biggest win was the 2000 King of the 360s at East Bay Raceway Park in Gibsonton, Fla. He also won an ASCS National Tour feature and raced for two seasons in the World of Outlaws Gumout Series.",
+   "The East Bay event was later named the Ronald Laney Memorial King of the 360s in his honor."
+  ],
+  "death_note": "Laney died January 30, 2002, after a crash in a King of the 360s B-main at East Bay Raceway Park in Gibsonton, Fla. Exiting turn two on lap three, his car hit the wall, flipped and was struck by another car. He was pronounced dead at the scene. He was 30.",
+  "sources": [
+   "http://www.motorsportmemorial.org/focus.php?db=ct&n=1624",
+   "http://www.hammerdownusa.com/rip.htm",
+   "https://www.legacy.com/us/obituaries/houstonchronicle/name/ronald-laney-obituary?id=28423009",
+   "https://www.thethirdturn.com/wiki/Ronald_Laney"
+  ],
+  "flags": "A FloRacing history says he died in the event 'the next year' after his 2000 win, which would be 2001; the Houston Chronicle obituary, Motorsport Memorial and The Third Turn date the crash January 30, 2002. Rookie of the Year honors differ by source (Battleground Speedway when he started at age 20, per HammerDown; Outlaw Rookie of the Year in 2000, per the Houston Chronicle), so none is stated. Motorsport Memorial lists the race as ASCS-sanctioned; a 2016 ASCS release describes the event as returning to ASCS sanction in 2017, so the 2002 sanction is not stated. The specific injury (a broken neck) is from Motorsport Memorial only. Motorsport Memorial says his death was the second fatality at East Bay since 1977; the earlier death could not be identified here and is not assumed to have been a sprint or midget driver."
+ },
+ {
   "date": "2013-06-12",
   "name": "Jason Leffler",
   "series": "410 Sprint Car (three-time USAC National Midget champion)",
