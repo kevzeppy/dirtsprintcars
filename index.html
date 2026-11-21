@@ -164,6 +164,10 @@ nav a[aria-current]{color:#fff;border-bottom-color:var(--red)}
 .shop{padding-top:40px;display:flex;flex-wrap:wrap;gap:12px 32px;align-items:center;justify-content:space-between}
 .shop h2{font-size:30px;font-weight:800}
 .shop p{margin-top:4px;color:var(--mute);font-size:15px}
+.shop-img{display:block;flex:0 0 auto;width:200px;line-height:0;border:1px solid var(--line);overflow:hidden}
+.shop-img img{display:block;width:100%;height:auto;aspect-ratio:720/894;object-fit:cover}
+.shop-copy{flex:1 1 280px;min-width:0}
+@media (max-width:640px){.shop-img{width:100%;max-width:420px}}
 
 footer{margin-top:56px;background:var(--panel);border-top:1px solid var(--line)}
 footer .wrap{padding-top:40px;padding-bottom:40px;display:flex;flex-direction:column;gap:28px}
@@ -287,15 +291,17 @@ t.setAttribute('datetime',d.toISOString());t.textContent=d.toLocaleDateString('e
 <main>
 <section class="wrap" aria-label="Featured story">
 <!-- TOP STORY: revolve daily. Priority: driver change, major wins, championship clinches. Multiple strong candidates -> ask Kevin. Never same top story on consecutive days. No new news -> lead with last big story. The current top story must NOT also appear as a card in Latest Racing News. A story enters Latest only after it rotates off the top spot, added at the top of Latest with a data-date. Latest holds the 10 most recent non-top-story items, newest first. -->
-<a href="ryan-newton-australian-sprintcar-championship-toowoomba-2026.html" class="hero hero-text">
+<a href="terry-gray-final-race-uscs-riverside-2026.html" class="hero">
+<img class="hero-portrait" src="images/terry-gray-ascs-headshot-2026.jpg" alt="Terry Gray. Photo: ASCS">
 <div class="shade"></div>
 <div class="copy">
-<span class="lbl tag">Championship · 410 Sprintcars</span>
-<h1 class="disp">Ryan Newton Wins Australian Sprintcar Championship at Toowoomba</h1>
-<p>Newton passed Lachlan McHugh in the closing laps of Saturday&rsquo;s 40-lap A Main to win his first Australian 410 title, 1.974 seconds ahead of Brock Hallett. McHugh finished third. Sources: Speedcafe; Race Monitor.</p>
+<span class="lbl tag">Driver news · USCS</span>
+<h1 class="disp">Terry Gray to Make Final Starts at USCS Flip Flop 50 at Riverside</h1>
+<p>The 16-time USCS national champion and 2022 Hall of Fame inductee, the current series points leader, says the Flip Flop 50 at West Memphis will be his last competition after a 52-year career. Source: Riverside International Speedway; USCS; photo: ASCS.</p>
 <span class="lbl red">Read the story →</span>
 </div>
 </a>
+<p class="note" style="margin-top:8px">Photo: ASCS</p>
 </section>
 
 
@@ -306,12 +312,11 @@ t.setAttribute('datetime',d.toISOString());t.textContent=d.toLocaleDateString('e
 </div>
 <div class="grid3">
 <!-- NEWS FLOW: Latest holds the 10 most recent stories that are not the current top story (newest first, each with data-date). Do not also place the current top story here. When a story rotates off the top spot, add it at the top of this list. Overflow belongs in archive.html. Category lists (Wing/Midgets/Non-wing) are separate. -->
-<a href="terry-gray-final-race-uscs-riverside-2026.html" class="card" data-date="2026-11-20">
-<span class="ph"><img src="images/terry-gray-ascs-headshot-2026.jpg" alt="Terry Gray" style="object-position:top"></span>
-<span class="lbl red">Driver news &middot; USCS</span>
-<h3 class="disp">Terry Gray to Make Final Starts at USCS Flip Flop 50 at Riverside</h3>
-<p>The 16-time USCS national champion says the Flip Flop 50 at West Memphis will be his last competition. The twin 25-lap features are Saturday, Nov. 21. Source: Riverside International Speedway; USCS; photo: ASCS.</p>
-<span class="date">November 20, 2026</span>
+<a href="ryan-newton-australian-sprintcar-championship-toowoomba-2026.html" class="card" data-date="2026-11-21">
+<span class="lbl red">Championship &middot; 410 Sprintcars</span>
+<h3 class="disp">Ryan Newton Wins Australian Sprintcar Championship at Toowoomba</h3>
+<p>Newton passed Lachlan McHugh in the closing laps of Saturday&rsquo;s 40-lap A Main to win his first Australian 410 title, 1.974 seconds ahead of Brock Hallett. McHugh finished third. Sources: Speedcafe; Race Monitor.</p>
+<span class="date">November 21, 2026</span>
 </a>
 <a href="elijah-gile-usac-southwest-central-arizona-2026-11-20.html" class="card" data-date="2026-11-21">
 <span class="ph"><img src="images/elijah-gile-central-arizona-2026-11-20.jpg" alt="Elijah Gile&rsquo;s No. 13p non-wing sprint car at Central Arizona Raceway"></span>
@@ -630,7 +635,8 @@ t.setAttribute('datetime',d.toISOString());t.textContent=d.toLocaleDateString('e
 </section>
 
 <section class="wrap shop" id="shop">
-<div>
+<a href="shop.html" class="shop-img" aria-label="Shop the Mt. Rushmore tee"><img src="images/shop/mt-rushmore-tee-at-the-track.jpg" alt="A fan at a dirt track wears the black DirtSprintCars Mt. Rushmore tee, its back reading &ldquo;It goes: Kinser, Swindell, Wolfgang, Schatz,&rdquo; while sprint cars race past" width="720" height="894" loading="lazy" decoding="async"></a>
+<div class="shop-copy">
 <h2 class="disp">DirtSprintCars merch</h2>
 <p>Merch is available now from Paper Street Standard, including the Mt. Rushmore tee featuring Kinser, Swindell, Wolfgang and Schatz.</p>
 </div>
