@@ -28,6 +28,7 @@ SKIP_HTML = {
     "thanks.html",
     "thanks-contribute.html",
     "search.html",
+    "shop.html",
 }
 
 MONTHS = {
