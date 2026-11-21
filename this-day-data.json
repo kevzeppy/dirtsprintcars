@@ -648,15 +648,17 @@
     "headline": "2025 Chase Johnson Classic Midget Feature",
     "series": "USAC National Midget",
     "track": "Merced Speedway (Merced, CA)",
-    "result": "Logan Seavey wins",
+    "result": "Logan Seavey won the inaugural Chase Johnson Classic at Merced Speedway, passing race-long leader Jacob Denney with two laps to go in the 30-lap USAC National Midget feature after starting fifth. Denney was second and Corey Day third.",
     "source_url": "https://www.thethirdturn.com/wiki/2025_Chase_Johnson_Classic_Midget_Feature",
-    "source2": "https://www.thethirdturn.com/wiki/2025_USAC_NOS_Energy_Drink_Midget_National_Championship_Central",
+    "source2": "https://www.usacracing.com/news/merced-usac-midget-results-nov-22-2025",
     "category": "race-result",
-    "verified_notes": "Date/track/winner from The Third Turn season log",
+    "verified_notes": "Saturday, Nov. 22, 2025 date, Merced Speedway, inaugural Chase Johnson Classic, Seavey win from 5th, Denney 2nd from the pole and Corey Day 3rd confirmed by the official USAC release and results (Richie Murray, USAC Media) and The Third Turn event page. Lap leaders (Denney 1-28, Seavey 29-30) from the official USAC results; the USAC narrative says the pass came with two laps remaining. Left out of the public card: winning margin (0.958, USAC only), career/all-time win counts and the 38-race/533-day drought figures (USAC only).",
     "birthdays": [],
-    "verification": "single-source",
+    "verification": "dual-source",
     "verification_sources": [
-      "The Third Turn (event page + season log, same publisher)"
+      "Official USAC release and results: \"Seavey Scores Chase Johnson Classic, Breaks USAC Midget Win Drought at Merced\" (Nov. 22, 2025) https://www.usacracing.com/news/merced-usac-midget-results-nov-22-2025",
+      "The Third Turn (event page): https://www.thethirdturn.com/wiki/2025_Chase_Johnson_Classic_Midget_Feature",
+      "Race Pro Weekly reprint of the USAC release (Nov. 24, 2025)"
     ]
   },
   {
