@@ -232,3 +232,7 @@ Kevin said "Use the current ASCS headshot" and approved going live. Fast-forward
 
 ### 2026-11-21 11:35 AM CT — Pushed batch 21b
 Kevin typed "push". main 7bc4673 -> 14baa0d (fast-forward). Newton AU title (no photo, top of Latest; Gray stays top since Newton has no photo), Gile USAC SW Central Arizona (Thrasher/USAC photo), ASCS region champions (ASCS photo), Nov 22 TDIH Seavey dual-source, Upcoming grouped by date / TBA hidden, merch photo on homepage. All live pages and images 200. Flip Flop 50 Friday results not officially published (only fan X post); wait for USCS writeup tonight. DSC Social pinged for Gile and ASCS.
+
+## 2026-11-21 3:40 PM CT
+- Kevin said push. Pushed the memoriam batch (main 14baa0d to 827e3cb): Robbie Stanley and Ronald Laney entries with photos (USAC; ASCS 1999 program crop). Live pages 200.
+- DSC Social asked to draft Mt. Rushmore merch post options (tee and hoodie mockups only, no AI photos), not scheduled until Kevin picks.
