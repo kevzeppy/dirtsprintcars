@@ -85,9 +85,10 @@ nav a[aria-current]{color:#fff;border-bottom-color:var(--red)}
 .chip{height:40px;padding:0 16px;background:transparent;color:#d8d9dc;border:1px solid #4a4e53;font-size:14px;cursor:pointer}
 .chip[aria-pressed="true"]{background:var(--red);border-color:var(--red);color:#fff}
 #events{margin-top:16px;border-top:1px solid var(--line)}
-#events li{border-bottom:1px solid var(--line)}
+#events .ev-item{border-bottom:1px solid var(--line)}
 #events a{display:flex;flex-wrap:wrap;align-items:center;gap:8px 20px;padding:16px 0}
-.ev-date{flex:0 0 140px;white-space:nowrap;font-size:22px;font-weight:700;color:#fff}
+.ev-date{display:block;margin:20px 0 0;white-space:nowrap;font-size:22px;font-weight:700;color:#fff}
+#events .ev-group:first-child .ev-date{margin-top:12px}
 .ev-main{flex:1 1 220px;min-width:0;display:flex;flex-direction:column;gap:2px}
 .ev-name{font-size:22px;font-weight:700;line-height:1.1}
 .ev-sub{font-size:14px;color:var(--mute)}
@@ -681,12 +682,47 @@ Tyler Carr / World of Outlaws; Jamie Webster via Unsplash; photographyurway via 
   var state={disc:'All',country:'All',series:'All'};
   var list=document.getElementById('events'), empty=document.getElementById('empty');
   function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&','<':'<','>':'>','"':'"'}[c]})}
+  function parseEventDate(s){
+    var t=String(s||'').replace(/^\s+|\s+$/g,'');
+    if(!t||/^(tba|tbd)$/i.test(t)) return null;
+    var m=/^(?:[A-Za-z]{3},?\s+)?([A-Za-z]{3,9})\s+(\d{1,2})(?:,?\s+(\d{4}))?$/.exec(t);
+    if(!m) return null;
+    var months={jan:0,feb:1,mar:2,apr:3,may:4,jun:5,jul:6,aug:7,sep:8,oct:9,nov:10,dec:11};
+    var mo=months[m[1].slice(0,3).toLowerCase()];
+    if(mo==null) return null;
+    var day=+m[2];
+    var now=new Date();
+    var year=m[3]?+m[3]:now.getFullYear();
+    var d=new Date(year,mo,day);
+    if(d.getMonth()!==mo||d.getDate()!==day) return null;
+    return d;
+  }
+  function isUpcomingDate(d){
+    if(!d) return false;
+    var now=new Date();
+    var today=new Date(now.getFullYear(),now.getMonth(),now.getDate());
+    return d>=today;
+  }
   function render(){
-    var rows=events.filter(function(e){return (state.disc==='All'||e.disc===state.disc)&&DSCRegions.countryMatch(e.country,state.country)&&(state.series==='All'||e.series===state.series)});
-    list.innerHTML=rows.map(function(e){
-      var c=e.disc==='Sprint car'?'red':'';
-      var st=e.disc==='Midget'?' style="color:var(--dirt)"':'';
-      return '<li><a href="'+esc(e.url)+'" rel="noopener"><span class="ev-date disp">'+esc(e.date)+'</span><span class="ev-main"><span class="ev-name disp">'+esc(e.name)+'</span><span class="ev-sub">'+esc(e.track)+' · '+esc(e.country)+' · '+esc(e.series)+'</span></span><span class="ev-disc lbl '+c+'"'+st+'>'+esc(e.disc)+'</span><span class="lbl" style="color:var(--dim)">'+esc(e.status)+'</span></a></li>';
+    var rows=events.filter(function(e){
+      var d=parseEventDate(e.date);
+      if(!d||!isUpcomingDate(d)) return false;
+      return (state.disc==='All'||e.disc===state.disc)&&DSCRegions.countryMatch(e.country,state.country)&&(state.series==='All'||e.series===state.series);
+    });
+    var groups=[], map={};
+    rows.forEach(function(e){
+      var key=e.date;
+      if(!map[key]){map[key]={date:e.date,sort:parseEventDate(e.date),items:[]};groups.push(map[key]);}
+      map[key].items.push(e);
+    });
+    groups.sort(function(a,b){return a.sort-b.sort;});
+    list.innerHTML=groups.map(function(g){
+      var items=g.items.map(function(e){
+        var c=e.disc==='Sprint car'?'red':'';
+        var st=e.disc==='Midget'?' style="color:var(--dirt)"':'';
+        return '<li class="ev-item"><a href="'+esc(e.url)+'" rel="noopener"><span class="ev-main"><span class="ev-name disp">'+esc(e.name)+'</span><span class="ev-sub">'+esc(e.track)+' · '+esc(e.country)+' · '+esc(e.series)+'</span></span><span class="ev-disc lbl '+c+'"'+st+'>'+esc(e.disc)+'</span><span class="lbl" style="color:var(--dim)">'+esc(e.status)+'</span></a></li>';
+      }).join('');
+      return '<li class="ev-group"><h3 class="ev-date disp">'+esc(g.date)+'</h3><ul>'+items+'</ul></li>';
     }).join('');
     empty.hidden=rows.length>0;
   }
