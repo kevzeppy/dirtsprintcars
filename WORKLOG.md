@@ -197,3 +197,15 @@ Kevin said "Push, with Terry Gray as top story." Fast-forward from grok/batch-20
 
 ## 2026-11-20 2:33 PM CT — Gray ASCS headshot pushed (main 2699a91 → 33402e0)
 Kevin said "Use the current ASCS headshot" and approved going live. Fast-forward from grok/gray-photo-2026-11-20. Added images/terry-gray-ascs-headshot-2026.jpg (400x400, from the ASCS driver page; no photographer named) to the Gray story (figure, og:image) and converted the homepage text-only hero to a photo hero with object-position:top so the face shows in the wide crop. Credit: Photo: ASCS. Live 200 for /, the story, and https://dirtsprintcars.com/images/terry-gray-ascs-headshot-2026.jpg. Do not merge this handoff branch.
+
+## 2026-11-20 evening to 2026-11-21 8:30 AM CT (Sprint Car News PM)
+- Nov 20: Pushed the Gray legends updates (main 33402e0 to bc557dc). Scheduled Buffer posts: Gray story X/FB sent 2:34 PM CT, High Limit tire rule X/FB 3:36 PM CT (text-only, per Kevin), Gray legends X/FB Sat Nov 21 10 AM CT.
+- Nov 20: Petersen Media (sales@petersenmediainc.com) approved ongoing editorial use of its photos in news stories. Credit the photographer and Petersen Media. Kevin sent the thank-you. Petersen is added to MEDIA-PERMISSIONS.md.
+- Nov 21 8:25 AM CT: Kevin said "push". Main went from bc557dc to 7bc4673 as a fast-forward of grok/batch-2026-11-21, which combines:
+  - shop.html, the new Paper Street Standard merch page (SEO title, meta and OG tags, local tee image), with the homepage shop section and Shop nav links pointing to it.
+  - Facebook (facebook.com/1479464831912616) and X (twitter.com/dirtsprintcars) footer links, both taken from Buffer channel data.
+  - The Petersen photo of Landon Brooks on the Trophy Cup night 3 story.
+  - Two results stories: McFadden at Toowoomba Night 1 (Speedcafe, no photo) and Joel Myers Jr. at Ruapuna Nov 14 (Petersen team release and Petersen photo; no official finishing order).
+  - The Nov 21 TDIH upgrade: Clauson 2015 and Bell 2014 Western World, both now dual-source.
+- All live pages and images return 200. Gray is still the top story.
+- Open: results for Toowoomba finale, Waikaraka North Island, Merced Chase Johnson Classic, Flip Flop 50 (update Gray's win total if he gets No. 100), and the Arizona Nov 20–21 races. Waikaraka opener is still pending an official result. Still held: Calistoga and Dillon (grok/batch-2026-11-14), the Swindell legends post. Tim at Third Turn hasn't replied.
