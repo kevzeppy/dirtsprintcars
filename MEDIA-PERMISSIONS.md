@@ -19,6 +19,16 @@
 - Scope: Photos and b-roll from the shared Dropbox kit
 - Kevin reply: Thanks (2026-10-30)
 
+## Petersen Media
+- Status: Approved for editorial use in news stories
+- Date: 2026-11-20
+- Contact: sales@petersenmediainc.com
+- Thread: Gmail subject "Re: Editorial photo use inquiry — DirtSprintCars.com" (tearoffweekly@gmail.com)
+- Scope: Editorial use of Petersen Media photos in news stories only
+- Condition: Credit the photographer and Petersen Media (format: "Photo: [Photographer name] / Petersen Media" if a photographer is named, otherwise "Photo: Petersen Media")
+- Not covered: Ads, merch, or other commercial products (needs separate approval)
+- Source quote: "That is not a problem at all."
+
 ## Ames Visuals (Dakota)
 - Status: Request sent, no reply yet
 - Date sent: 2026-10-29
