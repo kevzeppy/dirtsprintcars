@@ -236,3 +236,8 @@ Kevin typed "push". main 7bc4673 -> 14baa0d (fast-forward). Newton AU title (no 
 ## 2026-11-21 3:40 PM CT
 - Kevin said push. Pushed the memoriam batch (main 14baa0d to 827e3cb): Robbie Stanley and Ronald Laney entries with photos (USAC; ASCS 1999 program crop). Live pages 200.
 - DSC Social asked to draft Mt. Rushmore merch post options (tee and hoodie mockups only, no AI photos), not scheduled until Kevin picks.
+
+## 2026-11-22 6:55 AM CT
+- Staged Nov 22 TDIH upgrade (Larson 2012 Turkey Night GP, Third Turn + RacingWest, dual-source) on grok/batch-2026-11-22. Not pushed. Nov 22 Seavey 2025 already live. No Turkey Night overlap found (no Larson 2012 in current stories).
+- Kevin asked about site visits: no analytics installed; offered Netlify analytics or a free tracker.
+- Merch option 1 posts held as Buffer drafts (X 6b02117b0247969092041b93, FB 6b02117dcc364169c10936bf) until Kevin has samples.
