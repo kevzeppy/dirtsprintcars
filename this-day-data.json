@@ -667,15 +667,17 @@
     "headline": "2012 Turkey Night Grand Prix",
     "series": "USAC National Midget",
     "track": "Perris Auto Speedway (Perris, CA)",
-    "result": "Kyle Larson wins",
+    "result": "Kyle Larson won the 72nd Turkey Night Grand Prix at Perris Auto Speedway on Thanksgiving night, starting third and leading 77 of 98 laps in the USAC National Midget feature. Jerry Coons Jr. was second and Ryan Bernal third.",
     "source_url": "https://www.thethirdturn.com/wiki/2012_Turkey_Night_Grand_Prix",
-    "source2": "https://www.thethirdturn.com/wiki/2012_USAC_Mopar_National_Midget_Championship_Central",
+    "source2": "https://racingwest.com/news/articles/29516-kyle-larson-wins-perris-usac-midget-turkey-night.html",
     "category": "majors",
-    "verified_notes": "Date/track/winner from The Third Turn season log",
+    "verified_notes": "Thursday, Nov. 22, 2012 date, Perris track, Larson win from 3rd, 77 of 98 laps led, Coons 2nd and Bernal 3rd confirmed by The Third Turn results table and RacingWest (Tim Kennedy, Nov. 25, 2012); USAC results release (MyRacePass reprint) and Autoweek support. Left out: purse/winner's share, lead-change lap and Irwindale years (single-source).",
     "birthdays": [],
-    "verification": "single-source",
+    "verification": "dual-source",
     "verification_sources": [
-      "The Third Turn (event page + season log, same publisher)"
+      "The Third Turn results table: https://www.thethirdturn.com/wiki/2012_Turkey_Night_Grand_Prix",
+      "RacingWest (Tim Kennedy, Nov. 25, 2012): https://racingwest.com/news/articles/29516-kyle-larson-wins-perris-usac-midget-turkey-night.html",
+      "USAC results release reprint (MyRacePass, Nov. 22, 2012)"
     ]
   },
   {
