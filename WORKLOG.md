@@ -283,3 +283,9 @@ Kevin typed "push". main 7bc4673 -> 14baa0d (fast-forward). Newton AU title (no 
 - Homepage: Kofoid hero unchanged. 2 cards atop Latest (data-date 2026-11-23); rolled off Gile Nov 20 and ASCS region champions (both in archive). Wing +2 (dropped HL tire rule, Gray final-race preview; both in archive). Midgets/Non-wing unchanged. Top bar Nov 23. Upcoming already starts Mon Nov 23 (Plaza Park kept); nothing past. No results.html change (no race results). archive +2. search-index 920.
 - Audit: FF OK; nav/hero/Latest(10)/schedule/results/category lists(10 each)/TDIH/footer present; local links resolve; inline JS parses; no base64/hotlinks; Kofoid not in Latest.
 - Scanned, nothing new: USAC (newest Nov 21), WoO, High Limit, POWRi, ASCS, Baypark, AU weekend (Newton/McFadden already live), Sprint Car Ratings (no Sunday Nov 22 races). Left out: Waikaraka/Central NZ (SCR only, still no official report); WoO/SPEED SPORT Gravel family feature (soft feature, not news); POWRi Sooner Sprint League + SprintSaver Nationals (Nov 16, possible later); Southern Sprint Car Shootout Mid-South 60 (pavement); Tulsa Shootout entries (micros). Do not merge this handoff branch.
+
+## 2026-11-23 12:15 PM CT: Pushed Nov 23 morning batch
+- Kevin typed "push". main c9faef9 -> e99ae2c (fast-forward, all commits kevzeppy noreply).
+- Live: Foyt 1961 TDIH dual-source upgrade; Ryan Timms Knoxville 410 champion / 2027 \$40k point fund (text-only); Jackson Motorplex 2027 nine-race schedule (text-only). Kofoid stays top. Top bar Nov 23.
+- Checked 200: home, archive, TDIH, search-index.json, both new stories.
+- No social posts (no photos). Still open: date-handling fixes, Laney photo, memoriam trim. Held: merch posts, Calistoga/Dillon, Swindell legends.
