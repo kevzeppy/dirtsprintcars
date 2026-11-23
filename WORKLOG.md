@@ -268,3 +268,7 @@ Kevin typed "push". main 7bc4673 -> 14baa0d (fast-forward). Newton AU title (no 
 - Homepage: Gray stays top (Kevin deciding). 3 new cards atop Latest (data-date 2026-11-22); McFadden, Myers, High Limit tire rolled off Latest (remain in archive and category lists as applicable). Wing +Pursley +Netto (dropped McHugh prelude, Kalib Henry). Non-wing +Bernal (dropped Wagner). Midgets unchanged. Homepage results +3 Saturday features. Top bar still Nov 22. Upcoming: removed pre-existing TBA All Star 2027 season row (no confirmed date). archive +3. results.html +3. search-index 918 entries.
 - Audit: FF OK; nav/hero/Latest(10)/schedule/results/category lists(10 each)/TDIH/footer present; local links on new/edited pages resolve; no base64/hotlinks; Gray not in Latest.
 - Left out (unverified): Waikaraka North Island Sprintcar Championship (Zack Sokol only on Sprint Car Ratings; no official track/series report). Central NZ (Mathew Anderson, SCR only). No new official news today from WoO, High Limit, USAC (beyond Saturday releases already staged), POWRi, or ASCS. Do not merge this handoff branch.
+
+## 2026-11-22 6:10 PM CT
+- Flip Flop 50 rebuilt from official USCS report (Helm Communications, via Riverside FB, screenshots from Kevin): Gray clinched 17th USCS title by 18 over Willingham.
+- Kevin: "Kofoid top. Run everything else. push". Kofoid hero, Gray to top of Latest (10). Pushed main 827e3cb to c9faef9 (TDIH Larson, Kofoid, Gile/Johnson, Flip Flop, Pursley, Bernal, Netto, weekly preview). All pages 200. DSC Social pinged for photo stories.
