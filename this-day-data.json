@@ -703,15 +703,18 @@
     "headline": "1961 Turkey Night Grand Prix",
     "series": "USAC National Midget",
     "track": "Ascot Park (Gardena, CA)",
-    "result": "A.J. Foyt wins",
+    "result": "A.J. Foyt won the 150-lap Turkey Night Grand Prix at Ascot Park, his second straight Turkey Night victory (1960, 1961).",
     "source_url": "https://www.thethirdturn.com/wiki/1961_Turkey_Night_Grand_Prix",
-    "source2": "https://www.thethirdturn.com/wiki/1961_USAC_National_Midget_Car_Series_Central",
+    "source2": "https://sites.google.com/site/arracarsdriversevents/home/foyt-a-j",
     "category": "majors",
-    "verified_notes": "Date/track/winner from The Third Turn season log",
+    "verified_notes": "Date/track/150 laps from The Third Turn and the ARRA historian win record; back-to-back 1960–61 from Wikipedia, Midwest Racing Archives and ARRA. Start position and runner-up left out (single-source).",
     "birthdays": [],
-    "verification": "single-source",
+    "verification": "dual-source",
     "verification_sources": [
-      "The Third Turn (event page + season log, same publisher)"
+      "The Third Turn (event page): https://www.thethirdturn.com/wiki/1961_Turkey_Night_Grand_Prix",
+      "ARRA historian A.J. Foyt win record (Ken Parrotte/John McCullough): https://sites.google.com/site/arracarsdriversevents/home/foyt-a-j",
+      "Wikipedia: Turkey Night Grand Prix winners list",
+      "Midwest Racing Archives: \"The Turkey Night Grand Prix thru 1990\" (Nov. 2024)"
     ]
   },
   {
