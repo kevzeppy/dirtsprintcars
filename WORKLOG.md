@@ -275,3 +275,11 @@ Kevin typed "push". main 7bc4673 -> 14baa0d (fast-forward). Newton AU title (no 
 
 ## 2026-11-23 6:50 AM CT
 - Staged Nov 23 TDIH upgrade (Foyt 1961 Turkey Night GP, Third Turn + ARRA verified, dual-source, text-only) on grok/batch-2026-11-23. Not pushed.
+
+## 2026-11-23 6:56 AM CT — Morning news desk
+- Staged on grok/batch-2026-11-23 (tip e99ae2c, FF from main c9faef9; 2 commits: TDIH Foyt 16d1838 + news e99ae2c), Kevin Hardee <kevzeppy@users.noreply.github.com>. Main untouched, no PR. Held for Kevin's push. Day news count: 2 of 4.
+- ryan-timms-knoxville-410-champion-2026.html "Ryan Timms Honored as Knoxville 410 Champion as 2027 Title Prize Doubles to $40,000" — 71st Knoxville banquet Nov 21 (Prairie Meadows). Sources: Bill Wright report via SPEED SPORT + TJSlideways; KNIA-KRLS (independent: rookies, fund increase, awards); Knoxville Raceway championship-series page (2026 fund). Text-only (no permitted photo).
+- jackson-motorplex-2027-schedule.html "Jackson Motorplex Sets Nine-Race 2027 Schedule Led by World of Outlaws Jackson Nationals" — Inside Line Promotions release Nov 19 (via Hoseheads/Speedway Digest), SPEED SPORT, WoO event listing (Aug 20-21). Omitted track length (release 4/10 mi vs WoO 0.397) and the ambiguous IRA-on-July-30 wording. Text-only.
+- Homepage: Kofoid hero unchanged. 2 cards atop Latest (data-date 2026-11-23); rolled off Gile Nov 20 and ASCS region champions (both in archive). Wing +2 (dropped HL tire rule, Gray final-race preview; both in archive). Midgets/Non-wing unchanged. Top bar Nov 23. Upcoming already starts Mon Nov 23 (Plaza Park kept); nothing past. No results.html change (no race results). archive +2. search-index 920.
+- Audit: FF OK; nav/hero/Latest(10)/schedule/results/category lists(10 each)/TDIH/footer present; local links resolve; inline JS parses; no base64/hotlinks; Kofoid not in Latest.
+- Scanned, nothing new: USAC (newest Nov 21), WoO, High Limit, POWRi, ASCS, Baypark, AU weekend (Newton/McFadden already live), Sprint Car Ratings (no Sunday Nov 22 races). Left out: Waikaraka/Central NZ (SCR only, still no official report); WoO/SPEED SPORT Gravel family feature (soft feature, not news); POWRi Sooner Sprint League + SprintSaver Nationals (Nov 16, possible later); Southern Sprint Car Shootout Mid-South 60 (pavement); Tulsa Shootout entries (micros). Do not merge this handoff branch.
