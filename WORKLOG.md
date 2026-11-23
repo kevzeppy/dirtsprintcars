@@ -272,3 +272,6 @@ Kevin typed "push". main 7bc4673 -> 14baa0d (fast-forward). Newton AU title (no 
 ## 2026-11-22 6:10 PM CT
 - Flip Flop 50 rebuilt from official USCS report (Helm Communications, via Riverside FB, screenshots from Kevin): Gray clinched 17th USCS title by 18 over Willingham.
 - Kevin: "Kofoid top. Run everything else. push". Kofoid hero, Gray to top of Latest (10). Pushed main 827e3cb to c9faef9 (TDIH Larson, Kofoid, Gile/Johnson, Flip Flop, Pursley, Bernal, Netto, weekly preview). All pages 200. DSC Social pinged for photo stories.
+
+## 2026-11-23 6:50 AM CT
+- Staged Nov 23 TDIH upgrade (Foyt 1961 Turkey Night GP, Third Turn + ARRA verified, dual-source, text-only) on grok/batch-2026-11-23. Not pushed.
