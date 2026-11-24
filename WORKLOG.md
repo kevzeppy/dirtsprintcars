@@ -298,3 +298,9 @@ Kevin typed "push". main 7bc4673 -> 14baa0d (fast-forward). Newton AU title (no 
 - Top bar Nov 24; removed past Plaza Park from Upcoming. All new pages/images 200.
 - Social: legends one per day (Darland Tue 7AM, Haudenschild Wed 3PM, Saldana Thu 11AM, J. Johnson Fri 3PM). Kevin approved scheduling news posts timed to race dates; sent to DSC Social. Rules: In Memoriam entries not posted on social (drivers fine); max one legends post/day.
 - Open: Plaza Park results story when out; HL dropped-track list not stated; POWRi Sooner Sprint League uncovered.
+
+## 2026-11-24 6:55 AM CT: Pushed batch-2026-11-24b
+- Kevin typed "Push both with socials" (t224u). main 81f81d5 -> c1bce1b (ff, noreply).
+- Live: Jett Yantis Plaza Park USAC Midget results (Rich Forman/USAC photo; results.html updated); TDIH Nov 24 Larson 2016 Turkey Night dual-source upgrade (text-only). All 200.
+- DSC Social approved to schedule Yantis results pair. New rule: social posts for older stories must state when it happened ("Back on Oct. 30...") or the story gets refreshed with new info. Applied to Madsen/Dutcher (published Oct 30).
+- Next: Leffler Memorial results tonight (7pm desk).
