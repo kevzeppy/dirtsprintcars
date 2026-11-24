@@ -289,3 +289,12 @@ Kevin typed "push". main 7bc4673 -> 14baa0d (fast-forward). Newton AU title (no 
 - Live: Foyt 1961 TDIH dual-source upgrade; Ryan Timms Knoxville 410 champion / 2027 \$40k point fund (text-only); Jackson Motorplex 2027 nine-race schedule (text-only). Kofoid stays top. Top bar Nov 23.
 - Checked 200: home, archive, TDIH, search-index.json, both new stories.
 - No social posts (no photos). Still open: date-handling fixes, Laney photo, memoriam trim. Held: merch posts, Calistoga/Dillon, Swindell legends.
+
+## 2026-11-24 12:20 AM CT: Pushed Nov 24 batch
+- Kevin typed "push" (t218u). main e99ae2c -> 81f81d5 (fast-forward, noreply emails).
+- Hero: High Limit 2027 schedule (official X graphic, Photo: High Limit Racing; Kevin chose it as top). Kofoid Merced moved into Latest under Nov 22.
+- New: Kofoid Leffler Memorial preview (Rich Forman/USAC), DeGaton POWRi SW Ecotec title (POWRi graphic), POWRi SprintSaver Nationals Apr 2-3 2027 (POWRi graphic).
+- Photos added (Trent Gower/WoO via WRG Dropbox/WoO site): Timms Knoxville 410, Jackson Motorplex 2027, Madsen/Dutcher. No permitted photo: HL Perth International (Hathaway not licensed), KKM closing.
+- Top bar Nov 24; removed past Plaza Park from Upcoming. All new pages/images 200.
+- Social: legends one per day (Darland Tue 7AM, Haudenschild Wed 3PM, Saldana Thu 11AM, J. Johnson Fri 3PM). Kevin approved scheduling news posts timed to race dates; sent to DSC Social. Rules: In Memoriam entries not posted on social (drivers fine); max one legends post/day.
+- Open: Plaza Park results story when out; HL dropped-track list not stated; POWRi Sooner Sprint League uncovered.
