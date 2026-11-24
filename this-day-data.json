@@ -723,15 +723,17 @@
     "headline": "2016 Turkey Night Grand Prix",
     "series": "USAC National Midget",
     "track": "Ventura Raceway (Ventura, CA)",
-    "result": "Kyle Larson wins",
+    "result": "Kyle Larson wins (2nd career Turkey Night win)",
     "source_url": "https://www.thethirdturn.com/wiki/2016_Turkey_Night_Grand_Prix",
-    "source2": "https://www.thethirdturn.com/wiki/2016_USAC_National_Midget_Series_Central",
+    "source2": "https://stlracing.com/2016/11/25/larson-carves-up-turkey-night-win-2-thorson-tastes-first-usac-national-midget-title/",
     "category": "majors",
-    "verified_notes": "Date/track/winner from The Third Turn season log",
+    "verified_notes": "Date/track from Third Turn + USAC release ('Thursday night', Thanksgiving 2016); led laps 21-98 per USAC release and Third Turn laps-led column.",
     "birthdays": [],
-    "verification": "single-source",
+    "verification": "dual-source",
     "verification_sources": [
-      "The Third Turn (event page + season log, same publisher)"
+      "The Third Turn event page",
+      "USAC Media release (STLRacing.com, Nov. 25, 2016)",
+      "Wikipedia: Turkey Night Grand Prix winners list"
     ]
   },
   {
