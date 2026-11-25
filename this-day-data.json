@@ -761,11 +761,15 @@
     "track": "Ventura Raceway, Ventura, CA",
     "result": "Kyle Larson wins his 4th Turkey Night",
     "source_url": "https://www.usacracing.com/news/four-score-larson-gets-turkey-night-win-4-at-ventura",
-    "source2": null,
+    "source2": "https://www.nbcsports.com/motor-sports/news/kyle-larson-wins-turkey-night-grand-prix-for-the-fourth-time",
     "category": "majors",
-    "verified_notes": "USAC recap dateline Nov 25 2023; sprintcarratings agrees",
+    "verified_notes": "Date/track from USAC dateline + NBC Sports; started 10th, led from lap 27 to finish per both sources.",
     "birthdays": [],
-    "verification": "multi-source"
+    "verification": "dual-source",
+    "verification_sources": [
+      "USAC Media release (Nov 25, 2023 dateline)",
+      "NBC Sports (Nov 26, 2023)"
+    ]
   },
   {
     "date": "2025-11-25",
