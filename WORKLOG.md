@@ -304,3 +304,8 @@ Kevin typed "push". main 7bc4673 -> 14baa0d (fast-forward). Newton AU title (no 
 - Live: Jett Yantis Plaza Park USAC Midget results (Rich Forman/USAC photo; results.html updated); TDIH Nov 24 Larson 2016 Turkey Night dual-source upgrade (text-only). All 200.
 - DSC Social approved to schedule Yantis results pair. New rule: social posts for older stories must state when it happened ("Back on Oct. 30...") or the story gets refreshed with new info. Applied to Madsen/Dutcher (published Oct 30).
 - Next: Leffler Memorial results tonight (7pm desk).
+
+## 2026-11-25 ~8:40 AM CT — push
+- Kevin said "Push all updates". Pushed grok/batch-2026-11-25 (1363c76) to main, fast-forward from c1bce1b. Commit emails noreply only. index.html audit clean (881 lines, no missing links).
+- Live 200: homepage, results, archive, TDIH, search-index.json, Pursley story and image.
+- DSC Social: Thanksgiving post approved by Kevin for Thu Nov 26 9 AM CT (X+FB). Pursley results pair drafted only, awaiting Kevin's approval.
