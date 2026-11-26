@@ -807,6 +807,25 @@
   },
   {
     "date": "2025-11-26",
+    "historical_year": 2010,
+    "headline": "2010 Las Vegas Sprint Car Super Nationals Preliminary",
+    "series": "Lucas Oil ASCS National Tour",
+    "track": "The Dirt Track at Las Vegas Motor Speedway (Las Vegas, NV)",
+    "result": "Tony Stewart wins",
+    "source_url": "https://ascsracing.com/news/smoke-screen-in-vegas-tony-stewart-takes-ascs-prelim-win/",
+    "source2": "https://www.thethirdturn.com/wiki/2010_Las_Vegas_Sprint_Car_Super_Nationals_Preliminary",
+    "category": "milestone",
+    "verified_notes": "Date/track/winner/top 3 from ASCS official report + Third Turn; started 5th, led 14 laps (from lap 12) per ASCS report and Ultimate Racing History table.",
+    "birthdays": [],
+    "verification": "dual-source",
+    "verification_sources": [
+      "ASCS official race report (Nov 26, 2010 dateline)",
+      "The Third Turn results page",
+      "Ultimate Racing History results table"
+    ]
+  },
+  {
+    "date": "2025-11-26",
     "historical_year": 1964,
     "headline": "1964 Turkey Night Grand Prix",
     "series": "USAC National Midget",
