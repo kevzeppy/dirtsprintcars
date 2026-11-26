@@ -309,3 +309,9 @@ Kevin typed "push". main 7bc4673 -> 14baa0d (fast-forward). Newton AU title (no 
 - Kevin said "Push all updates". Pushed grok/batch-2026-11-25 (1363c76) to main, fast-forward from c1bce1b. Commit emails noreply only. index.html audit clean (881 lines, no missing links).
 - Live 200: homepage, results, archive, TDIH, search-index.json, Pursley story and image.
 - DSC Social: Thanksgiving post approved by Kevin for Thu Nov 26 9 AM CT (X+FB). Pursley results pair drafted only, awaiting Kevin's approval.
+
+## 2026-11-25 ~9:08 PM CT — push
+- Kevin said "Push". Pushed grok/batch-2026-11-26 (6004304) to main, ff from 1363c76. Noreply emails only. index.html 883 lines, no base64, links resolve.
+- Contents: Daniel Thomas Baypark preview (Stuart Whitaker/The Write Angle via Baypark), Jacob Denney USAC Midget title (now hero; Ray Hague/USAC), WoO 2026 Year in Review (Tyler Carr/WoO). High Limit moved to Latest.
+- Outside branch grok/news-batch-2026-11-25 NOT merged: had wiped index.html to a placeholder and yahoo-email commits. Rebuilt stories properly. Branch left on GitHub pending Kevin.
+- Live 200 verified for all pages and images. Socials for these 3 + Pursley pair await Kevin's approval.
