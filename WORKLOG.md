@@ -315,3 +315,8 @@ Kevin typed "push". main 7bc4673 -> 14baa0d (fast-forward). Newton AU title (no 
 - Contents: Daniel Thomas Baypark preview (Stuart Whitaker/The Write Angle via Baypark), Jacob Denney USAC Midget title (now hero; Ray Hague/USAC), WoO 2026 Year in Review (Tyler Carr/WoO). High Limit moved to Latest.
 - Outside branch grok/news-batch-2026-11-25 NOT merged: had wiped index.html to a placeholder and yahoo-email commits. Rebuilt stories properly. Branch left on GitHub pending Kevin.
 - Live 200 verified for all pages and images. Socials for these 3 + Pursley pair await Kevin's approval.
+
+## 2026-11-26 ~8:41 AM CT — push
+- Kevin said "Push". Pushed grok/batch-2026-11-26b (64abd2e) to main, ff from 6004304. Noreply emails only.
+- Contents: Thanksgiving social graphic (images/dsc-thanksgiving-2026.jpg), TDIH Nov 26 Stewart 2010 Vegas Super Nationals prelim (dual-source), Dirt Features C.J. Leary Silver Crown feature (Rich Forman/USAC), Haudenschild legends bio to present tense (FB commenters read "was" as deceased). Top bar Nov 26.
+- Live 200 verified. DSC Social sent graphic URL for Thanksgiving pair. Leary social not yet approved.
