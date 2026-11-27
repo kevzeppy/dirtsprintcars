@@ -10,7 +10,7 @@
 <meta property="og:image" content="/images/knoxville-woo-dirtvision-partnership-2026.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&family=Caveat:wght@600;700&display=swap" rel="stylesheet">
 <style>
 :root{--bg:#0e0e0f;--panel:#161718;--line:#2a2c2f;--fg:#f2f1ee;--mute:#b8bcc2;--dim:#9a9ea4;--red:#d6262b;--red-hi:#ff4d4f;--dirt:#d8a36b}
 *{box-sizing:border-box}
@@ -126,6 +126,30 @@ nav a[aria-current]{color:#fff;border-bottom-color:var(--red)}
 .about{margin-top:20px;max-width:720px;border-left:3px solid var(--red);padding-left:20px}
 .about p{margin:0 0 14px;font-size:18px;line-height:1.6;color:var(--mute)}
 .about .lead{font-size:22px;line-height:1.4;color:var(--fg)}
+.about-me-pics{margin:10px 0 26px}
+.about-me-note{display:flex;align-items:flex-end;gap:2px;margin:0 0 -6px 4px;padding-top:12px;position:relative;z-index:2}
+.about-me-hand{display:inline-block;font-family:'Caveat',cursive;font-weight:700;font-size:clamp(30px,3.6vw,40px);line-height:1;color:var(--dirt);transform:rotate(-8deg);transform-origin:left center;white-space:nowrap}
+.about-me-arrow{display:block;flex:0 0 auto;color:var(--dirt);overflow:visible}
+.about-me-arrow-desk{width:130px;height:72px;margin:0 0 -8px -4px}
+.about-me-arrow-mob{display:none;width:64px;height:86px;margin:0 0 0 28px}
+.about-me-strip{display:flex;align-items:flex-end;justify-content:center;gap:12px;padding:8px 10px 12px}
+.about-snap{flex:1 1 0;min-width:0;margin:0;background:#f4f1ea;padding:7px 7px 24px;box-shadow:0 8px 22px rgba(0,0,0,.48);transform:rotate(-2.2deg)}
+.about-snap:nth-child(2){transform:rotate(2.5deg);margin-bottom:8px}
+.about-snap:nth-child(3){transform:rotate(-1.5deg)}
+.about-snap img{display:block;width:100%;height:auto;background:#1a1a1a}
+@media (max-width:640px){
+.about-me-note{flex-direction:column;align-items:flex-start;margin:4px 0 0 6px;padding-top:16px}
+.about-me-hand{transform:rotate(-5deg)}
+.about-me-arrow-desk{display:none}
+.about-me-arrow-mob{display:block}
+.about-me-strip{flex-direction:column;align-items:center;gap:22px;padding:0 8px 8px}
+.about-snap,.about-snap:nth-child(2),.about-snap:nth-child(3){flex:0 1 auto;width:min(100%,320px);margin:0;transform:rotate(-1.4deg)}
+.about-snap:nth-child(2){transform:rotate(1.8deg)}
+.about-snap:nth-child(3){transform:rotate(-0.8deg)}
+}
+@media (prefers-reduced-motion:reduce){
+.about-me-hand,.about-snap,.about-snap:nth-child(2),.about-snap:nth-child(3){transform:none}
+}
 /* links */
 .lkgrid{margin-top:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
 .lk{display:flex;flex-direction:column;gap:8px;min-width:0;padding:18px 20px;background:var(--panel);border-top:3px solid var(--red)}
@@ -591,6 +615,24 @@ t.setAttribute('datetime',d.toISOString());t.textContent=d.toLocaleDateString('e
 <div class="sec-head"><h2 id="h-about" class="disp">About</h2></div>
 <div class="about">
 <p class="lead">I&rsquo;ve been obsessed with sprint cars my whole life. I have the pictures to prove it: me in a diaper, &ldquo;working&rdquo; on a sprint car.</p>
+<div class="about-me-pics">
+<div class="about-me-note">
+<span class="about-me-hand">This is me</span>
+<svg class="about-me-arrow about-me-arrow-desk" viewBox="0 0 130 72" fill="none" aria-hidden="true" focusable="false">
+<path d="M6 20 C 32 6, 48 14, 62 32 S 92 64, 122 58" stroke="currentColor" stroke-width="2.35" stroke-linecap="round" fill="none"/>
+<path d="M104 48 C 112 54, 118 56, 124 58 L 106 52 M124 58 L 114 70" stroke="currentColor" stroke-width="2.35" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
+<svg class="about-me-arrow about-me-arrow-mob" viewBox="0 0 64 86" fill="none" aria-hidden="true" focusable="false">
+<path d="M20 6 C 40 18, 10 40, 22 62 S 30 76, 28 80" stroke="currentColor" stroke-width="2.35" stroke-linecap="round" fill="none"/>
+<path d="M16 68 C 20 74, 25 78, 29 81 L 18 74 M29 81 L 38 70" stroke="currentColor" stroke-width="2.35" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
+</div>
+<div class="about-me-strip">
+<figure class="about-snap"><img src="images/about/kevin-hardee-kid-wrench.jpg" alt="Kevin Hardee as a toddler, squatting beside a muddy sprint car tire at the track at night and tightening a lug nut with a wrench." width="1200" height="900" loading="lazy" decoding="async"></figure>
+<figure class="about-snap"><img src="images/about/kevin-hardee-kid-helmet.jpg" alt="Kevin Hardee as a young boy, wearing a blue racing helmet and work gloves, sitting under a kitchen stool in a living room and holding a toy steering wheel." width="1029" height="1200" loading="lazy" decoding="async"></figure>
+<figure class="about-snap"><img src="images/about/kevin-hardee-lil-outlaw.jpg" alt="Kevin Hardee as a boy, wearing a cowboy hat, aviator sunglasses and a Lil&rsquo; Outlaw T-shirt, holding two toy cap guns." width="1200" height="1019" loading="lazy" decoding="async"></figure>
+</div>
+</div>
 <p>I&rsquo;ve worked on them, traveled with them, and I&rsquo;ve been to more races than I can count over the last four decades.</p>
 <p>DirtSprintCars.com is independent. I built it to help feed my obsession, help people get good info quickly, and hopefully help the sprint car community grow: more eyes on the racing, the drivers, the teams and the people who keep it going every weekend.</p>
 <p>And yes, I know midgets aren&rsquo;t exactly sprint cars. I like them too, so deal with it.</p>
