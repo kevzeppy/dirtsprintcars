@@ -13323,5 +13323,24 @@
       "The Third Turn USAC National Sprint:1964-24",
       "Ultimate Racing History raceid=6624"
     ]
+  },
+  {
+    "date": "2025-11-27",
+    "historical_year": 1966,
+    "headline": "1966 USAC Sprint Car race at Manzanita Speedway",
+    "series": "USAC Sprint",
+    "track": "Manzanita Speedway (Phoenix, AZ)",
+    "result": "Mario Andretti wins",
+    "source_url": "http://www.ultimateracinghistory.com/race.php?raceid=8875",
+    "source2": "https://thethirdturn.com/wiki/Manzanita_Speedway",
+    "category": "milestone",
+    "verified_notes": "Date/track/winner/30 laps from Ultimate Racing History + The Third Turn; top 5 from Ultimate Racing History + Wheels of Speed.",
+    "birthdays": [],
+    "verification": "dual-source",
+    "verification_sources": [
+      "Ultimate Racing History results table",
+      "The Third Turn Manzanita Speedway page",
+      "Wheels of Speed Nov 27 page"
+    ]
   }
 ]
