@@ -320,3 +320,8 @@ Kevin typed "push". main 7bc4673 -> 14baa0d (fast-forward). Newton AU title (no 
 - Kevin said "Push". Pushed grok/batch-2026-11-26b (64abd2e) to main, ff from 6004304. Noreply emails only.
 - Contents: Thanksgiving social graphic (images/dsc-thanksgiving-2026.jpg), TDIH Nov 26 Stewart 2010 Vegas Super Nationals prelim (dual-source), Dirt Features C.J. Leary Silver Crown feature (Rich Forman/USAC), Haudenschild legends bio to present tense (FB commenters read "was" as deceased). Top bar Nov 26.
 - Live 200 verified. DSC Social sent graphic URL for Thanksgiving pair. Leary social not yet approved.
+
+## 2026-11-27 12:15 AM CT — Push 8fd11ad
+- Kevin: "Push after midnight" (11:51 PM Nov 26). Pushed 64abd2e..8fd11ad to main (FF, noreply identity, index 84.6KB vs 80.2KB, no base64).
+- Live 200: home (About photos + "This is me"), Corey Day Turkey Night preview, Adelaide NAPA prelims, Sokol Waikaraka NI title, results, archive, images.
+- Open: Turkey Night results (Sat Nov 28), Adelaide final, Baypark Nov 28, Big O Leftover Nationals; socials for new stories need Kevin approval; Leary social approval; delete grok/news-batch-2026-11-25?
