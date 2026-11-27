@@ -325,3 +325,8 @@ Kevin typed "push". main 7bc4673 -> 14baa0d (fast-forward). Newton AU title (no 
 - Kevin: "Push after midnight" (11:51 PM Nov 26). Pushed 64abd2e..8fd11ad to main (FF, noreply identity, index 84.6KB vs 80.2KB, no base64).
 - Live 200: home (About photos + "This is me"), Corey Day Turkey Night preview, Adelaide NAPA prelims, Sokol Waikaraka NI title, results, archive, images.
 - Open: Turkey Night results (Sat Nov 28), Adelaide final, Baypark Nov 28, Big O Leftover Nationals; socials for new stories need Kevin approval; Leary social approval; delete grok/news-batch-2026-11-25?
+
+## 2026-11-27 6:50 AM CT — 7am news desk
+- Staged c6fc757 on grok/batch-2026-11-27 (on top of TDIH 5bb97e7; not merged): jock-goodyer-adelaide-napa-sprintcar-invitational-2026.html, "Jock Goodyer Leads Every Lap to Win Adelaide NAPA Sprintcar Invitational Feature" (Night 2 A Main, Fri Nov 27 AU). Source: Speedcafe (Jack Fletcher). Top 5: Goodyer, Marcus Dumesny, James McFadden, Lachlan McHugh, Brock Hallett. Text-only (no licensed photo), links Night 1 story.
+- Homepage card + Wing list + Latest results (Buddy Kofoid Leffler preview and D.J. Netto overflowed; both already in archive), removed Night 2 from Upcoming; results.html, archive.html, search-index.json. Top story unchanged (Denney). No base64; all links resolve.
+- Awaiting Kevin's typed "push".
