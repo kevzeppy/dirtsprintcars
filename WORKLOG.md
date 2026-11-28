@@ -343,3 +343,11 @@ Kevin typed "push". main 7bc4673 -> 14baa0d (fast-forward). Newton AU title (no 
 - Live 200: home, Goodyer Adelaide final, Dietz PA Posse champion (+photo), results, archive, this-day-data.json (Andretti 1966 TDIH).
 - Social: asked DSC Social to schedule Goodyer Sat Nov 28 3 PM and Dietz Sun Nov 29 3 PM CT.
 - Open: Turkey Night results Sat Nov 28; Baypark Nov 28; Night 1 Adelaide page lacks a forward link to Night 2; delete grok/news-batch-2026-11-25?
+
+## 2026-11-28 ~8:40 AM CT — morning news desk
+- Staged 3b9250c on grok/batch-2026-11-28 (on top of 8b368e2 Massingill feature + bf6497c Swindell TDIH; not merged): brian-carter-woo-2027-midseason-points-fund.html, "Brian Carter Says World of Outlaws Will Add About $400,000 Midseason Points Fund in 2027". In-depth recap of Carter's DIRTVision interview with Conner Wade (posted Nov. 20). Lead is the ~$400K 2027 midseason fund (top 10 after Pevely, paid on stage at Knoxville; existing point fund unchanged; "not completely finalized"). Also covers optional 18-inch Hoosier right rear (series stays Hoosier-only), open-tire stance, Knoxville 2027–2031 renewal comments, and other interview topics DIRTRACKR and DIRTVision reported.
+- Sources: DIRTRACKR Daily (Justin Fiedler, Nov. 27); DIRTVision interview page (no public transcript available); Conner Wade and DIRTVision posts (Nov. 20, 23, 25); WoO Knoxville partnership release (Nov. 3); FloRacing High Limit controlled open tire announcement (for 18-inch context only). No WoO release on the fund or tire rule.
+- Photo: images/brian-carter-woo-2027-midseason-points-fund.jpg, Chris Owens / World of Outlaws file photo of Carter (from a 2023 WoO feature); visually confirmed.
+- Homepage: Latest card at top (Daison Pursley Leffler overflowed, already in archive), Wing list (Jackson Motorplex 2027 overflowed, already in archive). Top story unchanged (Denney). archive.html + search-index.json. index.html 84,901→84,875 bytes (card swap). No base64; links resolve.
+- Left out: Reed/SprintCarUnlimited quotes (DIRTRACKR cited them; SCU article body could not be retrieved to confirm); Fiedler's opinion that the deal will happen, High Limit payout comparison beyond the figures he reported, and FloSports/VC interpretation.
+- Awaiting Kevin's typed "push".
