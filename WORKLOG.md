@@ -330,3 +330,10 @@ Kevin typed "push". main 7bc4673 -> 14baa0d (fast-forward). Newton AU title (no 
 - Staged c6fc757 on grok/batch-2026-11-27 (on top of TDIH 5bb97e7; not merged): jock-goodyer-adelaide-napa-sprintcar-invitational-2026.html, "Jock Goodyer Leads Every Lap to Win Adelaide NAPA Sprintcar Invitational Feature" (Night 2 A Main, Fri Nov 27 AU). Source: Speedcafe (Jack Fletcher). Top 5: Goodyer, Marcus Dumesny, James McFadden, Lachlan McHugh, Brock Hallett. Text-only (no licensed photo), links Night 1 story.
 - Homepage card + Wing list + Latest results (Buddy Kofoid Leffler preview and D.J. Netto overflowed; both already in archive), removed Night 2 from Upcoming; results.html, archive.html, search-index.json. Top story unchanged (Denney). No base64; all links resolve.
 - Awaiting Kevin's typed "push".
+
+## 2026-11-27 7:04 PM CT — evening news desk
+- Staged 5d4a81d on grok/batch-2026-11-27 (on top of c6fc757; 0 behind main; not merged): chase-dietz-pa-posse-champion-2026.html, "Chase Dietz Wins Inaugural J&S Classics PA Posse 410 Sprint Car Championship". Sources: PA Posse series release/final standings on Hoseheads.com (Nov 18), Hoseheads banquet photos note (Nov 22), Williamsport Sun-Gazette (Jamie Bird, Nov 27), WoO National Open recap (Alex Nieten, Oct 4).
+- Banquet was Sat Nov 21 (Hoseheads Nov 18 "this Saturday" + Nov 22 banquet photos), not Nov 28; Sun-Gazette's Nov 27 piece repeats the release wording. Story uses Nov 21.
+- Photo: WoO featured image from the National Open recap (Tyler Carr / WoO), labeled file photo; confirmed Dietz via matching firesuit in WoO victory lane photo with his $75,000 check.
+- Homepage: Latest card at top (Jett Yantis overflowed, already in archive), Wing list (Daison Pursley Merced overflowed, already in archive). Top story unchanged (Denney). archive.html + search-index.json. All links resolve.
+- Awaiting Kevin's typed "push".
