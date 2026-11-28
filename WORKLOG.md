@@ -359,3 +359,8 @@ Kevin typed "push". main 7bc4673 -> 14baa0d (fast-forward). Newton AU title (no 
 - Clarifications: Larson's "2021 Kings Royal" is now the 37th Kings Royal (the postponed 2020 race, run July 2021; Eldora lists it as 2020). Grant's 2025 "eighth driver with 100 USAC wins" now says across all divisions; added his 2026 milestone of 100 national wins (fifth driver).
 - Flagged/left out: TJSlideways "Turkey Night winners" page is actually the USAC Midget champions list (not used). TJ lists Weld for the 1975 National Open; Williams Grove says Bobby Allen (used official). Third Turn has Saldana 106 / Windom 29 vs official 105 / 30 (used official). ASCS lists Terry Gray with 32 National Tour wins vs bio's HOF "43 wins in those seasons" (not changed; Kevin to decide). Saldana 2007 runner-up, 20 wins in 2009 and 4-Crown WoO wins single-source (not added). Active drivers' USAC Midget totals skipped (season ends with Turkey Night tonight). If Larson, Seavey or Grant wins Turkey Night tonight, or Yeley/Coons/Windom win a midget race, update their entries.
 - Awaiting Kevin's typed "push".
+
+## 2026-11-28 9:25 AM CT: Push bbe13e5
+- Kevin: "Push" (9:22 AM). Pushed 5d4a81d..bbe13e5 (FF, noreply identity, no base64; index 85.0KB, legends 184.8KB).
+- Live 200: home, Carter WoO 2027 midseason fund story, Massingill feature, legends (Saldana 105 WoO wins live), archive, TDIH (Swindell 1993), images.
+- Terry Gray stays at 43 (Kevin). Open: Turkey Night results tonight, plus legend counts if Larson/Seavey/Grant/Yeley/Coons/Windom win; socials for Carter/Massingill need Kevin approval.
