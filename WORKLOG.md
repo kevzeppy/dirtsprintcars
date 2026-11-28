@@ -337,3 +337,9 @@ Kevin typed "push". main 7bc4673 -> 14baa0d (fast-forward). Newton AU title (no 
 - Photo: WoO featured image from the National Open recap (Tyler Carr / WoO), labeled file photo; confirmed Dietz via matching firesuit in WoO victory lane photo with his $75,000 check.
 - Homepage: Latest card at top (Jett Yantis overflowed, already in archive), Wing list (Daison Pursley Merced overflowed, already in archive). Top story unchanged (Denney). archive.html + search-index.json. All links resolve.
 - Awaiting Kevin's typed "push".
+
+## 2026-11-27 7:57 PM CT: Push 5d4a81d
+- Kevin: "Push with socials" (7:54 PM). Pushed 8fd11ad..5d4a81d to main (FF, noreply identity, index 84.7KB vs 84.6KB, no base64).
+- Live 200: home, Goodyer Adelaide final, Dietz PA Posse champion (+photo), results, archive, this-day-data.json (Andretti 1966 TDIH).
+- Social: asked DSC Social to schedule Goodyer Sat Nov 28 3 PM and Dietz Sun Nov 29 3 PM CT.
+- Open: Turkey Night results Sat Nov 28; Baypark Nov 28; Night 1 Adelaide page lacks a forward link to Night 2; delete grok/news-batch-2026-11-25?
