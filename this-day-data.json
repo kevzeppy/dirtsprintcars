@@ -13342,5 +13342,25 @@
       "The Third Turn Manzanita Speedway page",
       "Wheels of Speed Nov 27 page"
     ]
+  },
+  {
+    "date": "2025-11-28",
+    "historical_year": 1993,
+    "headline": "1993 Slick 50 Sprint Car World Series, Round 2",
+    "series": "Slick 50 Sprint Car World Series",
+    "track": "Canyon Speedway Park (Peoria, AZ)",
+    "result": "Jeff Swindell wins",
+    "source_url": "https://www.thethirdturn.com/wiki/1994_Slick_50_Sprint_Car_World_Series_Central",
+    "source2": "http://www.sprintcarratings.com/DriverResults.aspx?Name=Jeff+Swindell",
+    "category": "milestone",
+    "verified_notes": "Date/track/winner from The Third Turn series page + Sprint Car Ratings + Wheels of Speed; event date/track confirmed on official WoO event page.",
+    "birthdays": [],
+    "verification": "dual-source",
+    "verification_sources": [
+      "The Third Turn series page",
+      "Sprint Car Ratings driver results",
+      "Wheels of Speed Nov 28 page",
+      "worldofoutlaws.com event page"
+    ]
   }
 ]
